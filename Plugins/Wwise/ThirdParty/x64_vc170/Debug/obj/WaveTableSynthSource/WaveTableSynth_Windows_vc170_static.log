@@ -1,0 +1,8 @@
+﻿  WaveTableSynthSource.cpp
+C:\Users\felip\My_Documents\Wwise_MyPlugins\PluginStudy\WaveTableSynth\SoundEnginePlugin\WaveTableSynthSource.cpp(93,38): warning C4244: '=': conversion from 'double' to 'AkReal32', possible loss of data
+C:\Users\felip\My_Documents\Wwise_MyPlugins\PluginStudy\WaveTableSynth\SoundEnginePlugin\WaveTableSynthSource.cpp(132,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\felip\My_Documents\Wwise_MyPlugins\PluginStudy\WaveTableSynth\SoundEnginePlugin\WaveTableSynthSource.cpp(183,37): warning C4244: 'initializing': conversion from 'AkReal32' to 'int', possible loss of data
+C:\Users\felip\My_Documents\Wwise_MyPlugins\PluginStudy\WaveTableSynth\SoundEnginePlugin\WaveTableSynthSource.cpp(203,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\felip\My_Documents\Wwise_MyPlugins\PluginStudy\WaveTableSynth\SoundEnginePlugin\WaveTableSynthSource.cpp(209,37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\felip\My_Documents\Wwise_MyPlugins\PluginStudy\WaveTableSynth\SoundEnginePlugin\WaveTableSynthSource.cpp(205,59): warning C4390: ';': empty controlled statement found; is this the intent?
+  WaveTableSynth_Windows_vc170_static.vcxproj -> C:\Program Files (x86)\Audiokinetic\Wwise 2023.1.1.8417\SDK\x64_vc170\Debug\lib\WaveTableSynthSource.lib

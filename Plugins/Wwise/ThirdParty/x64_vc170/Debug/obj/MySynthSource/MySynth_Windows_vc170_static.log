@@ -1,0 +1,5 @@
+﻿  MySynthSource.cpp
+C:\Users\felip\My_Documents\Wwise_MyPlugins\PluginStudy\MySynth\SoundEnginePlugin\MySynthSource.cpp(99,68): warning C4244: '=': conversion from 'double' to 'AkReal32', possible loss of data
+C:\Users\felip\My_Documents\Wwise_MyPlugins\PluginStudy\MySynth\SoundEnginePlugin\MySynthSource.cpp(225,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\felip\My_Documents\Wwise_MyPlugins\PluginStudy\MySynth\SoundEnginePlugin\MySynthSource.cpp(231,37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  MySynth_Windows_vc170_static.vcxproj -> C:\Program Files (x86)\Audiokinetic\Wwise 2023.1.1.8417\SDK\x64_vc170\Debug\lib\MySynthSource.lib

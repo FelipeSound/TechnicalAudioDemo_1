@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4072029455" Type="User" GUID="{E63430AE-EA6F-4C31-8C51-F15E484C1A08}" Language="SFX" Hash="{69F36C3D-97DC-4F03-9563-942449F7B9AB}">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F65EA5B2-E620-EC0A-08EE-E9C13F14EAE5}</FileHash>
+</SoundBanksInfo>

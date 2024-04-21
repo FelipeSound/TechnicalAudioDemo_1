@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1728935863" Type="Event" GUID="{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}" Language="SFX" Hash="{23549658-732D-4104-6E4B-936E78650699}">
+			<ObjectPath>GuitarIntro</ObjectPath>
+			<ShortName>GuitarIntro</ShortName>
+			<Path>Event/GuitarIntro.bnk</Path>
+			<Media>
+				<File Id="500483865" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Guitar_Experiments_16Bit.wav</ShortName>
+					<Path>Media/500483865.wem</Path>
+					<CachePath>SFX/Guitar_Experiments_16Bit_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1728935863" Name="GuitarIntro" ObjectPath="\Events\Default Work Unit\GuitarIntro" GUID="{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}" DurationType="OneShot" DurationMin="68.096" DurationMax="68.096">
+					<MediaRefs>
+						<MediaRef Id="500483865"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EEA5D0EA-32D4-CD15-1FFF-F5EA330887A7}</FileHash>
+</SoundBanksInfo>

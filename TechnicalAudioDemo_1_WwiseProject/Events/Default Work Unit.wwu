@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4FF316A6-E781-43C5-8BBA-99A0FB1BB21F}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{4FF316A6-E781-43C5-8BBA-99A0FB1BB21F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="GuitarIntro" ID="{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}">
+					<ChildrenList>
+						<Action Name="" ID="{EE25FAD7-6923-4A98-A916-185D8245E3FC}" ShortID="1033987736">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="guitar" ID="{24BF1FFF-E302-4091-897F-6FA6F10110CF}" WorkUnitID="{0E38645C-6529-4416-A91E-C67D54B86EBA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

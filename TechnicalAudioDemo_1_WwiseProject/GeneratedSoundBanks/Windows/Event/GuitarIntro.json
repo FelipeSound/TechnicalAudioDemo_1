@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1728935863",
+    "Type": "Event",
+    "GUID": "{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}",
+    "Language": "SFX",
+    "Hash": "{23549658-732D-4104-6E4B-936E78650699}",
+    "ObjectPath": "GuitarIntro",
+    "ShortName": "GuitarIntro",
+    "Path": "Event/GuitarIntro.bnk",
+    "Media": [
+     {
+      "Id": "500483865",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Guitar_Experiments_16Bit.wav",
+      "Path": "Media/500483865.wem",
+      "CachePath": "SFX/Guitar_Experiments_16Bit_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1728935863",
+      "Name": "GuitarIntro",
+      "ObjectPath": "\\Events\\Default Work Unit\\GuitarIntro",
+      "GUID": "{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}",
+      "DurationType": "OneShot",
+      "DurationMin": "68.096",
+      "DurationMax": "68.096",
+      "MediaRefs": [
+       {
+        "Id": "500483865"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8C601D5A-3C0B-B64A-B69D-E9B8EEB3ABEA}"
+ }
+}
