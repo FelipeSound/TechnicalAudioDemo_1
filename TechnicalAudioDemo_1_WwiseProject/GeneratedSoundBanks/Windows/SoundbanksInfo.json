@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B6CBD692-12EC-CDBA-0932-48F63C40C91F}",
+    "Hash": "{CFAA9C83-D666-FA34-E7DE-CB1430462B65}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -48,6 +48,90 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "270201265",
+      "Name": "Distance_1m",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_1m",
+      "GUID": "{55C1A90C-AEAD-40DA-BEAB-4D0FB5AE2663}"
+     },
+     {
+      "Id": "1131074043",
+      "Name": "Distance_150",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_150",
+      "GUID": "{E5FCBFFB-3D67-443B-B257-1BBE5D592CDA}"
+     },
+     {
+      "Id": "1181406953",
+      "Name": "Distance_10m",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_10m",
+      "GUID": "{03DFE036-B24C-4B4A-9AC9-04D020E6023A}"
+     },
+     {
+      "Id": "1289178653",
+      "Name": "Distance_250m",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_250m",
+      "GUID": "{23AB3CA2-AC07-4B53-A76C-E869E64F2B6A}"
+     },
+     {
+      "Id": "2925587597",
+      "Name": "Distance_50m",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_50m",
+      "GUID": "{7C73F6D7-16B6-4C21-87E1-C183C818F7A3}"
+     },
+     {
+      "Id": "3094496655",
+      "Name": "Distance_200",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_200",
+      "GUID": "{758C5DD1-8881-46AB-9397-3764E81F97C2}"
+     },
+     {
+      "Id": "3467608380",
+      "Name": "Disctance_100m",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Disctance_100m",
+      "GUID": "{1359DE8B-C4FD-4437-A829-D4D2FDC1DE4B}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "404567067",
+      "Name": "Ground_Materials",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials",
+      "GUID": "{B3B78204-B780-4976-ADA7-843967DC443D}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials\\Wood",
+        "GUID": "{9CF57D6C-AC35-4F9D-B8B4-72682D02EE49}"
+       },
+       {
+        "Id": "2154251670",
+        "Name": "Metall",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials\\Metall",
+        "GUID": "{B7ED4B9A-4B06-4D64-AADE-6BA2C084B135}"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials\\Carpet",
+        "GUID": "{1E25A2FC-A699-48F4-9C44-D0D56D510E08}"
+       },
+       {
+        "Id": "3725073853",
+        "Name": "Cement",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials\\Cement",
+        "GUID": "{FA83EA79-BEC2-4A51-A618-16BDB6D16790}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials\\Grass",
+        "GUID": "{7DE1E764-5516-4782-A92B-1516B6D28B5F}"
+       }
+      ]
      }
     ]
    },
@@ -99,6 +183,6 @@
     "Path": "New_SoundBank.bnk"
    }
   ],
-  "FileHash": "{8166E282-36D7-4C09-8AA8-FCAA8D3B7E38}"
+  "FileHash": "{C966BEC6-4A96-C0C6-E386-DFE73B6EBD1B}"
  }
 }
