@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="119" WwiseVersion="v2023.1.1" WwiseBuild="8417">
+<WwiseDocument Type="Project" SchemaVersion="119" WwiseVersion="v2023.1.3" WwiseBuild="8471">
 	<ProjectInfo>
 		<Project Name="TechnicalAudioDemo_1_WwiseProject" ID="{77389EA4-5CD1-40F6-B05E-AE11E3C3E927}">
 			<Platforms>
@@ -10551,7 +10551,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Impacter" PluginType="2" CompanyID="0" PluginID="184">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="184">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -11394,7 +11394,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="WaveTableSynth" PluginType="2" CompanyID="64" PluginID="1307">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="64" PluginID="1307">
 					<PropertyList>
 						<Property Name="Amplitude" Type="Real32">
 							<ValueList>
@@ -11543,7 +11543,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="filterTest" PluginType="3" CompanyID="64" PluginID="21393">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="64" PluginID="21393">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -11567,7 +11567,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="SourceP_Sampler" PluginType="2" CompanyID="64" PluginID="22729">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="64" PluginID="22729">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -11591,7 +11591,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="MySynth" PluginType="2" CompanyID="64" PluginID="27537">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="64" PluginID="27537">
 					<PropertyList>
 						<Property Name="Amplitude" Type="Real32">
 							<ValueList>
@@ -11771,6 +11771,15 @@
 			<PhysicalFolderList>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\Dialogue">
+					<WorkUnit Name="Dialogue" ID="{35EC61A2-7B79-4DA9-832C-5FC6D2E935DA}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\MainCharacter_Motion">
+					<WorkUnit Name="MainCharacter_Motion" ID="{3346D232-E1AC-4B64-BC95-6FED50AED266}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\UI">
+					<WorkUnit Name="UI" ID="{EC12D7B5-817B-4F4C-BB4C-67022C5B947C}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
