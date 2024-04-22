@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D4F2F1D1-965D-4C0F-815F-C90863367535}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{D4F2F1D1-965D-4C0F-815F-C90863367535}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D4F2F1D1-965D-4C0F-815F-C90863367535}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distance_1m" ID="{55C1A90C-AEAD-40DA-BEAB-4D0FB5AE2663}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Distance_10m" ID="{03DFE036-B24C-4B4A-9AC9-04D020E6023A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="5"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Disctance_100m" ID="{1359DE8B-C4FD-4437-A829-D4D2FDC1DE4B}"/>
+				<GameParameter Name="Distance_50m" ID="{7C73F6D7-16B6-4C21-87E1-C183C818F7A3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="25"/>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Distance_150" ID="{E5FCBFFB-3D67-443B-B257-1BBE5D592CDA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="75"/>
+						<Property Name="Max" Type="Real64" Value="150"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Distance_200" ID="{758C5DD1-8881-46AB-9397-3764E81F97C2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="Max" Type="Real64" Value="200"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Distance_250m" ID="{23AB3CA2-AC07-4B53-A76C-E869E64F2B6A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="125"/>
+						<Property Name="Max" Type="Real64" Value="250"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
