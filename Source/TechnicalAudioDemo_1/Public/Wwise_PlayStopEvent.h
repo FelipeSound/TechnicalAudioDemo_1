@@ -34,6 +34,7 @@ public:
 	int32 select_eventID;	// Reference to Wwise post_event function from UAkGampeplayStatics
 	UFUNCTION(BlueprintCallable)
 	void PlaySelectedEvent();
+	UFUNCTION(BlueprintCallable)
 	void StopSelectedEvent();
 		
 };
