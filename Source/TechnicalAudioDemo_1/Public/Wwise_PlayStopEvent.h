@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "C:\Users\felip\OneDrive\Documents\Unreal Projects\TechnicalAudioDemo_1\Plugins\Wwise\Source\AkAudio\Classes\AkGameplayStatics.h"
 #include "Components/ActorComponent.h"
 #include "Wwise_PlayStopEvent.generated.h"
 
@@ -25,6 +26,14 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UPROPERTY(EditAnywhere)
-	class UAkAudioEvent* select_Event;
+	class UAkAudioEvent* select_PlayEvent;
+
+	UPROPERTY(EditAnywhere)
+	class UAkAudioEvent* select_StopEvent;
+
+	int32 select_eventID;	// Reference to Wwise post_event function from UAkGampeplayStatics
+	UFUNCTION(BlueprintCallable)
+	void PlaySelectedEvent();
+	void StopSelectedEvent();
 		
 };

@@ -32,3 +32,18 @@ void UWwise_PlayStopEvent::TickComponent(float DeltaTime, ELevelTick TickType, F
 	// ...
 }
 
+
+void UWwise_PlayStopEvent::PlaySelectedEvent()
+{
+	FOnAkPostEventCallback nullCallback;
+
+	UAkGameplayStatics::PostEvent(select_PlayEvent, GetOwner(), int32(0), nullCallback);
+}
+
+void UWwise_PlayStopEvent::StopSelectedEvent()
+{
+	FOnAkPostEventCallback nullCallback;
+
+	UAkGameplayStatics::PostEvent(select_StopEvent, GetOwner(), int32(0), nullCallback);
+
+}
