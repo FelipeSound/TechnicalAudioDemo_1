@@ -47,8 +47,12 @@ class ATechnicalAudioDemo_1Character : public ACharacter
 public:
 	ATechnicalAudioDemo_1Character();
 
-	UPROPERTY(VisibleAnywhere, Category = "Audio")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Audio")
 	USoundWave* testsound;
+
+	UPROPERTY(EditAnywhere)
+	class UAkAudioEvent* TestEvent;
+
 	
 
 protected:
