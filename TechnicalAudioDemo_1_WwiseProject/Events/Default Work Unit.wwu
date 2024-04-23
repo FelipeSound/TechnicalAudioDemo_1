@@ -14,6 +14,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="GuitarIntro_Stop" ID="{E33B9C70-1767-4C29-A460-CEEBE9582D72}">
+					<ChildrenList>
+						<Action Name="" ID="{A39DE4FE-0434-45CA-9729-4052869A786E}" ShortID="311393206">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="guitar" ID="{24BF1FFF-E302-4091-897F-6FA6F10110CF}" WorkUnitID="{0E38645C-6529-4416-A91E-C67D54B86EBA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

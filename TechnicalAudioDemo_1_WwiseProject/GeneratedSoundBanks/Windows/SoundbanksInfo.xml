@@ -9,6 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="386634130" Type="Event" GUID="{E33B9C70-1767-4C29-A460-CEEBE9582D72}" Language="SFX" Hash="{C52F3C22-12BB-F4EE-E5EE-3C23695C9D2A}">
+			<ObjectPath>GuitarIntro_Stop</ObjectPath>
+			<ShortName>GuitarIntro_Stop</ShortName>
+			<Path>Event/GuitarIntro_Stop.bnk</Path>
+			<Events>
+				<Event Id="386634130" Name="GuitarIntro_Stop" ObjectPath="\Events\Default Work Unit\GuitarIntro_Stop" GUID="{E33B9C70-1767-4C29-A460-CEEBE9582D72}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{CFAA9C83-D666-FA34-E7DE-CB1430462B65}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -68,5 +76,5 @@
 			<Path>New_SoundBank.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{953BDED9-7267-9729-8D1C-034F5841744A}</FileHash>
+	<FileHash>{17AA6DED-4197-5292-D98E-E1D9615EA4F3}</FileHash>
 </SoundBanksInfo>

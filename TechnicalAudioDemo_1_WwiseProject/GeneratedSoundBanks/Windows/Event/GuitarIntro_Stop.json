@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "386634130",
+    "Type": "Event",
+    "GUID": "{E33B9C70-1767-4C29-A460-CEEBE9582D72}",
+    "Language": "SFX",
+    "Hash": "{C52F3C22-12BB-F4EE-E5EE-3C23695C9D2A}",
+    "ObjectPath": "GuitarIntro_Stop",
+    "ShortName": "GuitarIntro_Stop",
+    "Path": "Event/GuitarIntro_Stop.bnk",
+    "Events": [
+     {
+      "Id": "386634130",
+      "Name": "GuitarIntro_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\GuitarIntro_Stop",
+      "GUID": "{E33B9C70-1767-4C29-A460-CEEBE9582D72}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E89D920F-38D5-B6A5-9399-B09548A18A9C}"
+ }
+}

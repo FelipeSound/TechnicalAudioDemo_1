@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="386634130" Type="Event" GUID="{E33B9C70-1767-4C29-A460-CEEBE9582D72}" Language="SFX" Hash="{C52F3C22-12BB-F4EE-E5EE-3C23695C9D2A}">
+			<ObjectPath>GuitarIntro_Stop</ObjectPath>
+			<ShortName>GuitarIntro_Stop</ShortName>
+			<Path>Event/GuitarIntro_Stop.bnk</Path>
+			<Events>
+				<Event Id="386634130" Name="GuitarIntro_Stop" ObjectPath="\Events\Default Work Unit\GuitarIntro_Stop" GUID="{E33B9C70-1767-4C29-A460-CEEBE9582D72}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4F5EA762-8B4C-A7BC-7D6A-882EDF56DCAF}</FileHash>
+</SoundBanksInfo>
