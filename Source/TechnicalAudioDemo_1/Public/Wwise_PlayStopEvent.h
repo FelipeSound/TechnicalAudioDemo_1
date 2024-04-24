@@ -52,8 +52,8 @@ public:
 	void StopSelectedEvent();
 	UFUNCTION(BlueprintCallable)
 	void setSelectedSwitch(const UAkSwitchValue* DefaultAkSwitchValue);
-	//UFUNCTION(BlueprintCallable)
-	//void setSelectedRTPC();
+	UFUNCTION(BlueprintCallable)
+	void setSelectedRTPC(UAkRtpc* DefaultRTPCValue, float Value, int32 InterpolationTimeMs);
 
 		
 };

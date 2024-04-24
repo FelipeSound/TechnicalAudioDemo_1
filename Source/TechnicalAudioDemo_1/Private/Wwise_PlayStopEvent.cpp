@@ -56,11 +56,9 @@ void UWwise_PlayStopEvent::setSelectedSwitch(const UAkSwitchValue* DefaultAkSwit
 {
 	
 }
-/*
-void UWwise_PlayStopEvent::setSelectedRTPC()
+
+void UWwise_PlayStopEvent::setSelectedRTPC(UAkRtpc* DefaultRTPCValue, float Value, int32 InterpolationTimeMs)
 {
-	FOnAkPostEventCallback nullCallback;
-	SetRTPCValue(class UAkRtpc const* RTPCValue, float Value, int32 InterpolationTimeMs, GetOwner, FName RTPC);
+
 
 }
-*/
