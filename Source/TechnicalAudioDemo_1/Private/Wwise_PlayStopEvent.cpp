@@ -62,3 +62,8 @@ void UWwise_PlayStopEvent::setSelectedRTPC(UAkRtpc* DefaultRTPCValue, float Valu
 
 
 }
+void UWwise_PlayStopEvent::AllInOneFunction(UAkAudioEvent* play_thisevent,
+	const UAkSwitchValue* DefaultAkSwitchValue, UAkRtpc* DefaultRTPCValue, float Value, int32 InterpolationTimeMs)
+{
+
+}
