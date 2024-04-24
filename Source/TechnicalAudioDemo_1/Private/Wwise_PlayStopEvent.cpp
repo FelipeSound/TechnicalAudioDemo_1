@@ -39,7 +39,6 @@ void UWwise_PlayStopEvent::PlaySelectedEvent()
 
 	UAkGameplayStatics::PostEvent(select_PlayEvent, GetOwner(), int32(0), nullCallback);
 }
-
 void UWwise_PlayStopEvent::StopSelectedEvent()
 {
 	FOnAkPostEventCallback nullCallback;
@@ -47,14 +46,17 @@ void UWwise_PlayStopEvent::StopSelectedEvent()
 	UAkGameplayStatics::PostEvent(select_StopEvent, GetOwner(), int32(0), nullCallback);
 
 }
-/*
-void UWwise_PlayStopEvent::setSelectedSwitch()
+/**
+ * Sets the active Switch for a given Switch Group, targeting the root component of a specified actor.
+ * @param SwitchGroup - Name of the Switch Group to be modified
+ * @param SwitchState - Name of the Switch to be made active
+ * @param Actor - Actor on which to set the switch
+ */
+void UWwise_PlayStopEvent::setSelectedSwitch(const UAkSwitchValue* DefaultAkSwitchValue)
 {
-	FOnAkPostEventCallback nullCallback;
-
-	UAkGameplayStatics::SetSwitch(select_Switch, GetOwner(), select_Switch_Group , select_switch_Name);
-
+	
 }
+/*
 void UWwise_PlayStopEvent::setSelectedRTPC()
 {
 	FOnAkPostEventCallback nullCallback;

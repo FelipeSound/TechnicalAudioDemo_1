@@ -37,6 +37,9 @@ public:
 	UPROPERTY(EditAnywhere)
 	class UAkRtpc* select_RTPC;
 
+	UPROPERTY(EditAnywhere)
+	class UAkGroupValue* switch_Group;
+
 	//FName select_Switch_Group;
 	//FName select_switch_Name;
 
@@ -47,8 +50,8 @@ public:
 	void PlaySelectedEvent();
 	UFUNCTION(BlueprintCallable)
 	void StopSelectedEvent();
-	//UFUNCTION(BlueprintCallable)
-	//void setSelectedSwitch();
+	UFUNCTION(BlueprintCallable)
+	void setSelectedSwitch(const UAkSwitchValue* DefaultAkSwitchValue);
 	//UFUNCTION(BlueprintCallable)
 	//void setSelectedRTPC();
 
