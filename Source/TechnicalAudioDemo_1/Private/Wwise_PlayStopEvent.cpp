@@ -47,3 +47,18 @@ void UWwise_PlayStopEvent::StopSelectedEvent()
 	UAkGameplayStatics::PostEvent(select_StopEvent, GetOwner(), int32(0), nullCallback);
 
 }
+/*
+void UWwise_PlayStopEvent::setSelectedSwitch()
+{
+	FOnAkPostEventCallback nullCallback;
+
+	UAkGameplayStatics::SetSwitch(select_Switch, GetOwner(), select_Switch_Group , select_switch_Name);
+
+}
+void UWwise_PlayStopEvent::setSelectedRTPC()
+{
+	FOnAkPostEventCallback nullCallback;
+	SetRTPCValue(class UAkRtpc const* RTPCValue, float Value, int32 InterpolationTimeMs, GetOwner, FName RTPC);
+
+}
+*/

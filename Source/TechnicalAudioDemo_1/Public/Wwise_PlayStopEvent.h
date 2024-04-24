@@ -31,10 +31,26 @@ public:
 	UPROPERTY(EditAnywhere)
 	class UAkAudioEvent* select_StopEvent;
 
+	UPROPERTY(EditAnywhere)
+	class UAkSwitchValue* select_Switch;
+
+	UPROPERTY(EditAnywhere)
+	class UAkRtpc* select_RTPC;
+
+	//FName select_Switch_Group;
+	//FName select_switch_Name;
+
+
+
 	int32 select_eventID;	// Reference to Wwise post_event function from UAkGampeplayStatics
 	UFUNCTION(BlueprintCallable)
 	void PlaySelectedEvent();
 	UFUNCTION(BlueprintCallable)
 	void StopSelectedEvent();
+	//UFUNCTION(BlueprintCallable)
+	//void setSelectedSwitch();
+	//UFUNCTION(BlueprintCallable)
+	//void setSelectedRTPC();
+
 		
 };
