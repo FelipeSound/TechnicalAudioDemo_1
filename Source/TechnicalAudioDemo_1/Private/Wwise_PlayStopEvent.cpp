@@ -30,6 +30,17 @@ void UWwise_PlayStopEvent::TickComponent(float DeltaTime, ELevelTick TickType, F
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+	///	for loop prevents high RTPC calculations per frame
+	for (float x = 0; x <= 15.0 ; x++)
+	{
+		UAkGameplayStatics::SetRTPCValue(select_RTPC, RTPC_Update_Value, RTPC_Interp_Time, NULL, "");
+		if (x >= 15)
+			x = 0;
+	}
+
+
+	
+
 }
 
 
@@ -65,5 +76,10 @@ void UWwise_PlayStopEvent::setSelectedRTPC(UAkRtpc* DefaultRTPCValue, float Valu
 void UWwise_PlayStopEvent::AllInOneFunction(UAkAudioEvent* play_thisevent,
 	const UAkSwitchValue* DefaultAkSwitchValue, UAkRtpc* DefaultRTPCValue, float Value, int32 InterpolationTimeMs)
 {
+	FOnAkPostEventCallback nullCallback;
+
+	UAkGameplayStatics::PostEvent(play_thisevent, GetOwner(), int32(0), nullCallback);
+	//UAkGameplayStatics::SetRTPCValue(DefaultRTPCValue, Value, InterpolationTimeMs, NULL, "");
+	UAkGameplayStatics::SetRTPCValue(select_RTPC, RTPC_Update_Value, RTPC_Interp_Time, NULL, "");
 
 }

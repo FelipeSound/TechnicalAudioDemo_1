@@ -35,10 +35,15 @@ public:
 	class UAkSwitchValue* select_Switch;
 
 	UPROPERTY(EditAnywhere)
-	class UAkRtpc* select_RTPC;
+	class UAkGroupValue* switch_Group;
 
 	UPROPERTY(EditAnywhere)
-	class UAkGroupValue* switch_Group;
+	class UAkRtpc* select_RTPC;
+
+	float RTPC_Update_Value;
+
+	float RTPC_Interp_Time;
+
 
 	//FName select_Switch_Group;
 	//FName select_switch_Name;
