@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1728935863	GuitarIntro			\Default Work Unit\GuitarIntro	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	270201265	Distance_1m			\Default Work Unit\Distance_1m	
+

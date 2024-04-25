@@ -162,7 +162,7 @@
     "Type": "Event",
     "GUID": "{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}",
     "Language": "SFX",
-    "Hash": "{23549658-732D-4104-6E4B-936E78650699}",
+    "Hash": "{EF0C5DFF-9830-BC4C-A596-7EF8579D6087}",
     "ObjectPath": "GuitarIntro",
     "ShortName": "GuitarIntro",
     "Path": "Event/GuitarIntro.bnk",
@@ -192,6 +192,14 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "270201265",
+      "Name": "Distance_1m",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_1m",
+      "GUID": "{55C1A90C-AEAD-40DA-BEAB-4D0FB5AE2663}"
+     }
     ]
    },
    {
@@ -205,6 +213,6 @@
     "Path": "New_SoundBank.bnk"
    }
   ],
-  "FileHash": "{51B65CB4-5952-6AF9-99F0-C731FD220A03}"
+  "FileHash": "{780FADD1-D4C5-6BB7-0603-B7FB7F01EF8C}"
  }
 }

@@ -21,6 +21,45 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{45568B3E-C394-46BE-874C-4ADF5384AE0D}" ShortID="241390332">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Distance_1m" ID="{55C1A90C-AEAD-40DA-BEAB-4D0FB5AE2663}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{61141081-26AC-4000-8134-C24AEA07A41D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="Guitar_Experiments_16Bit" ID="{FFAC18C5-A74E-4837-AD5C-836F91508E29}" Platform="Linked"/>
 					</ActiveSourceList>

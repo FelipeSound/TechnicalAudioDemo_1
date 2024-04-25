@@ -51,7 +51,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1728935863" Type="Event" GUID="{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}" Language="SFX" Hash="{23549658-732D-4104-6E4B-936E78650699}">
+		<SoundBank Id="1728935863" Type="Event" GUID="{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}" Language="SFX" Hash="{EF0C5DFF-9830-BC4C-A596-7EF8579D6087}">
 			<ObjectPath>GuitarIntro</ObjectPath>
 			<ShortName>GuitarIntro</ShortName>
 			<Path>Event/GuitarIntro.bnk</Path>
@@ -69,6 +69,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="270201265" Name="Distance_1m" ObjectPath="\Game Parameters\Default Work Unit\Distance_1m" GUID="{55C1A90C-AEAD-40DA-BEAB-4D0FB5AE2663}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="4072029455" Type="User" GUID="{E63430AE-EA6F-4C31-8C51-F15E484C1A08}" Language="SFX" Hash="{69F36C3D-97DC-4F03-9563-942449F7B9AB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
@@ -76,5 +79,5 @@
 			<Path>New_SoundBank.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{17AA6DED-4197-5292-D98E-E1D9615EA4F3}</FileHash>
+	<FileHash>{40B1044E-62CF-A2D3-94E3-C95D539996C8}</FileHash>
 </SoundBanksInfo>
