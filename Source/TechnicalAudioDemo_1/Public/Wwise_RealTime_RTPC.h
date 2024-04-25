@@ -41,11 +41,13 @@ public:
 	//UPROPERTY(EditAnywhere)
 	//UAkRtpc* updateValue;
 
-	UFUNCTION(BlueprintCallable)
-	void rtimeRTPC(UAkRtpc* RTPCValue, float Value, int32 InterpolationTimeMs);
+	//UFUNCTION(BlueprintCallable)
+	//void rtimeRTPC(UAkRtpc* RTPCValue, float Value, int32 InterpolationTimeMs);
 
-
+	UPROPERTY(EditAnywhere)
 	UAkRtpc* RTPCname;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float updateValue;
 
 	
