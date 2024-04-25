@@ -30,6 +30,7 @@ void UWwise_PlayStopEvent::TickComponent(float DeltaTime, ELevelTick TickType, F
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+	/*
 	///	for loop prevents high RTPC calculations per frame
 	for (float x = 0; x <= 15.0 ; x++)
 	{
@@ -39,7 +40,7 @@ void UWwise_PlayStopEvent::TickComponent(float DeltaTime, ELevelTick TickType, F
 			x = 0;
 	}
 
-
+	*/
 	
 
 }

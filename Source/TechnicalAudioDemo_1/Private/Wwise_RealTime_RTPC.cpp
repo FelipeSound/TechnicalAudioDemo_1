@@ -29,8 +29,11 @@ void UWwise_RealTime_RTPC::TickComponent(float DeltaTime, ELevelTick TickType, F
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("This is an on screen message!"));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("This is an on screen message!"));
 
+
+
+		UAkGameplayStatics::SetRTPCValue(RTPCname, updateValue, int32(0), NULL, "");
 	//RTPC_updateValue;
 
 	// ...
@@ -38,14 +41,13 @@ void UWwise_RealTime_RTPC::TickComponent(float DeltaTime, ELevelTick TickType, F
 	
 }
 
-/*
 void UWwise_RealTime_RTPC::rtimeRTPC(UAkRtpc* RTPCValue, float Value, int32 InterpolationTimeMs)
 {
 	//FOnAkPostEventCallback nullCallback;
 
 	//SetRTPCValue(class UAkRtpc const* RTPCValue, float Value, int32 InterpolationTimeMs, class AActor* Actor, FName RTPC);
-	UAkGameplayStatics::SetRTPCValue(RTPCValue, Value, int32(0), NULL, "");
+	UAkGameplayStatics::SetRTPCValue(RTPCname, updateValue, int32(0), NULL, "");
 	
 	// ...
 }
-*/
+

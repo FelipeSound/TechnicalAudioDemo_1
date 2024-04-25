@@ -22,16 +22,31 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
+
+
 	// Called every frame
-
-
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	
 	
-	//UFUNCTION(BlueprintCallable)
-	//void rtimeRTPC(UAkRtpc* RTPCValue, float Value, int32 InterpolationTimeMs);
+
+	/**
+	* 
+* Sets the value of a Game Parameter, optionally targeting the root component of a specified actor.
+* @param RTPC - The name of the Game Parameter to set
+* @param Value - The value of the Game Parameter
+* @param InterpolationTimeMs - Duration during which the Game Parameter is interpolated towards Value (in ms)
+* @param Actor - (Optional) Actor on which to set the Game Parameter value
+*/
+
+	//UPROPERTY(EditAnywhere)
+	//UAkRtpc* updateValue;
+
+	UFUNCTION(BlueprintCallable)
+	void rtimeRTPC(UAkRtpc* RTPCValue, float Value, int32 InterpolationTimeMs);
 
 
+	UAkRtpc* RTPCname;
+	float updateValue;
 
 	
 	//UFUNCTION(BlueprintPure, Category = "RTPC updating")
