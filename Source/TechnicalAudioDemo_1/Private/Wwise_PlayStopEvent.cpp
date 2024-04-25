@@ -33,6 +33,7 @@ void UWwise_PlayStopEvent::TickComponent(float DeltaTime, ELevelTick TickType, F
 	///	for loop prevents high RTPC calculations per frame
 	for (float x = 0; x <= 15.0 ; x++)
 	{
+
 		UAkGameplayStatics::SetRTPCValue(select_RTPC, RTPC_Update_Value, RTPC_Interp_Time, NULL, "");
 		if (x >= 15)
 			x = 0;
