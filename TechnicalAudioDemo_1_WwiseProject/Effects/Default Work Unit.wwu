@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8178C475-8D46-486B-8465-B4CB5AA5D033}" SchemaVersion="119">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{8178C475-8D46-486B-8465-B4CB5AA5D033}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8178C475-8D46-486B-8465-B4CB5AA5D033}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Flanger_Passby" ID="{9C4882C8-387A-492A-ADE7-89F7780E91BF}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="19.7"/>
+						<Property Name="FeedBackLevel" Type="Real32" Value="0.2"/>
+						<Property Name="ModPWM" Type="Real32" Value="33"/>
+						<Property Name="ModPhaseMode" Type="int32" Value="3"/>
+						<Property Name="ModPhaseOffset" Type="Real32" Value="6"/>
+						<Property Name="ModSmoothing" Type="Real32" Value="71"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="BigAbandonedBuilding" ID="{7A4D4EDE-D3C9-4E33-B746-820C96696EB7}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayLengthsMode" Type="int32" Value="1"/>
+						<Property Name="DelayTime1" Type="Real32" Value="12.12"/>
+						<Property Name="DelayTime2" Type="Real32" Value="17.66"/>
+						<Property Name="DelayTime3" Type="Real32" Value="21.02"/>
+						<Property Name="DelayTime5" Type="Real32" Value="16.33"/>
+						<Property Name="DelayTime8" Type="Real32" Value="21.78"/>
+						<Property Name="DryLevel" Type="Real32" Value="-7.3"/>
+						<Property Name="PreDelay" Type="Real32" Value="0.25"/>
+						<Property Name="ReverbTime" Type="Real32" Value="2.5"/>
+						<Property Name="WetLevel" Type="Real32" Value="-45"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

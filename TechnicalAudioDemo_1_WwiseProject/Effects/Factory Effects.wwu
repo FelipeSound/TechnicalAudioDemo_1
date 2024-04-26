@@ -754,11 +754,12 @@
 						</Effect>
 						<Effect Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 							<PropertyList>
+								<Property Name="DryLevel" Type="Real32" Value="-7.3"/>
 								<Property Name="HFRatio" Type="Real32" Value="7.5"/>
 								<Property Name="NumberOfDelays" Type="int32" Value="12"/>
 								<Property Name="PreDelay" Type="Real32" Value="0.02"/>
-								<Property Name="ReverbTime" Type="Real32" Value="4.5"/>
-								<Property Name="WetLevel" Type="Real32" Value="-30"/>
+								<Property Name="ReverbTime" Type="Real32" Value="4.7"/>
+								<Property Name="WetLevel" Type="Real32" Value="-51"/>
 							</PropertyList>
 						</Effect>
 					</ChildrenList>
