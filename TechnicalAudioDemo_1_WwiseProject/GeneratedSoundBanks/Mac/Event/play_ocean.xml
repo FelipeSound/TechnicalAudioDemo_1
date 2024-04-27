@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{3576C177-51EA-6A81-1908-D9A3C124AAB4}">
+			<ObjectPath>play_ocean</ObjectPath>
+			<ShortName>play_ocean</ShortName>
+			<Path>Event/play_ocean.bnk</Path>
+			<Media>
+				<File Id="209184179" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Ocean_Stereo_Loop.wav</ShortName>
+					<Path>Media/209184179.wem</Path>
+					<CachePath>SFX/Ocean_Stereo_Loop_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1724638476" Name="play_ocean" ObjectPath="\Events\Default Work Unit\play_ocean" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" MaxAttenuation="50" DurationType="OneShot" DurationMin="49.76973" DurationMax="49.76973">
+					<MediaRefs>
+						<MediaRef Id="209184179"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4E8AA23B-AA5B-C135-DBCC-DB7BD076A70D}</FileHash>
+</SoundBanksInfo>

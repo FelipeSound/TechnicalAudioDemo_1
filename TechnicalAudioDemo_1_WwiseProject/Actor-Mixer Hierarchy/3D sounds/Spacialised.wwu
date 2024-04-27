@@ -21,7 +21,19 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Ocean" ID="{3B771F72-2CE5-4331-8FC3-101473FE2490}" ShortID="480252466">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>18</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Distance_50m" ID="{5B55035A-C8FA-4BAD-AE78-5D16CFD063B6}" WorkUnitID="{E023F51C-79A1-41AB-BECC-2455DA87BFC4}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
 								</Reference>
@@ -31,6 +43,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Ocean_Stereo_Loop" ID="{45A0EE45-E7CB-4E09-A081-4EE13D4AA37E}">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>10.2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Ocean_Stereo_Loop.wav</AudioFile>
 									<MediaIDList>
@@ -38,6 +57,10 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{FC239709-84BC-42B4-9CC9-E21317544EB4}"/>
+								<Position Name="" ID="{402AD119-84A6-40E4-8C0B-26AF51E12B32}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Ocean_Stereo_Loop" ID="{45A0EE45-E7CB-4E09-A081-4EE13D4AA37E}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -62,7 +85,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Machines" ID="{ECE01690-4009-4961-B96B-C91A4AA0638F}" ShortID="818538651">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Distance_50m" ID="{5B55035A-C8FA-4BAD-AE78-5D16CFD063B6}" WorkUnitID="{E023F51C-79A1-41AB-BECC-2455DA87BFC4}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
 								</Reference>

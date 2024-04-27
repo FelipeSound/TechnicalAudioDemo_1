@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1724638476",
+    "Type": "Event",
+    "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
+    "Language": "SFX",
+    "Hash": "{3576C177-51EA-6A81-1908-D9A3C124AAB4}",
+    "ObjectPath": "play_ocean",
+    "ShortName": "play_ocean",
+    "Path": "Event/play_ocean.bnk",
+    "Media": [
+     {
+      "Id": "209184179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ocean_Stereo_Loop.wav",
+      "Path": "Media/209184179.wem",
+      "CachePath": "SFX/Ocean_Stereo_Loop_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1724638476",
+      "Name": "play_ocean",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_ocean",
+      "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "49.76973",
+      "DurationMax": "49.76973",
+      "MediaRefs": [
+       {
+        "Id": "209184179"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{68509E88-DC70-202E-6E45-3938029EC696}"
+ }
+}

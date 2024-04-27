@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3072229573	play_3d_vehicles			\Default Work Unit\play_3d_vehicles	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2437611967	Flanger_Passby	Wwise Flanger			
+

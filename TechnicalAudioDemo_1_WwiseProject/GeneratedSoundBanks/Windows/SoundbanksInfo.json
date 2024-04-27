@@ -40,7 +40,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CFAA9C83-D666-FA34-E7DE-CB1430462B65}",
+    "Hash": "{E9FA1FDD-0DA3-2789-D53F-86C38F55D33C}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -158,6 +158,80 @@
     ]
    },
    {
+    "Id": "1454002101",
+    "Type": "Event",
+    "GUID": "{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}",
+    "Language": "SFX",
+    "Hash": "{89B4CB4B-C47D-52A6-CE22-CF6DB9621B03}",
+    "ObjectPath": "play_Machines_LR",
+    "ShortName": "play_Machines_LR",
+    "Path": "Event/play_Machines_LR.bnk",
+    "Media": [
+     {
+      "Id": "1071860770",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\2_Machines(L_R)_Stereo_Loop.wav",
+      "Path": "Media/1071860770.wem",
+      "CachePath": "SFX/3d/2_Machines(L_R)_Stereo_Loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1454002101",
+      "Name": "play_Machines_LR",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_Machines_LR",
+      "GUID": "{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}",
+      "MaxAttenuation": "50",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1071860770"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1724638476",
+    "Type": "Event",
+    "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
+    "Language": "SFX",
+    "Hash": "{3576C177-51EA-6A81-1908-D9A3C124AAB4}",
+    "ObjectPath": "play_ocean",
+    "ShortName": "play_ocean",
+    "Path": "Event/play_ocean.bnk",
+    "Media": [
+     {
+      "Id": "209184179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ocean_Stereo_Loop.wav",
+      "Path": "Media/209184179.wem",
+      "CachePath": "SFX/Ocean_Stereo_Loop_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1724638476",
+      "Name": "play_ocean",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_ocean",
+      "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "49.76973",
+      "DurationMax": "49.76973",
+      "MediaRefs": [
+       {
+        "Id": "209184179"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1728935863",
     "Type": "Event",
     "GUID": "{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}",
@@ -203,6 +277,144 @@
     ]
    },
    {
+    "Id": "3072229573",
+    "Type": "Event",
+    "GUID": "{82620295-12B3-452D-A1D6-E9E01EB12EDC}",
+    "Language": "SFX",
+    "Hash": "{1C04B705-A8E6-A309-C002-26BE468DADC7}",
+    "ObjectPath": "play_3d_vehicles",
+    "ShortName": "play_3d_vehicles",
+    "Path": "Event/play_3d_vehicles.bnk",
+    "Media": [
+     {
+      "Id": "140340592",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-002.wav",
+      "Path": "Media/140340592.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_818F3B66.wem"
+     },
+     {
+      "Id": "201026162",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-006.wav",
+      "Path": "Media/201026162.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_818F3B66.wem"
+     },
+     {
+      "Id": "497963844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-001.wav",
+      "Path": "Media/497963844.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_818F3B66.wem"
+     },
+     {
+      "Id": "628077898",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-003.wav",
+      "Path": "Media/628077898.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_818F3B66.wem"
+     },
+     {
+      "Id": "687131885",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-004.wav",
+      "Path": "Media/687131885.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-004_818F3B66.wem"
+     },
+     {
+      "Id": "696447882",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-005.wav",
+      "Path": "Media/696447882.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-005_818F3B66.wem"
+     },
+     {
+      "Id": "753837502",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-008.wav",
+      "Path": "Media/753837502.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_818F3B66.wem"
+     },
+     {
+      "Id": "898409210",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-007.wav",
+      "Path": "Media/898409210.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_818F3B66.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2437611967",
+       "Name": "Flanger_Passby",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Flanger_Passby",
+       "GUID": "{9C4882C8-387A-492A-ADE7-89F7780E91BF}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3072229573",
+      "Name": "play_3d_vehicles",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_3d_vehicles",
+      "GUID": "{82620295-12B3-452D-A1D6-E9E01EB12EDC}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "140340592"
+       },
+       {
+        "Id": "201026162"
+       },
+       {
+        "Id": "497963844"
+       },
+       {
+        "Id": "628077898"
+       },
+       {
+        "Id": "687131885"
+       },
+       {
+        "Id": "696447882"
+       },
+       {
+        "Id": "753837502"
+       },
+       {
+        "Id": "898409210"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2437611967"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
     "Id": "4072029455",
     "Type": "User",
     "GUID": "{E63430AE-EA6F-4C31-8C51-F15E484C1A08}",
@@ -213,6 +425,6 @@
     "Path": "New_SoundBank.bnk"
    }
   ],
-  "FileHash": "{81BD164F-E4F1-4AF7-062C-2496F01E7DC4}"
+  "FileHash": "{28E53287-4EC2-3B1A-8BAA-0591439FC21E}"
  }
 }
