@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
     "Language": "SFX",
-    "Hash": "{4E721022-42A7-155C-845A-6A225BF7D78F}",
+    "Hash": "{4FC0A6A6-7E3C-5D9D-2638-440824CE5785}",
     "ObjectPath": "play_ocean",
     "ShortName": "play_ocean",
     "Path": "Event/play_ocean.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Ocean_Stereo_Loop.wav",
       "Path": "Media/209184179.wem",
-      "CachePath": "SFX/Ocean_Stereo_Loop_818F3B66.wem"
+      "CachePath": "SFX/Ocean_Stereo_Loop_FBC78EF0.wem"
      }
     ],
     "Events": [
@@ -31,10 +31,8 @@
       "Name": "play_ocean",
       "ObjectPath": "\\Events\\Default Work Unit\\play_ocean",
       "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
-      "MaxAttenuation": "1000",
-      "DurationType": "OneShot",
-      "DurationMin": "49.76973",
-      "DurationMax": "49.76973",
+      "MaxAttenuation": "3000",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "209184179"
@@ -44,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{F65BD777-3747-1A0A-B13B-19F33651D926}"
+  "FileHash": "{51F1E753-0AD9-8285-7C92-A3E2C98A9764}"
  }
 }

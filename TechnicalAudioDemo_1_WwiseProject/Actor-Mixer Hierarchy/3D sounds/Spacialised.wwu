@@ -33,7 +33,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Distance_50m" ID="{5B55035A-C8FA-4BAD-AE78-5D16CFD063B6}" WorkUnitID="{E023F51C-79A1-41AB-BECC-2455DA87BFC4}"/>
+									<ObjectRef Name="300m" ID="{257DDC67-4FC5-4D0A-A55C-1FB881120CEB}" WorkUnitID="{E023F51C-79A1-41AB-BECC-2455DA87BFC4}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
