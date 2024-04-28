@@ -51,7 +51,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1454002101" Type="Event" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" Language="SFX" Hash="{89B4CB4B-C47D-52A6-CE22-CF6DB9621B03}">
+		<SoundBank Id="1454002101" Type="Event" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" Language="SFX" Hash="{EB7DA5A2-ADB3-9BE5-F183-3E6709216A42}">
 			<ObjectPath>play_Machines_LR</ObjectPath>
 			<ShortName>play_Machines_LR</ShortName>
 			<Path>Event/play_Machines_LR.bnk</Path>
@@ -63,14 +63,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1454002101" Name="play_Machines_LR" ObjectPath="\Events\Default Work Unit\play_Machines_LR" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" MaxAttenuation="50" DurationType="Infinite">
+				<Event Id="1454002101" Name="play_Machines_LR" ObjectPath="\Events\Default Work Unit\play_Machines_LR" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1071860770"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{3576C177-51EA-6A81-1908-D9A3C124AAB4}">
+		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{4E721022-42A7-155C-845A-6A225BF7D78F}">
 			<ObjectPath>play_ocean</ObjectPath>
 			<ShortName>play_ocean</ShortName>
 			<Path>Event/play_ocean.bnk</Path>
@@ -82,7 +82,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1724638476" Name="play_ocean" ObjectPath="\Events\Default Work Unit\play_ocean" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" MaxAttenuation="50" DurationType="OneShot" DurationMin="49.76973" DurationMax="49.76973">
+				<Event Id="1724638476" Name="play_ocean" ObjectPath="\Events\Default Work Unit\play_ocean" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="49.76973" DurationMax="49.76973">
 					<MediaRefs>
 						<MediaRef Id="209184179"/>
 					</MediaRefs>
@@ -188,5 +188,5 @@
 			<Path>New_SoundBank.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0C2B0724-0532-CDD2-C728-35BE451F885B}</FileHash>
+	<FileHash>{B0CCD8B6-B566-B85F-2A7F-CC6A2D718160}</FileHash>
 </SoundBanksInfo>

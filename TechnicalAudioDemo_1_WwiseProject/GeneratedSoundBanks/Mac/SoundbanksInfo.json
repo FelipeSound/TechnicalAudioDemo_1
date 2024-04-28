@@ -162,7 +162,7 @@
     "Type": "Event",
     "GUID": "{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}",
     "Language": "SFX",
-    "Hash": "{89B4CB4B-C47D-52A6-CE22-CF6DB9621B03}",
+    "Hash": "{EB7DA5A2-ADB3-9BE5-F183-3E6709216A42}",
     "ObjectPath": "play_Machines_LR",
     "ShortName": "play_Machines_LR",
     "Path": "Event/play_Machines_LR.bnk",
@@ -183,7 +183,7 @@
       "Name": "play_Machines_LR",
       "ObjectPath": "\\Events\\Default Work Unit\\play_Machines_LR",
       "GUID": "{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "1000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -198,7 +198,7 @@
     "Type": "Event",
     "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
     "Language": "SFX",
-    "Hash": "{3576C177-51EA-6A81-1908-D9A3C124AAB4}",
+    "Hash": "{4E721022-42A7-155C-845A-6A225BF7D78F}",
     "ObjectPath": "play_ocean",
     "ShortName": "play_ocean",
     "Path": "Event/play_ocean.bnk",
@@ -219,7 +219,7 @@
       "Name": "play_ocean",
       "ObjectPath": "\\Events\\Default Work Unit\\play_ocean",
       "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "1000",
       "DurationType": "OneShot",
       "DurationMin": "49.76973",
       "DurationMax": "49.76973",
@@ -425,6 +425,6 @@
     "Path": "New_SoundBank.bnk"
    }
   ],
-  "FileHash": "{AE4354BB-0EE8-7EB3-0798-DF01BC5D4969}"
+  "FileHash": "{D44F80E8-72B0-D4F9-D87F-2A0CFD6147BA}"
  }
 }

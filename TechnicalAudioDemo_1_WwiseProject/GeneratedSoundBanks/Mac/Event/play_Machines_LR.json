@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}",
     "Language": "SFX",
-    "Hash": "{89B4CB4B-C47D-52A6-CE22-CF6DB9621B03}",
+    "Hash": "{EB7DA5A2-ADB3-9BE5-F183-3E6709216A42}",
     "ObjectPath": "play_Machines_LR",
     "ShortName": "play_Machines_LR",
     "Path": "Event/play_Machines_LR.bnk",
@@ -31,7 +31,7 @@
       "Name": "play_Machines_LR",
       "ObjectPath": "\\Events\\Default Work Unit\\play_Machines_LR",
       "GUID": "{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "1000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{CA2AFD93-A7F4-3984-2368-E142681E3BA4}"
+  "FileHash": "{273A7096-C7F9-AC11-D2E5-DA8F1C0B5455}"
  }
 }

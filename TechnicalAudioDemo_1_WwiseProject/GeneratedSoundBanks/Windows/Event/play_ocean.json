@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
     "Language": "SFX",
-    "Hash": "{3576C177-51EA-6A81-1908-D9A3C124AAB4}",
+    "Hash": "{4E721022-42A7-155C-845A-6A225BF7D78F}",
     "ObjectPath": "play_ocean",
     "ShortName": "play_ocean",
     "Path": "Event/play_ocean.bnk",
@@ -31,7 +31,7 @@
       "Name": "play_ocean",
       "ObjectPath": "\\Events\\Default Work Unit\\play_ocean",
       "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "1000",
       "DurationType": "OneShot",
       "DurationMin": "49.76973",
       "DurationMax": "49.76973",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{26418C83-4668-A816-E9CB-1B1F5B27D0C6}"
+  "FileHash": "{84080384-4951-13DB-F23D-BD50A50FC602}"
  }
 }
