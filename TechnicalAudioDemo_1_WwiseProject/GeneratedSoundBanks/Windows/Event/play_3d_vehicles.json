@@ -10,11 +10,20 @@
     "Type": "Event",
     "GUID": "{82620295-12B3-452D-A1D6-E9E01EB12EDC}",
     "Language": "SFX",
-    "Hash": "{6D01AE0B-AB28-AA03-D093-1F27892665C7}",
+    "Hash": "{A58372B5-2FEF-C10B-58CA-720D7FFCAAEF}",
     "ObjectPath": "play_3d_vehicles",
     "ShortName": "play_3d_vehicles",
     "Path": "Event/play_3d_vehicles.bnk",
     "Media": [
+     {
+      "Id": "57527612",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-008.wav",
+      "Path": "Media/57527612.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_DD941F1F.wem"
+     },
      {
       "Id": "140340592",
       "Language": "SFX",
@@ -22,7 +31,16 @@
       "Location": "Loose",
       "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-002.wav",
       "Path": "Media/140340592.wem",
-      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_818F3B66.wem"
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_472BC2A1.wem"
+     },
+     {
+      "Id": "159367352",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-007.wav",
+      "Path": "Media/159367352.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_87BB2368.wem"
      },
      {
       "Id": "201026162",
@@ -31,7 +49,52 @@
       "Location": "Loose",
       "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-006.wav",
       "Path": "Media/201026162.wem",
-      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_818F3B66.wem"
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_A894A5DC.wem"
+     },
+     {
+      "Id": "244711468",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-004.wav",
+      "Path": "Media/244711468.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-004_6EAAE067.wem"
+     },
+     {
+      "Id": "319185585",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-001.wav",
+      "Path": "Media/319185585.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_2857DA4E.wem"
+     },
+     {
+      "Id": "351902418",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-002.wav",
+      "Path": "Media/351902418.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_D2B1B709.wem"
+     },
+     {
+      "Id": "372318273",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-003.wav",
+      "Path": "Media/372318273.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_8A81D52D.wem"
+     },
+     {
+      "Id": "413919638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-006.wav",
+      "Path": "Media/413919638.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_22005549.wem"
      },
      {
       "Id": "497963844",
@@ -40,7 +103,34 @@
       "Location": "Loose",
       "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-001.wav",
       "Path": "Media/497963844.wem",
-      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_818F3B66.wem"
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_9259DFA7.wem"
+     },
+     {
+      "Id": "523724045",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-002.wav",
+      "Path": "Media/523724045.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_2398D3D5.wem"
+     },
+     {
+      "Id": "584163375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-007.wav",
+      "Path": "Media/584163375.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_5B35E6A3.wem"
+     },
+     {
+      "Id": "599848718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-004.wav",
+      "Path": "Media/599848718.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-004_B35F89F1.wem"
      },
      {
       "Id": "628077898",
@@ -49,7 +139,16 @@
       "Location": "Loose",
       "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-003.wav",
       "Path": "Media/628077898.wem",
-      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_818F3B66.wem"
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_710F19C7.wem"
+     },
+     {
+      "Id": "655380476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-003.wav",
+      "Path": "Media/655380476.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_3508B321.wem"
      },
      {
       "Id": "687131885",
@@ -58,7 +157,7 @@
       "Location": "Loose",
       "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-004.wav",
       "Path": "Media/687131885.wem",
-      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-004_818F3B66.wem"
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-004_8173D73D.wem"
      },
      {
       "Id": "696447882",
@@ -67,7 +166,16 @@
       "Location": "Loose",
       "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-005.wav",
       "Path": "Media/696447882.wem",
-      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-005_818F3B66.wem"
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-005_3CD0E833.wem"
+     },
+     {
+      "Id": "713580435",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-005.wav",
+      "Path": "Media/713580435.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-005_2223B317.wem"
      },
      {
       "Id": "753837502",
@@ -76,7 +184,7 @@
       "Location": "Loose",
       "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-008.wav",
       "Path": "Media/753837502.wem",
-      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_818F3B66.wem"
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_DBC6DBE1.wem"
      },
      {
       "Id": "898409210",
@@ -85,7 +193,43 @@
       "Location": "Loose",
       "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-007.wav",
       "Path": "Media/898409210.wem",
-      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_818F3B66.wem"
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_D2E16959.wem"
+     },
+     {
+      "Id": "966735664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-008.wav",
+      "Path": "Media/966735664.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_E1800012.wem"
+     },
+     {
+      "Id": "998697477",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-006.wav",
+      "Path": "Media/998697477.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_0F9F4F2B.wem"
+     },
+     {
+      "Id": "1016408562",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-001.wav",
+      "Path": "Media/1016408562.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_B31C6036.wem"
+     },
+     {
+      "Id": "1025053244",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "3d\\Whoosh_SpaceShip_PassBy_Stereo-005.wav",
+      "Path": "Media/1025053244.wem",
+      "CachePath": "SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-005_AF126E1F.wem"
      }
     ],
     "Plugins": {
@@ -107,8 +251,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\play_3d_vehicles",
       "GUID": "{82620295-12B3-452D-A1D6-E9E01EB12EDC}",
       "DurationType": "OneShot",
-      "DurationMin": "0.9709657",
-      "DurationMax": "2.765732",
+      "DurationMin": "0.42822078",
+      "DurationMax": "2.1297395",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -161,28 +305,28 @@
         },
         "MediaRefs": [
          {
-          "Id": "140340592"
+          "Id": "57527612"
          },
          {
-          "Id": "201026162"
+          "Id": "244711468"
          },
          {
-          "Id": "497963844"
+          "Id": "351902418"
          },
          {
-          "Id": "628077898"
+          "Id": "584163375"
          },
          {
-          "Id": "687131885"
+          "Id": "655380476"
          },
          {
-          "Id": "696447882"
+          "Id": "998697477"
          },
          {
-          "Id": "753837502"
+          "Id": "1016408562"
          },
          {
-          "Id": "898409210"
+          "Id": "1025053244"
          }
         ],
         "PluginRefs": {
@@ -202,28 +346,28 @@
         },
         "MediaRefs": [
          {
-          "Id": "140340592"
+          "Id": "159367352"
          },
          {
-          "Id": "201026162"
+          "Id": "319185585"
          },
          {
-          "Id": "497963844"
+          "Id": "372318273"
          },
          {
-          "Id": "628077898"
+          "Id": "413919638"
          },
          {
-          "Id": "687131885"
+          "Id": "523724045"
          },
          {
-          "Id": "696447882"
+          "Id": "599848718"
          },
          {
-          "Id": "753837502"
+          "Id": "713580435"
          },
          {
-          "Id": "898409210"
+          "Id": "966735664"
          }
         ],
         "PluginRefs": {
@@ -267,6 +411,6 @@
     ]
    }
   ],
-  "FileHash": "{63485F1F-A5B9-0D87-7015-FE359089D318}"
+  "FileHash": "{E4FD579F-07B9-92C1-D3AE-DD5194D7019D}"
  }
 }

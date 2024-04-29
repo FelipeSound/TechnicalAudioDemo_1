@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2738026737	play_drone_engine			\Default Work Unit\play_drone_engine	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2131109290	Drone_engine	Wwise Flanger			
+

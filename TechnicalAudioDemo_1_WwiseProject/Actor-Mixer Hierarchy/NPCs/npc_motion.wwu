@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{165EF3AD-CC61-47F7-83DA-F57D7AC730EA}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="npc_motion" ID="{165EF3AD-CC61-47F7-83DA-F57D7AC730EA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Engine_Loop" ID="{91D95482-CED9-47CC-AA9F-916C7B98C66F}" ShortID="1019967091">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="300m" ID="{257DDC67-4FC5-4D0A-A55C-1FB881120CEB}" WorkUnitID="{E023F51C-79A1-41AB-BECC-2455DA87BFC4}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="EngineSurfacesLayers_LoopStrong_plusEq_16bit" ID="{2A8FCD45-69EF-4D75-9F34-7394311F857B}">
+							<Language>SFX</Language>
+							<AudioFile>EngineSurfacesLayers_LoopStrong_plusEq_16bit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="638373736"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{C1539862-BB2E-4183-8096-7BABDE98916E}" ShortID="629609017">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+												<ObjectRef Name="Drone_engine" ID="{9965A16B-DB48-4C33-87FD-3BA3457E64EE}" WorkUnitID="{8178C475-8D46-486B-8465-B4CB5AA5D033}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="EngineSurfacesLayers_LoopStrong_plusEq_16bit" ID="{2A8FCD45-69EF-4D75-9F34-7394311F857B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

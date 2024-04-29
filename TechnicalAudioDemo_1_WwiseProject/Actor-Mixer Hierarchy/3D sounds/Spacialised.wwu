@@ -195,11 +195,6 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-7</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -221,10 +216,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{0D0AE8FE-7F71-4FF2-B75B-91A59220418E}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.37988717948718"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.37988717948718"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-001.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="497963844"/>
+														<MediaID ID="1016408562"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -245,11 +245,12 @@
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{6175FB1B-DD49-46C2-9D01-862AE71738B5}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.896244391025641"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-002.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="140340592"/>
+														<MediaID ID="351902418"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -268,10 +269,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{FD7FCFB7-D681-438F-BE5A-3599A94BF06D}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.693281944444444"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.693281944444444"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-003.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="628077898"/>
+														<MediaID ID="655380476"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -290,10 +296,14 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{78E2AED5-128F-4CFD-B24E-0EC95F4C9695}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.786410256410256"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="687131885"/>
+														<MediaID ID="244711468"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -312,10 +322,14 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{038CB058-8E86-4E5F-BE36-6674CED33D04}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.838257745726495"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="696447882"/>
+														<MediaID ID="1025053244"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -334,10 +348,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{EBC85DA5-14CA-4757-8C8A-EB9F2575A2C4}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.863505288461539"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.863505288461539"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-006.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="201026162"/>
+														<MediaID ID="998697477"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -356,10 +375,14 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{475281EC-82AA-4F1E-B639-24CBDCBD8E88}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.861999252136752"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-007.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="898409210"/>
+														<MediaID ID="584163375"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -378,10 +401,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{729467C1-ED2E-4B15-8E70-0440D83F1BD1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.902367200854701"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.902367200854701"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-008.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="753837502"/>
+														<MediaID ID="57527612"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -484,11 +512,6 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-7</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -510,6 +533,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{0467C7A1-EC84-4246-8978-01D4592CDC5B}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.397694391025641"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.397694391025641"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-001.wav</AudioFile>
 													<MediaIDList>
@@ -534,6 +562,7 @@
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{A7D76657-1AB5-4E46-B3D8-C779AC1CE5C5}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.896244391025642"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-002.wav</AudioFile>
@@ -557,6 +586,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{3B4077A8-DF49-43FB-A5F1-42291779F153}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.754229807692307"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.609478632478633"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-003.wav</AudioFile>
 													<MediaIDList>
@@ -579,6 +613,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{A7882DD9-8F6D-465C-8F43-7665B3384943}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.849323076923077"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</AudioFile>
 													<MediaIDList>
@@ -601,6 +639,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{6F9A56A3-D1B9-4C4B-BADC-953E60D8F669}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.845948183760683"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.845948183760683"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</AudioFile>
 													<MediaIDList>
@@ -623,6 +666,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{6B48477F-0BBB-48AD-8519-436580B9ACBC}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.925739903846154"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.925739903846154"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-006.wav</AudioFile>
 													<MediaIDList>
@@ -645,6 +693,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{3131FF17-8BD2-46E5-AC8B-551F1E0157AC}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.831486004273504"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.831486004273504"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-007.wav</AudioFile>
 													<MediaIDList>
@@ -667,6 +720,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{F613B9CA-6510-4B66-9183-CDFFEB3612B1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.988522863247863"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.988522863247863"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-008.wav</AudioFile>
 													<MediaIDList>
@@ -773,11 +831,6 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-7</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -799,10 +852,14 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{5748F73F-9F01-4B00-A702-94851929D7E9}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.42143733974359"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-001.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="497963844"/>
+														<MediaID ID="319185585"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -823,11 +880,12 @@
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{9429025D-3FC6-42B1-B85C-0ADFBCF48266}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.950798397435899"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-002.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="140340592"/>
+														<MediaID ID="523724045"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -846,10 +904,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{FF4ED4C3-838E-4BB0-B469-7361ED0A99B5}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.647571047008547"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.647571047008547"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-003.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="628077898"/>
+														<MediaID ID="372318273"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -868,10 +931,14 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{65CBEB6A-7B8B-4BFC-9CB5-C8D927D1C638}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.786410256410256"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="687131885"/>
+														<MediaID ID="599848718"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -890,10 +957,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{749B4EBC-ADE6-4909-8156-73225DC8E045}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.845948183760683"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.845948183760683"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="696447882"/>
+														<MediaID ID="713580435"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -912,10 +984,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{B71BD810-01C4-4CE9-9120-F8EE26567792}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.785712019230769"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.785712019230769"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-006.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="201026162"/>
+														<MediaID ID="413919638"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -934,10 +1011,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{961F3D65-01DE-4196-9759-F3E2C4443EF1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.900140811965812"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.900140811965812"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-007.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="898409210"/>
+														<MediaID ID="159367352"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -956,10 +1038,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{7CCC3090-78C0-4D3F-8C89-6A6B877D33BA}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.884229166666666"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.884229166666666"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-008.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="753837502"/>
+														<MediaID ID="966735664"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>

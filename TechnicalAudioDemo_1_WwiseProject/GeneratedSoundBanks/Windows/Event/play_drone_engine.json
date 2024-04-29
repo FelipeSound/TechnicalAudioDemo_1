@@ -1,0 +1,66 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2738026737",
+    "Type": "Event",
+    "GUID": "{2344E5ED-FFFC-452A-A6FB-395490BB6650}",
+    "Language": "SFX",
+    "Hash": "{A0B3B9E3-3ABF-DEAE-0BEF-D0A79D4B51F2}",
+    "ObjectPath": "play_drone_engine",
+    "ShortName": "play_drone_engine",
+    "Path": "Event/play_drone_engine.bnk",
+    "Media": [
+     {
+      "Id": "638373736",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "EngineSurfacesLayers_LoopStrong_plusEq_16bit.wav",
+      "Path": "Media/638373736.wem",
+      "CachePath": "SFX/EngineSurfacesLayers_LoopStrong_plusEq_16bit_FBC78EF0.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2131109290",
+       "Name": "Drone_engine",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Drone_engine",
+       "GUID": "{9965A16B-DB48-4C33-87FD-3BA3457E64EE}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2738026737",
+      "Name": "play_drone_engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_drone_engine",
+      "GUID": "{2344E5ED-FFFC-452A-A6FB-395490BB6650}",
+      "MaxAttenuation": "3000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "638373736"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2131109290"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2474B034-75E7-4122-A143-6270CD1225F0}"
+ }
+}

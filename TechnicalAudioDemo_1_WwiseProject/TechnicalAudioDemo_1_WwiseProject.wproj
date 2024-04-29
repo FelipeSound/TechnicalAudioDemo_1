@@ -11781,6 +11781,9 @@
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\MainCharacter_Motion">
 					<WorkUnit Name="MainCharacter_Motion" ID="{3346D232-E1AC-4B64-BC95-6FED50AED266}" PersistMode="Standalone"/>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\NPCs">
+					<WorkUnit Name="NPCs" ID="{8C68415B-1F23-423A-B068-80B7B8CE7E2A}" PersistMode="Standalone"/>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\UI">
 					<WorkUnit Name="UI" ID="{EC12D7B5-817B-4F4C-BB4C-67022C5B947C}" PersistMode="Standalone"/>
 				</PhysicalFolder>
