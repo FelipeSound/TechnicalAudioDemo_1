@@ -17,7 +17,7 @@
 				<Event Id="386634130" Name="GuitarIntro_Stop" ObjectPath="\Events\Default Work Unit\GuitarIntro_Stop" GUID="{E33B9C70-1767-4C29-A460-CEEBE9582D72}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E9FA1FDD-0DA3-2789-D53F-86C38F55D33C}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{79A195D9-E626-CE62-14B0-7A16A215542A}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -35,6 +35,7 @@
 				<GameParameter Id="1131074043" Name="Distance_150" ObjectPath="\Game Parameters\Default Work Unit\Distance_150" GUID="{E5FCBFFB-3D67-443B-B257-1BBE5D592CDA}"/>
 				<GameParameter Id="1181406953" Name="Distance_10m" ObjectPath="\Game Parameters\Default Work Unit\Distance_10m" GUID="{03DFE036-B24C-4B4A-9AC9-04D020E6023A}"/>
 				<GameParameter Id="1289178653" Name="Distance_250m" ObjectPath="\Game Parameters\Default Work Unit\Distance_250m" GUID="{23AB3CA2-AC07-4B53-A76C-E869E64F2B6A}"/>
+				<GameParameter Id="1304350001" Name="Distance_2000cm" ObjectPath="\Game Parameters\Default Work Unit\Distance_2000cm" GUID="{BEF63D22-0E68-480D-8425-3944122F867E}"/>
 				<GameParameter Id="2925587597" Name="Distance_50m" ObjectPath="\Game Parameters\Default Work Unit\Distance_50m" GUID="{7C73F6D7-16B6-4C21-87E1-C183C818F7A3}"/>
 				<GameParameter Id="3094496655" Name="Distance_200" ObjectPath="\Game Parameters\Default Work Unit\Distance_200" GUID="{758C5DD1-8881-46AB-9397-3764E81F97C2}"/>
 				<GameParameter Id="3467608380" Name="Disctance_100m" ObjectPath="\Game Parameters\Default Work Unit\Disctance_100m" GUID="{1359DE8B-C4FD-4437-A829-D4D2FDC1DE4B}"/>
@@ -118,7 +119,7 @@
 				<GameParameter Id="270201265" Name="Distance_1m" ObjectPath="\Game Parameters\Default Work Unit\Distance_1m" GUID="{55C1A90C-AEAD-40DA-BEAB-4D0FB5AE2663}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{A0B3B9E3-3ABF-DEAE-0BEF-D0A79D4B51F2}">
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{090F98A3-61AF-9FA9-D3C7-CBEFDD3DDF63}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -135,7 +136,7 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="2738026737" Name="play_drone_engine" ObjectPath="\Events\Default Work Unit\play_drone_engine" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" MaxAttenuation="3000" DurationType="Infinite">
+				<Event Id="2738026737" Name="play_drone_engine" ObjectPath="\Events\Default Work Unit\play_drone_engine" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" MaxAttenuation="5000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="638373736"/>
 					</MediaRefs>
@@ -146,8 +147,11 @@
 					</PluginRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1304350001" Name="Distance_2000cm" ObjectPath="\Game Parameters\Default Work Unit\Distance_2000cm" GUID="{BEF63D22-0E68-480D-8425-3944122F867E}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{A58372B5-2FEF-C10B-58CA-720D7FFCAAEF}">
+		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{F6680765-B1DE-D0FC-1CD0-DD7EBF25D81A}">
 			<ObjectPath>play_3d_vehicles</ObjectPath>
 			<ShortName>play_3d_vehicles</ShortName>
 			<Path>Event/play_3d_vehicles.bnk</Path>
@@ -155,122 +159,112 @@
 				<File Id="57527612" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-008.wav</ShortName>
 					<Path>Media/57527612.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_DD941F1F.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_8C20778D.wem</CachePath>
 				</File>
 				<File Id="140340592" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-002.wav</ShortName>
 					<Path>Media/140340592.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_472BC2A1.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_46A70EC4.wem</CachePath>
 				</File>
 				<File Id="159367352" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-007.wav</ShortName>
 					<Path>Media/159367352.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_87BB2368.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_2D38812D.wem</CachePath>
 				</File>
 				<File Id="201026162" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-006.wav</ShortName>
 					<Path>Media/201026162.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_A894A5DC.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_2DFDB3DD.wem</CachePath>
 				</File>
 				<File Id="244711468" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</ShortName>
 					<Path>Media/244711468.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-004_6EAAE067.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-004_1B42D72C.wem</CachePath>
 				</File>
 				<File Id="319185585" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-001.wav</ShortName>
 					<Path>Media/319185585.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_2857DA4E.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_AACE3287.wem</CachePath>
 				</File>
 				<File Id="351902418" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-002.wav</ShortName>
 					<Path>Media/351902418.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_D2B1B709.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_7F8E9E8B.wem</CachePath>
 				</File>
 				<File Id="372318273" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-003.wav</ShortName>
 					<Path>Media/372318273.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_8A81D52D.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_3462E1B1.wem</CachePath>
 				</File>
 				<File Id="413919638" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-006.wav</ShortName>
 					<Path>Media/413919638.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_22005549.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_3B19BA7B.wem</CachePath>
 				</File>
 				<File Id="497963844" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-001.wav</ShortName>
 					<Path>Media/497963844.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_9259DFA7.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_D0194DCE.wem</CachePath>
 				</File>
 				<File Id="523724045" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-002.wav</ShortName>
 					<Path>Media/523724045.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_2398D3D5.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-002_5B749191.wem</CachePath>
 				</File>
 				<File Id="584163375" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-007.wav</ShortName>
 					<Path>Media/584163375.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_5B35E6A3.wem</CachePath>
-				</File>
-				<File Id="599848718" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</ShortName>
-					<Path>Media/599848718.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-004_B35F89F1.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_612DAD6A.wem</CachePath>
 				</File>
 				<File Id="628077898" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-003.wav</ShortName>
 					<Path>Media/628077898.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_710F19C7.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_A89767DB.wem</CachePath>
 				</File>
 				<File Id="655380476" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-003.wav</ShortName>
 					<Path>Media/655380476.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_3508B321.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-003_CFF6C35B.wem</CachePath>
 				</File>
 				<File Id="687131885" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</ShortName>
 					<Path>Media/687131885.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-004_8173D73D.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-004_34789937.wem</CachePath>
 				</File>
 				<File Id="696447882" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</ShortName>
 					<Path>Media/696447882.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-005_3CD0E833.wem</CachePath>
-				</File>
-				<File Id="713580435" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</ShortName>
-					<Path>Media/713580435.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-005_2223B317.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-005_E73F775D.wem</CachePath>
 				</File>
 				<File Id="753837502" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-008.wav</ShortName>
 					<Path>Media/753837502.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_DBC6DBE1.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_A23AAF64.wem</CachePath>
 				</File>
 				<File Id="898409210" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-007.wav</ShortName>
 					<Path>Media/898409210.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_D2E16959.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-007_A964F43A.wem</CachePath>
 				</File>
 				<File Id="966735664" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-008.wav</ShortName>
 					<Path>Media/966735664.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_E1800012.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-008_A63C8ACE.wem</CachePath>
 				</File>
 				<File Id="998697477" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-006.wav</ShortName>
 					<Path>Media/998697477.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_0F9F4F2B.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-006_FC235CA7.wem</CachePath>
 				</File>
 				<File Id="1016408562" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-001.wav</ShortName>
 					<Path>Media/1016408562.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_B31C6036.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-001_A79B6A8D.wem</CachePath>
 				</File>
 				<File Id="1025053244" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</ShortName>
 					<Path>Media/1025053244.wem</Path>
-					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-005_AF126E1F.wem</CachePath>
+					<CachePath>SFX/3d/Whoosh_SpaceShip_PassBy_Stereo-005_51A13489.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -321,12 +315,12 @@
 							<SwitchValue GroupType="Switch" GroupId="4136547178" Id="4109362" GUID="{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"/>
 							<MediaRefs>
 								<MediaRef Id="159367352"/>
+								<MediaRef Id="244711468"/>
 								<MediaRef Id="319185585"/>
 								<MediaRef Id="372318273"/>
 								<MediaRef Id="413919638"/>
 								<MediaRef Id="523724045"/>
-								<MediaRef Id="599848718"/>
-								<MediaRef Id="713580435"/>
+								<MediaRef Id="696447882"/>
 								<MediaRef Id="966735664"/>
 							</MediaRefs>
 							<PluginRefs>
@@ -354,5 +348,5 @@
 			<Path>New_SoundBank.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4E65F527-F7D8-CA91-CF4C-D0E6DCF388C6}</FileHash>
+	<FileHash>{2689E94C-7DCF-D1CE-9031-D8E6EEA1B1E8}</FileHash>
 </SoundBanksInfo>

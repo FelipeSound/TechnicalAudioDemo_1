@@ -1,6 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2738026737	play_drone_engine			\Default Work Unit\play_drone_engine	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1304350001	Distance_2000cm			\Default Work Unit\Distance_2000cm	
+
 Effect plug-ins	ID	Name	Type				Notes
 	2131109290	Drone_engine	Wwise Flanger			
 

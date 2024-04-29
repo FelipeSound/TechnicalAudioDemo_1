@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E9FA1FDD-0DA3-2789-D53F-86C38F55D33C}",
+    "Hash": "{79A195D9-E626-CE62-14B0-7A16A215542A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -66,6 +66,12 @@
       "Name": "Distance_250m",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_250m",
       "GUID": "{23AB3CA2-AC07-4B53-A76C-E869E64F2B6A}"
+     },
+     {
+      "Id": "1304350001",
+      "Name": "Distance_2000cm",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_2000cm",
+      "GUID": "{BEF63D22-0E68-480D-8425-3944122F867E}"
      },
      {
       "Id": "2925587597",
@@ -154,6 +160,6 @@
     ]
    }
   ],
-  "FileHash": "{F4015356-125A-5C82-94E6-DC50A547611F}"
+  "FileHash": "{3FB8E4CC-919C-5135-1B98-B062513A6C3E}"
  }
 }

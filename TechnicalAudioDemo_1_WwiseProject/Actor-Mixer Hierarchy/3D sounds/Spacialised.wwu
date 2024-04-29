@@ -147,6 +147,7 @@
 									<PropertyList>
 										<Property Name="3DPosition" Type="int16" Value="1"/>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
 												<Value>14</Value>
@@ -464,6 +465,7 @@
 									<PropertyList>
 										<Property Name="3DPosition" Type="int16" Value="1"/>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
 												<Value>14</Value>
@@ -783,6 +785,7 @@
 									<PropertyList>
 										<Property Name="3DPosition" Type="int16" Value="1"/>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
 												<Value>14</Value>
@@ -938,7 +941,7 @@
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="599848718"/>
+														<MediaID ID="244711468"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -965,7 +968,7 @@
 													<Language>SFX</Language>
 													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="713580435"/>
+														<MediaID ID="696447882"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
