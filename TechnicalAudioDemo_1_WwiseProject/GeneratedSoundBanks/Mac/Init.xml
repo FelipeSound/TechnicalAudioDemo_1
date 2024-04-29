@@ -33,8 +33,15 @@
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Ground_Materials\Grass" GUID="{7DE1E764-5516-4782-A92B-1516B6D28B5F}"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="4136547178" Name="vehicle_incoming" ObjectPath="\Switches\Default Work Unit\vehicle_incoming" GUID="{DA80A04C-8E1C-4601-9921-1595DB46FED6}">
+					<Switches>
+						<Switch Id="4109362" Name="left" ObjectPath="\Switches\Default Work Unit\vehicle_incoming\left" GUID="{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"/>
+						<Switch Id="1026627430" Name="middle" ObjectPath="\Switches\Default Work Unit\vehicle_incoming\middle" GUID="{579F66D9-4306-4834-A236-6822D210C5EF}"/>
+						<Switch Id="3893817417" Name="right" ObjectPath="\Switches\Default Work Unit\vehicle_incoming\right" GUID="{378FCFBC-87C4-4A77-8FF4-91806AD7319D}"/>
+					</Switches>
+				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5FADDB16-574D-65B0-87CC-5BA59656081F}</FileHash>
+	<FileHash>{EDC70F8D-913E-BCE6-41C5-E9C7EDCA2CD0}</FileHash>
 </SoundBanksInfo>

@@ -30,10 +30,10 @@
 				</Event>
 				<Event Name="play_3d_vehicles" ID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}">
 					<ChildrenList>
-						<Action Name="" ID="{5E699B47-BB4E-420C-929E-35878547D7C4}" ShortID="65511447">
+						<Action Name="" ID="{2970F329-2CB0-42F6-BCA6-CC7A6A75FFA2}" ShortID="330387705">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Vehicle_Whooshes" ID="{D2E07C20-5CFF-47CC-ACC8-EFC2C98C9809}" WorkUnitID="{701207B5-15B7-42F3-9089-DFD60E825D4E}"/>
+									<ObjectRef Name="Vehicle_direction" ID="{D690F0E0-BB52-4D2F-AFE4-93B2AD467E1D}" WorkUnitID="{701207B5-15B7-42F3-9089-DFD60E825D4E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,7 +52,7 @@
 				</Event>
 				<Event Name="play_Machines_LR" ID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}">
 					<ChildrenList>
-						<Action Name="" ID="{583AFCDA-7A7A-4CEE-8534-803041E1EE63}" ShortID="108613985">
+						<Action Name="" ID="{A82A5947-52BE-4DD8-BC30-8F80D49FDCA9}" ShortID="20950834">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Machines" ID="{ECE01690-4009-4961-B96B-C91A4AA0638F}" WorkUnitID="{701207B5-15B7-42F3-9089-DFD60E825D4E}"/>

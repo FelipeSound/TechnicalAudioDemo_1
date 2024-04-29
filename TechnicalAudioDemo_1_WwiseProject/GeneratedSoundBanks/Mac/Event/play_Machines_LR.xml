@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1454002101" Type="Event" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" Language="SFX" Hash="{EB7DA5A2-ADB3-9BE5-F183-3E6709216A42}">
+		<SoundBank Id="1454002101" Type="Event" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" Language="SFX" Hash="{D0CF287A-BBAB-228F-66F1-DF1926433E1C}">
 			<ObjectPath>play_Machines_LR</ObjectPath>
 			<ShortName>play_Machines_LR</ShortName>
 			<Path>Event/play_Machines_LR.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{904E6DF3-AF3A-DDE5-C21F-2148A8B943B5}</FileHash>
+	<FileHash>{2903F307-F4F1-1FC9-9F33-64958B709C1B}</FileHash>
 </SoundBanksInfo>

@@ -1,6 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	3072229573	play_3d_vehicles			\Default Work Unit\play_3d_vehicles	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4136547178	vehicle_incoming			\Default Work Unit\vehicle_incoming	
+
+Switch	ID	Name	Switch Group			Notes
+	4109362	left	vehicle_incoming			
+	1026627430	middle	vehicle_incoming			
+	3893817417	right	vehicle_incoming			
+
 Effect plug-ins	ID	Name	Type				Notes
 	2437611967	Flanger_Passby	Wwise Flanger			
 

@@ -12,6 +12,13 @@
 						<Switch Name="Metall" ID="{B7ED4B9A-4B06-4D64-AADE-6BA2C084B135}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="vehicle_incoming" ID="{DA80A04C-8E1C-4601-9921-1595DB46FED6}">
+					<ChildrenList>
+						<Switch Name="left" ID="{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"/>
+						<Switch Name="middle" ID="{579F66D9-4306-4834-A236-6822D210C5EF}"/>
+						<Switch Name="right" ID="{378FCFBC-87C4-4A77-8FF4-91806AD7319D}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

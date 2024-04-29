@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{82620295-12B3-452D-A1D6-E9E01EB12EDC}",
     "Language": "SFX",
-    "Hash": "{1C04B705-A8E6-A309-C002-26BE468DADC7}",
+    "Hash": "{6D01AE0B-AB28-AA03-D093-1F27892665C7}",
     "ObjectPath": "play_3d_vehicles",
     "ShortName": "play_3d_vehicles",
     "Path": "Event/play_3d_vehicles.bnk",
@@ -106,44 +106,167 @@
       "Name": "play_3d_vehicles",
       "ObjectPath": "\\Events\\Default Work Unit\\play_3d_vehicles",
       "GUID": "{82620295-12B3-452D-A1D6-E9E01EB12EDC}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
+      "DurationType": "OneShot",
+      "DurationMin": "0.9709657",
+      "DurationMax": "2.765732",
+      "SwitchContainers": [
        {
-        "Id": "140340592"
-       },
-       {
-        "Id": "201026162"
-       },
-       {
-        "Id": "497963844"
-       },
-       {
-        "Id": "628077898"
-       },
-       {
-        "Id": "687131885"
-       },
-       {
-        "Id": "696447882"
-       },
-       {
-        "Id": "753837502"
-       },
-       {
-        "Id": "898409210"
-       }
-      ],
-      "PluginRefs": {
-       "ShareSets": [
-        {
-         "Id": "2437611967"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4136547178",
+         "Id": "3893817417",
+         "GUID": "{378FCFBC-87C4-4A77-8FF4-91806AD7319D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "140340592"
+         },
+         {
+          "Id": "201026162"
+         },
+         {
+          "Id": "497963844"
+         },
+         {
+          "Id": "628077898"
+         },
+         {
+          "Id": "687131885"
+         },
+         {
+          "Id": "696447882"
+         },
+         {
+          "Id": "753837502"
+         },
+         {
+          "Id": "898409210"
+         }
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "2437611967"
+          }
+         ]
         }
-       ]
-      }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4136547178",
+         "Id": "1026627430",
+         "GUID": "{579F66D9-4306-4834-A236-6822D210C5EF}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "140340592"
+         },
+         {
+          "Id": "201026162"
+         },
+         {
+          "Id": "497963844"
+         },
+         {
+          "Id": "628077898"
+         },
+         {
+          "Id": "687131885"
+         },
+         {
+          "Id": "696447882"
+         },
+         {
+          "Id": "753837502"
+         },
+         {
+          "Id": "898409210"
+         }
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "2437611967"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4136547178",
+         "Id": "4109362",
+         "GUID": "{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "140340592"
+         },
+         {
+          "Id": "201026162"
+         },
+         {
+          "Id": "497963844"
+         },
+         {
+          "Id": "628077898"
+         },
+         {
+          "Id": "687131885"
+         },
+         {
+          "Id": "696447882"
+         },
+         {
+          "Id": "753837502"
+         },
+         {
+          "Id": "898409210"
+         }
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "2437611967"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4136547178",
+      "Name": "vehicle_incoming",
+      "ObjectPath": "\\Switches\\Default Work Unit\\vehicle_incoming",
+      "GUID": "{DA80A04C-8E1C-4601-9921-1595DB46FED6}",
+      "Switches": [
+       {
+        "Id": "4109362",
+        "Name": "left",
+        "ObjectPath": "\\Switches\\Default Work Unit\\vehicle_incoming\\left",
+        "GUID": "{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"
+       },
+       {
+        "Id": "1026627430",
+        "Name": "middle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\vehicle_incoming\\middle",
+        "GUID": "{579F66D9-4306-4834-A236-6822D210C5EF}"
+       },
+       {
+        "Id": "3893817417",
+        "Name": "right",
+        "ObjectPath": "\\Switches\\Default Work Unit\\vehicle_incoming\\right",
+        "GUID": "{378FCFBC-87C4-4A77-8FF4-91806AD7319D}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{CA8491EC-38F9-142A-414F-71F748446E3A}"
+  "FileHash": "{7C2C37D3-6664-1FDA-8F42-FA91DF5908CC}"
  }
 }

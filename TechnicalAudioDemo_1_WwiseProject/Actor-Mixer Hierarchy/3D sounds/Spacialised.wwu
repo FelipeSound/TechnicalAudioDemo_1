@@ -127,351 +127,924 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Vehicle_Whooshes" ID="{D2E07C20-5CFF-47CC-ACC8-EFC2C98C9809}" ShortID="979257694">
-							<PropertyList>
-								<Property Name="3DPosition" Type="int16" Value="1"/>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>14</Value>
-									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{3E4D97CC-A020-48BA-AFFF-DAA2A5AD502F}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="9"/>
-													<Property Name="Min" Type="Real64" Value="-10"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>230</Value>
-									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{2029E0B3-0479-410C-8C40-FD57D4BF539E}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="808"/>
-													<Property Name="Min" Type="Real64" Value="-51"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{A621F5AB-C57C-4E91-8682-9BE6A40B810C}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-1"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-7</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<SwitchContainer Name="Vehicle_direction" ID="{D690F0E0-BB52-4D2F-AFE4-93B2AD467E1D}" ShortID="568247231">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="middle" ID="{579F66D9-4306-4834-A236-6822D210C5EF}" WorkUnitID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
 								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="vehicle_incoming" ID="{DA80A04C-8E1C-4601-9921-1595DB46FED6}" WorkUnitID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{F9D1D1E5-93F1-4EBD-892A-54C4DE93EC19}" ShortID="31086046">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{0D0AE8FE-7F71-4FF2-B75B-91A59220418E}">
-											<Language>SFX</Language>
-											<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="497963844"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{0D0AE8FE-7F71-4FF2-B75B-91A59220418E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{670EA723-4270-4DB9-8AB1-5F150B7AF3CF}" ShortID="384864745">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{6175FB1B-DD49-46C2-9D01-862AE71738B5}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="140340592"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{6175FB1B-DD49-46C2-9D01-862AE71738B5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{CDF0BAE8-9807-4B8F-AA5E-6306A42D4ECE}" ShortID="45558939">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{FD7FCFB7-D681-438F-BE5A-3599A94BF06D}">
-											<Language>SFX</Language>
-											<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="628077898"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{FD7FCFB7-D681-438F-BE5A-3599A94BF06D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{4B97BE1C-6931-4FA4-880C-8CFD10131315}" ShortID="149732052">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{78E2AED5-128F-4CFD-B24E-0EC95F4C9695}">
-											<Language>SFX</Language>
-											<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="687131885"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{78E2AED5-128F-4CFD-B24E-0EC95F4C9695}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{2BC9018C-3BCC-4638-AE33-AEEED9F625E6}" ShortID="675779355">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{038CB058-8E86-4E5F-BE36-6674CED33D04}">
-											<Language>SFX</Language>
-											<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="696447882"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{038CB058-8E86-4E5F-BE36-6674CED33D04}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{70EBBA83-AC0C-4476-841C-739F824237DC}" ShortID="1045596257">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{EBC85DA5-14CA-4757-8C8A-EB9F2575A2C4}">
-											<Language>SFX</Language>
-											<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-006.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="201026162"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{EBC85DA5-14CA-4757-8C8A-EB9F2575A2C4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{6027E1AD-4336-4D39-92C8-BA5EE4818EA4}" ShortID="693291782">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{475281EC-82AA-4F1E-B639-24CBDCBD8E88}">
-											<Language>SFX</Language>
-											<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-007.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="898409210"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{475281EC-82AA-4F1E-B639-24CBDCBD8E88}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{F140106F-4266-4E84-B3F4-266993A0736D}" ShortID="813518225">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{729467C1-ED2E-4B15-8E70-0440D83F1BD1}">
-											<Language>SFX</Language>
-											<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-008.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="753837502"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{729467C1-ED2E-4B15-8E70-0440D83F1BD1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<PositioningInfo>
-								<Position Name="" ID="{1D50DEB4-3F40-4E88-B5CE-F91027491967}">
+								<RandomSequenceContainer Name="Vehicle_Whooshes_Middle" ID="{D2E07C20-5CFF-47CC-ACC8-EFC2C98C9809}" ShortID="979257694">
 									<PropertyList>
-										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>14</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3E4D97CC-A020-48BA-AFFF-DAA2A5AD502F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="9"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>230</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2029E0B3-0479-410C-8C40-FD57D4BF539E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="808"/>
+															<Property Name="Min" Type="Real64" Value="-51"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A621F5AB-C57C-4E91-8682-9BE6A40B810C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
-										<Path2D Name="Vehicle_Whooshes_Path" ID="{1F27E4C3-5573-4D09-BAD6-54636F288241}">
-											<PointList>
-												<Point>
-													<XPos>-30.82041</XPos>
-													<YPos>49.35068</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-												<Point>
-													<XPos>72.949</XPos>
-													<YPos>-53.24675</YPos>
-													<Flags>0</Flags>
-													<Time>5000</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-										<Path2D Name="Vehicle_Whooshes_Path_01" ID="{470FD5C2-8359-45FB-B5E7-282BE4BADD9A}">
-											<PointList>
-												<Point>
-													<XPos>22.17295</XPos>
-													<YPos>69.48052</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-												<Point>
-													<XPos>-50.3325942350333</XPos>
-													<YPos>-54.5454545454545</YPos>
-													<Flags>0</Flags>
-													<Time>5000</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-										<Path2D Name="Vehicle_Whooshes_Path_02" ID="{336893BE-43C0-47B9-88FC-012CF90C95B5}">
-											<PointList>
-												<Point>
-													<XPos>0</XPos>
-													<YPos>50</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-												<Point>
-													<XPos>14.41242</XPos>
-													<YPos>-88.74459</YPos>
-													<Flags>0</Flags>
-													<Time>5000</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-										<Path2D Name="Vehicle_Whooshes_Path_04" ID="{846D49CE-5DBC-44BC-9A75-8A9ABF58173D}">
-											<PointList>
-												<Point>
-													<XPos>7.53879</XPos>
-													<YPos>13.63637</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-												<Point>
-													<XPos>-15.29933</XPos>
-													<YPos>3.0303</YPos>
-													<Flags>0</Flags>
-													<Time>2500</Time>
-												</Point>
-												<Point>
-													<XPos>-47.22837</XPos>
-													<YPos>-20.34632</YPos>
-													<Flags>0</Flags>
-													<Time>5000</Time>
-												</Point>
-											</PointList>
-										</Path2D>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{F9D1D1E5-93F1-4EBD-892A-54C4DE93EC19}" ShortID="31086046">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{0D0AE8FE-7F71-4FF2-B75B-91A59220418E}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="497963844"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{0D0AE8FE-7F71-4FF2-B75B-91A59220418E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{670EA723-4270-4DB9-8AB1-5F150B7AF3CF}" ShortID="384864745">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{6175FB1B-DD49-46C2-9D01-862AE71738B5}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="140340592"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{6175FB1B-DD49-46C2-9D01-862AE71738B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{CDF0BAE8-9807-4B8F-AA5E-6306A42D4ECE}" ShortID="45558939">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{FD7FCFB7-D681-438F-BE5A-3599A94BF06D}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="628077898"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{FD7FCFB7-D681-438F-BE5A-3599A94BF06D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{4B97BE1C-6931-4FA4-880C-8CFD10131315}" ShortID="149732052">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{78E2AED5-128F-4CFD-B24E-0EC95F4C9695}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="687131885"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{78E2AED5-128F-4CFD-B24E-0EC95F4C9695}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{2BC9018C-3BCC-4638-AE33-AEEED9F625E6}" ShortID="675779355">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{038CB058-8E86-4E5F-BE36-6674CED33D04}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="696447882"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{038CB058-8E86-4E5F-BE36-6674CED33D04}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{70EBBA83-AC0C-4476-841C-739F824237DC}" ShortID="1045596257">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{EBC85DA5-14CA-4757-8C8A-EB9F2575A2C4}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="201026162"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{EBC85DA5-14CA-4757-8C8A-EB9F2575A2C4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{6027E1AD-4336-4D39-92C8-BA5EE4818EA4}" ShortID="693291782">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{475281EC-82AA-4F1E-B639-24CBDCBD8E88}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="898409210"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{475281EC-82AA-4F1E-B639-24CBDCBD8E88}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{F140106F-4266-4E84-B3F4-266993A0736D}" ShortID="813518225">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{729467C1-ED2E-4B15-8E70-0440D83F1BD1}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="753837502"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{729467C1-ED2E-4B15-8E70-0440D83F1BD1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-								</Position>
-							</PositioningInfo>
-							<ObjectLists>
-								<ObjectList Name="Effects">
-									<Reference>
-										<Local>
-											<EffectSlot Name="" ID="{02CD74F1-4AC0-46F8-8D31-12DA9D60519A}" ShortID="301570368">
-												<ReferenceList>
-													<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
-														<ObjectRef Name="Flanger_Passby" ID="{9C4882C8-387A-492A-ADE7-89F7780E91BF}" WorkUnitID="{8178C475-8D46-486B-8465-B4CB5AA5D033}"/>
-													</Reference>
-												</ReferenceList>
-											</EffectSlot>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</RandomSequenceContainer>
+									<PositioningInfo>
+										<Position Name="" ID="{1D50DEB4-3F40-4E88-B5CE-F91027491967}">
+											<PropertyList>
+												<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Vehicle_Whooshes_Path_02" ID="{336893BE-43C0-47B9-88FC-012CF90C95B5}">
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>82</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>0.41242</XPos>
+															<YPos>-88.74459</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{02CD74F1-4AC0-46F8-8D31-12DA9D60519A}" ShortID="301570368">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+																<ObjectRef Name="Flanger_Passby" ID="{9C4882C8-387A-492A-ADE7-89F7780E91BF}" WorkUnitID="{8178C475-8D46-486B-8465-B4CB5AA5D033}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Vehicle_Whooshes_Right" ID="{E4FB5562-76E7-4DFF-8E8E-D44DBE8A45B5}" ShortID="96208673">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>14</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ACE2FA9A-C6D5-4B47-960A-741F9E629095}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="9"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>230</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{03F36DD4-C288-4E41-ADC9-2FDE75C3268B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="808"/>
+															<Property Name="Min" Type="Real64" Value="-51"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{66078F50-2E20-46BD-A8F5-B3465A0370EC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{17A0C1F2-989F-45A7-AD14-8FB64FF6FBE5}" ShortID="553821144">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{0467C7A1-EC84-4246-8978-01D4592CDC5B}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="497963844"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{0467C7A1-EC84-4246-8978-01D4592CDC5B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{27394BC0-62F9-476B-B22F-6D6AC1FDC36B}" ShortID="665532063">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{A7D76657-1AB5-4E46-B3D8-C779AC1CE5C5}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="140340592"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{A7D76657-1AB5-4E46-B3D8-C779AC1CE5C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{97F276DF-3FE3-424F-8884-57999AD4FAAC}" ShortID="746889814">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{3B4077A8-DF49-43FB-A5F1-42291779F153}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="628077898"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{3B4077A8-DF49-43FB-A5F1-42291779F153}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{1A477C40-14AB-462B-AB30-0344FCD6D687}" ShortID="120623590">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{A7882DD9-8F6D-465C-8F43-7665B3384943}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="687131885"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{A7882DD9-8F6D-465C-8F43-7665B3384943}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{E63B38A2-3BBA-4B4D-8084-A7C237B016E3}" ShortID="339153284">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{6F9A56A3-D1B9-4C4B-BADC-953E60D8F669}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="696447882"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{6F9A56A3-D1B9-4C4B-BADC-953E60D8F669}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{3AC1679C-6AB9-47A2-8A18-1C4D92257FF9}" ShortID="549770848">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{6B48477F-0BBB-48AD-8519-436580B9ACBC}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="201026162"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{6B48477F-0BBB-48AD-8519-436580B9ACBC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{0EF582E1-A6B8-4B48-A35C-36737552BEAE}" ShortID="387730506">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{3131FF17-8BD2-46E5-AC8B-551F1E0157AC}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="898409210"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{3131FF17-8BD2-46E5-AC8B-551F1E0157AC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{BD5B3BF2-9F35-402A-BABF-600DE6FF64A5}" ShortID="1044444213">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{F613B9CA-6510-4B66-9183-CDFFEB3612B1}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="753837502"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{F613B9CA-6510-4B66-9183-CDFFEB3612B1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{56D729C0-9D3A-4144-82EF-F5973B4BDFE0}">
+											<PropertyList>
+												<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Vehicle_Whooshes_Path" ID="{5F5582D7-0829-4F49-B022-BD73225190A3}">
+													<PointList>
+														<Point>
+															<XPos>14.40354</XPos>
+															<YPos>50.41129</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>20.17738</XPos>
+															<YPos>-60.60606</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{2CBB4877-9154-4133-BE1D-E9340D62DF25}" ShortID="491377092">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+																<ObjectRef Name="Flanger_Passby" ID="{9C4882C8-387A-492A-ADE7-89F7780E91BF}" WorkUnitID="{8178C475-8D46-486B-8465-B4CB5AA5D033}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Vehicle_Whooshes_Left" ID="{7353B0BD-E987-4DE7-80D5-443AD45C48CE}" ShortID="737463674">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>14</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AA66C15C-5C7D-4AAC-A082-3177FF7B0DF7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="9"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>230</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7C401884-ADB7-42DA-B5B1-8C5CC30E7638}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="808"/>
+															<Property Name="Min" Type="Real64" Value="-51"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F4266271-A92C-4DE6-9BA8-F807E20C65D4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{2554B123-934C-4F29-AF93-A1DD862AFDA4}" ShortID="110005609">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{5748F73F-9F01-4B00-A702-94851929D7E9}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="497963844"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-001" ID="{5748F73F-9F01-4B00-A702-94851929D7E9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{A97D904C-28E7-4DF1-A8E6-88096CA276EF}" ShortID="1259969">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{9429025D-3FC6-42B1-B85C-0ADFBCF48266}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="140340592"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-002" ID="{9429025D-3FC6-42B1-B85C-0ADFBCF48266}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{3CD812AE-23AC-4B51-8BE2-EACE1BD0FB1E}" ShortID="709516640">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{FF4ED4C3-838E-4BB0-B469-7361ED0A99B5}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="628077898"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-003" ID="{FF4ED4C3-838E-4BB0-B469-7361ED0A99B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{37D6587D-3199-4BCC-A0EE-87C9070AA33A}" ShortID="209515087">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{65CBEB6A-7B8B-4BFC-9CB5-C8D927D1C638}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="687131885"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-004" ID="{65CBEB6A-7B8B-4BFC-9CB5-C8D927D1C638}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{53832E06-CB4A-478E-B60A-FA5E0979CED1}" ShortID="998836478">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{749B4EBC-ADE6-4909-8156-73225DC8E045}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="696447882"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-005" ID="{749B4EBC-ADE6-4909-8156-73225DC8E045}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{14670E2F-29B3-47B3-9266-2DCD3F81F7CA}" ShortID="49101268">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{B71BD810-01C4-4CE9-9120-F8EE26567792}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="201026162"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-006" ID="{B71BD810-01C4-4CE9-9120-F8EE26567792}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{BB0A90C1-81DB-476F-A5FA-6611E04D3AB5}" ShortID="251274467">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{961F3D65-01DE-4196-9759-F3E2C4443EF1}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="898409210"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-007" ID="{961F3D65-01DE-4196-9759-F3E2C4443EF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{720EE52B-C59D-450A-911B-070D377ADFDC}" ShortID="1053329188">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{7CCC3090-78C0-4D3F-8C89-6A6B877D33BA}">
+													<Language>SFX</Language>
+													<AudioFile>3d\Whoosh_SpaceShip_PassBy_Stereo-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="753837502"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Whoosh_SpaceShip_PassBy_Stereo-008" ID="{7CCC3090-78C0-4D3F-8C89-6A6B877D33BA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{8671D3CE-089D-46DB-A228-094C03AB98D5}">
+											<PropertyList>
+												<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Vehicle_Whooshes_Path" ID="{BB681418-2F4E-460D-A6BD-895EB494AC68}">
+													<PointList>
+														<Point>
+															<XPos>-21.82041</XPos>
+															<YPos>41.35068</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-22.051</XPos>
+															<YPos>-37.24675</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{60D903D8-529F-4A8D-B7C5-C87089EA2DD6}" ShortID="254659468">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+																<ObjectRef Name="Flanger_Passby" ID="{9C4882C8-387A-492A-ADE7-89F7780E91BF}" WorkUnitID="{8178C475-8D46-486B-8465-B4CB5AA5D033}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Vehicle_Whooshes_Middle" ID="{D2E07C20-5CFF-47CC-ACC8-EFC2C98C9809}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Vehicle_Whooshes_Right" ID="{E4FB5562-76E7-4DFF-8E8E-D44DBE8A45B5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Vehicle_Whooshes_Left" ID="{7353B0BD-E987-4DE7-80D5-443AD45C48CE}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="right" ID="{378FCFBC-87C4-4A77-8FF4-91806AD7319D}"/>
+										<ItemList>
+											<ItemRef Name="Vehicle_Whooshes_Right" ID="{E4FB5562-76E7-4DFF-8E8E-D44DBE8A45B5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="middle" ID="{579F66D9-4306-4834-A236-6822D210C5EF}"/>
+										<ItemList>
+											<ItemRef Name="Vehicle_Whooshes_Middle" ID="{D2E07C20-5CFF-47CC-ACC8-EFC2C98C9809}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="left" ID="{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"/>
+										<ItemList>
+											<ItemRef Name="Vehicle_Whooshes_Left" ID="{7353B0BD-E987-4DE7-80D5-443AD45C48CE}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

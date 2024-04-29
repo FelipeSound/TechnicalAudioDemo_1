@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1454002101" Type="Event" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" Language="SFX" Hash="{EB7DA5A2-ADB3-9BE5-F183-3E6709216A42}">
+		<SoundBank Id="1454002101" Type="Event" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" Language="SFX" Hash="{D0CF287A-BBAB-228F-66F1-DF1926433E1C}">
 			<ObjectPath>play_Machines_LR</ObjectPath>
 			<ShortName>play_Machines_LR</ShortName>
 			<Path>Event/play_Machines_LR.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{699241C4-CFC0-F0D1-7768-93B0088FB605}</FileHash>
+	<FileHash>{0B74EB10-8B53-3A1D-59C6-92DB5E89A49A}</FileHash>
 </SoundBanksInfo>

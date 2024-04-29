@@ -124,10 +124,36 @@
         "GUID": "{7DE1E764-5516-4782-A92B-1516B6D28B5F}"
        }
       ]
+     },
+     {
+      "Id": "4136547178",
+      "Name": "vehicle_incoming",
+      "ObjectPath": "\\Switches\\Default Work Unit\\vehicle_incoming",
+      "GUID": "{DA80A04C-8E1C-4601-9921-1595DB46FED6}",
+      "Switches": [
+       {
+        "Id": "4109362",
+        "Name": "left",
+        "ObjectPath": "\\Switches\\Default Work Unit\\vehicle_incoming\\left",
+        "GUID": "{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"
+       },
+       {
+        "Id": "1026627430",
+        "Name": "middle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\vehicle_incoming\\middle",
+        "GUID": "{579F66D9-4306-4834-A236-6822D210C5EF}"
+       },
+       {
+        "Id": "3893817417",
+        "Name": "right",
+        "ObjectPath": "\\Switches\\Default Work Unit\\vehicle_incoming\\right",
+        "GUID": "{378FCFBC-87C4-4A77-8FF4-91806AD7319D}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{7C4B71FF-E4A5-F07D-3F17-7ED371431CCC}"
+  "FileHash": "{F4015356-125A-5C82-94E6-DC50A547611F}"
  }
 }
