@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3196045927	dialogue_1			\Default Work Unit\dialogue_1	
+
+External Source	ID	Name			Wwise Object Path	Notes
+	618371124	External_Source			\Dialogue\Dialogue\DialogueMix\MainCharacter_Dialogue\character_dialog\External_Source	
+

@@ -72,6 +72,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="dialogue_1" ID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}">
+					<ChildrenList>
+						<Action Name="" ID="{DE0C9032-CDE1-44A6-B616-3009C79F6A30}" ShortID="594717235">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="character_dialog" ID="{2D648C8E-38A7-46BF-976F-2FD23138AC40}" WorkUnitID="{1F7590B5-7D7B-4169-933C-983C06B6C1D8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

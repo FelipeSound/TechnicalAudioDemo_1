@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3196045927" Type="Event" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" Language="English(US)" Hash="{497FF714-1019-C18D-7C15-83801281C84D}">
+			<ObjectPath>dialogue_1</ObjectPath>
+			<ShortName>dialogue_1</ShortName>
+			<Path>Event/English(US)/dialogue_1.bnk</Path>
+			<ExternalSources>
+				<Source Cookie="618371124" Name="External_Source" ObjectPath="\Actor-Mixer Hierarchy\Dialogue\Dialogue\DialogueMix\MainCharacter_Dialogue\character_dialog\External_Source" GUID="{C1DCFF75-F235-4139-BBF2-5A1F29525F23}"/>
+			</ExternalSources>
+			<Events>
+				<Event Id="3196045927" Name="dialogue_1" ObjectPath="\Events\Default Work Unit\dialogue_1" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" DurationType="Unknown">
+					<ExternalSourceRefs>
+						<ExternalSourceRef Cookie="618371124"/>
+					</ExternalSourceRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6FFC29B9-87BA-B060-BA6A-759D305DE4AA}</FileHash>
+</SoundBanksInfo>

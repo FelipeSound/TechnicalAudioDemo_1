@@ -9,8 +9,8 @@
    "ProjectRoot": "../..",
    "SourceFilesRoot": "../../.cache/Windows",
    "SoundBanksRoot": ".",
-   "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "."
+   "ExternalSourcesInputFile": "../../../Content/WwiseAudio/SourceList/externalSources.wsources",
+   "ExternalSourcesOutputRoot": "../../ExternalSources_Generated"
   },
   "DefaultAlign": "16",
   "Settings": {
@@ -32,6 +32,6 @@
    "PrintObjectGuid": "true",
    "PrintObjectPath": "true"
   },
-  "FileHash": "{A59C4689-5858-251D-17AF-4792D6340093}"
+  "FileHash": "{ED039336-04DF-5A0A-2999-8C5D8A2E5A23}"
  }
 }

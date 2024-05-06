@@ -342,11 +342,26 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="3196045927" Type="Event" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" Language="English(US)" Hash="{497FF714-1019-C18D-7C15-83801281C84D}">
+			<ObjectPath>dialogue_1</ObjectPath>
+			<ShortName>dialogue_1</ShortName>
+			<Path>Event/English(US)/dialogue_1.bnk</Path>
+			<ExternalSources>
+				<Source Cookie="618371124" Name="External_Source" ObjectPath="\Actor-Mixer Hierarchy\Dialogue\Dialogue\DialogueMix\MainCharacter_Dialogue\character_dialog\External_Source" GUID="{C1DCFF75-F235-4139-BBF2-5A1F29525F23}"/>
+			</ExternalSources>
+			<Events>
+				<Event Id="3196045927" Name="dialogue_1" ObjectPath="\Events\Default Work Unit\dialogue_1" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" DurationType="Unknown">
+					<ExternalSourceRefs>
+						<ExternalSourceRef Cookie="618371124"/>
+					</ExternalSourceRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="4072029455" Type="User" GUID="{E63430AE-EA6F-4C31-8C51-F15E484C1A08}" Language="SFX" Hash="{69F36C3D-97DC-4F03-9563-942449F7B9AB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{47E5B017-0634-3897-E79A-7B5FAB0F4CD7}</FileHash>
+	<FileHash>{1CA879D8-F088-CFBF-E010-3432082F3FB7}</FileHash>
 </SoundBanksInfo>

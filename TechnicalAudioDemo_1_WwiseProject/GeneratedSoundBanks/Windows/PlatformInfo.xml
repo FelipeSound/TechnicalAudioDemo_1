@@ -5,8 +5,8 @@
 		<ProjectRoot>../..</ProjectRoot>
 		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
-		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+		<ExternalSourcesInputFile>../../../Content/WwiseAudio/SourceList/externalSources.wsources</ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../ExternalSources_Generated</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>true</PrintObjectGuid>
 		<PrintObjectPath>true</PrintObjectPath>
 	</Settings>
-	<FileHash>{2A0E241C-4D79-EC0B-5C98-DA8F2C358046}</FileHash>
+	<FileHash>{1367F3FD-B61C-1188-5036-26FB497218ED}</FileHash>
 </PlatformInfo>
