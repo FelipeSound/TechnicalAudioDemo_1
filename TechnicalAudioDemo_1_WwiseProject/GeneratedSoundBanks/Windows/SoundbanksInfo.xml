@@ -5,7 +5,7 @@
 		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile>../../../Content/WwiseAudio/SourceList/externalSources.wsources</ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../ExternalSources_Generated</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../Content/WwiseAudio/ExternalSources_Generated</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
@@ -363,5 +363,5 @@
 			<Path>New_SoundBank.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F506B206-1DAF-03F3-6144-82EA6855E2AE}</FileHash>
+	<FileHash>{8920BB4B-9789-F2CD-9B03-4EA0CC7DF8B0}</FileHash>
 </SoundBanksInfo>

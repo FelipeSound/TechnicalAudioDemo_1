@@ -9,7 +9,7 @@
    "SourceFilesRoot": "../../.cache/Windows",
    "SoundBanksRoot": ".",
    "ExternalSourcesInputFile": "../../../Content/WwiseAudio/SourceList/externalSources.wsources",
-   "ExternalSourcesOutputRoot": "../../ExternalSources_Generated"
+   "ExternalSourcesOutputRoot": "../../../Content/WwiseAudio/ExternalSources_Generated"
   },
   "DialogueEvents": [],
   "SoundBanks": [
@@ -799,6 +799,6 @@
     "Path": "New_SoundBank.bnk"
    }
   ],
-  "FileHash": "{9AB87A82-A7B0-2671-27C6-22B732B58A34}"
+  "FileHash": "{02834489-890F-D204-543B-199F88D36B59}"
  }
 }

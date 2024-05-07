@@ -23,7 +23,7 @@
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
-						<Value Platform="Windows">C:\Users\felip\OneDrive\Documents\Unreal Projects\TechnicalAudioDemo_1\TechnicalAudioDemo_1_WwiseProject\ExternalSources_Generated</Value>
+						<Value Platform="Windows">C:\Users\felip\OneDrive\Documents\Unreal Projects\TechnicalAudioDemo_1\Content\WwiseAudio\ExternalSources_Generated\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
