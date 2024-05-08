@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{165EF3AD-CC61-47F7-83DA-F57D7AC730EA}" SchemaVersion="119">
 	<AudioObjects>
 		<WorkUnit Name="npc_motion" ID="{165EF3AD-CC61-47F7-83DA-F57D7AC730EA}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Sound Name="Engine_Loop" ID="{91D95482-CED9-47CC-AA9F-916C7B98C66F}" ShortID="1019967091">
 					<PropertyList>
