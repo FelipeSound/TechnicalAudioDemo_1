@@ -17,4 +17,5 @@ Copyright (c) 2024 Audiokinetic Inc.
 
 #if PLATFORM_TVOS
 #include <AK/Plugin/AkFlangerFXFactory.h>
+#include <AK/Plugin/AkTimeStretchFXFactory.h>
 #endif

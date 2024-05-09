@@ -11870,7 +11870,12 @@
 					<WorkUnit Name="NPCs" ID="{8C68415B-1F23-423A-B068-80B7B8CE7E2A}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\UI">
-					<WorkUnit Name="UI" ID="{EC12D7B5-817B-4F4C-BB4C-67022C5B947C}" PersistMode="Standalone"/>
+					<WorkUnit Name="UI" ID="{EC12D7B5-817B-4F4C-BB4C-67022C5B947C}" PersistMode="Standalone">
+						<PropertyList>
+							<Property Name="Color" Type="int16" Value="3"/>
+							<Property Name="OverrideColor" Type="bool" Value="True"/>
+						</PropertyList>
+					</WorkUnit>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>

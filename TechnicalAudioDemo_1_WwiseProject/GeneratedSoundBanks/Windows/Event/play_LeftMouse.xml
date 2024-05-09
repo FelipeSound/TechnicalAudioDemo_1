@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2693973154" Type="Event" GUID="{478E0E86-C9DB-4FEA-9DD7-E544FAA8D5B6}" Language="SFX" Hash="{979B0B40-D133-BEEC-1FF9-B92B49288D16}">
+		<SoundBank Id="2693973154" Type="Event" GUID="{478E0E86-C9DB-4FEA-9DD7-E544FAA8D5B6}" Language="SFX" Hash="{D80B8D89-8EFD-9481-33F6-F9093A8B45E8}">
 			<ObjectPath>play_LeftMouse</ObjectPath>
 			<ShortName>play_LeftMouse</ShortName>
 			<Path>Event/play_LeftMouse.bnk</Path>
@@ -17,6 +17,11 @@
 					<CachePath>SFX/Soundly Voice Designer, Carter 2_LeftMouse_818F3B66.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="243807965" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\Accessibility\[Effect Slot [0]: (Time Stretch)]\Time Stretch (Custom)" GUID="{69BE9D56-C47C-47ED-8002-6403E799CC09}" LibName="Wwise Time Stretch" LibId="8519683"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="2693973154" Name="play_LeftMouse" ObjectPath="\Events\Default Work Unit\Accessibility\play_LeftMouse" GUID="{478E0E86-C9DB-4FEA-9DD7-E544FAA8D5B6}" DurationType="OneShot" DurationMin="2.5170624" DurationMax="2.602521">
 					<SwitchContainers>
@@ -25,16 +30,29 @@
 							<MediaRefs>
 								<MediaRef Id="374404574"/>
 							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="243807965"/>
+								</Custom>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="4243229216" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
 							<MediaRefs>
 								<MediaRef Id="167130513"/>
 							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="243807965"/>
+								</Custom>
+							</PluginRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="2831153469" Name="Accessibility_VoiceSpeed" ObjectPath="\Game Parameters\Default Work Unit\Accessibility_VoiceSpeed" GUID="{B0DAF7F3-A80B-4DB2-9EE0-180CAA0C3E1D}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3182480512" Name="voice_switch" ObjectPath="\Switches\Default Work Unit\voice_switch" GUID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
 					<Switches>
@@ -45,5 +63,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{41311FF7-614A-AA83-F18A-81A30E898211}</FileHash>
+	<FileHash>{CF35C1AA-2D77-0179-16D0-BE25B9EC9B4E}</FileHash>
 </SoundBanksInfo>

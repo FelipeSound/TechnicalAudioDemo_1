@@ -8,3 +8,9 @@ Switch	ID	Name	Switch Group			Notes
 	2143576054	Carter	voice_switch			
 	4243229216	Chloe	voice_switch			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2831153469	Accessibility_VoiceSpeed			\Default Work Unit\Accessibility_VoiceSpeed	
+
+Effect plug-ins	ID	Name	Type				Notes
+	243807965	Time Stretch (Custom)	Wwise Time Stretch			
+

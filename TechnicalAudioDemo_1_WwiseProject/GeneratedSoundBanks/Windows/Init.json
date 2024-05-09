@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{79A195D9-E626-CE62-14B0-7A16A215542A}",
+    "Hash": "{263A9DFB-15A4-85FD-33DF-3432D6F7B305}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -72,6 +72,12 @@
       "Name": "Distance_2000cm",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_2000cm",
       "GUID": "{BEF63D22-0E68-480D-8425-3944122F867E}"
+     },
+     {
+      "Id": "2831153469",
+      "Name": "Accessibility_VoiceSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Accessibility_VoiceSpeed",
+      "GUID": "{B0DAF7F3-A80B-4DB2-9EE0-180CAA0C3E1D}"
      },
      {
       "Id": "2925587597",
@@ -180,6 +186,6 @@
     ]
    }
   ],
-  "FileHash": "{E638007E-5074-E317-FF87-277B9DC18D7C}"
+  "FileHash": "{4DDE7D88-801E-3010-76AD-1A55468BCC1F}"
  }
 }

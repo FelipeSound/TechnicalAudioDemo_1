@@ -587,6 +587,72 @@
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{A49A0EC0-C431-4FB6-8304-C4107765EA69}" ShortID="83953182">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Time Stretch (Custom)" ID="{69BE9D56-C47C-47ED-8002-6403E799CC09}" ShortID="243807965" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<PropertyList>
+															<Property Name="QualityEnable" Type="int16" Value="1"/>
+															<Property Name="TimeStretch" Type="Real32" Value="61"/>
+														</PropertyList>
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{CB3A3359-3F85-4356-AD7B-E1CE32F12F8C}" ShortID="705063147">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Accessibility_VoiceSpeed" ID="{B0DAF7F3-A80B-4DB2-9EE0-180CAA0C3E1D}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{10D27962-8F7C-4A26-A593-C479A978657A}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>210.29416</YPos>
+																									<Flags>5</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>0.5</XPos>
+																									<YPos>100</YPos>
+																									<Flags>0</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>1</XPos>
+																									<YPos>25</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
