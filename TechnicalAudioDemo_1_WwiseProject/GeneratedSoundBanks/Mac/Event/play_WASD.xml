@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1236949051" Type="Event" GUID="{8E6F2E1D-EA56-4DDA-A152-11F8B9E71118}" Language="SFX" Hash="{EE5C43A8-CFCA-14A8-B691-1F3D8A6F4826}">
+		<SoundBank Id="1236949051" Type="Event" GUID="{8E6F2E1D-EA56-4DDA-A152-11F8B9E71118}" Language="SFX" Hash="{CC840214-BAEA-1EB9-C6AD-0134C7B80A71}">
 			<ObjectPath>play_WASD</ObjectPath>
 			<ShortName>play_WASD</ShortName>
 			<Path>Event/play_WASD.bnk</Path>
@@ -17,6 +17,11 @@
 					<CachePath>SFX/Soundly Voice Designer, Chloe 3_WASD_818F3B66.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="243807965" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\Accessibility\[Effect Slot [0]: (Time Stretch)]\Time Stretch (Custom)" GUID="{69BE9D56-C47C-47ED-8002-6403E799CC09}" LibName="Wwise Time Stretch" LibId="8519683"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="1236949051" Name="play_WASD" ObjectPath="\Events\Default Work Unit\Accessibility\play_WASD" GUID="{8E6F2E1D-EA56-4DDA-A152-11F8B9E71118}" DurationType="OneShot" DurationMin="8.387646" DurationMax="8.633271">
 					<SwitchContainers>
@@ -25,16 +30,29 @@
 							<MediaRefs>
 								<MediaRef Id="293000065"/>
 							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="243807965"/>
+								</Custom>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="4243229216" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
 							<MediaRefs>
 								<MediaRef Id="938746060"/>
 							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="243807965"/>
+								</Custom>
+							</PluginRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="2831153469" Name="Accessibility_VoiceSpeed" ObjectPath="\Game Parameters\Default Work Unit\Accessibility_VoiceSpeed" GUID="{B0DAF7F3-A80B-4DB2-9EE0-180CAA0C3E1D}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3182480512" Name="voice_switch" ObjectPath="\Switches\Default Work Unit\voice_switch" GUID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
 					<Switches>
@@ -45,5 +63,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3F6DE907-2046-147D-2B6D-ED61EA26DA96}</FileHash>
+	<FileHash>{AE23181F-F646-F722-3591-15BA3015ED06}</FileHash>
 </SoundBanksInfo>

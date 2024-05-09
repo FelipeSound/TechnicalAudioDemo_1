@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C7C7AE9F-D9E9-4EE1-BBAF-688C323DF86E}",
     "Language": "SFX",
-    "Hash": "{DA01C5F4-5066-28D8-5267-98B485D6B953}",
+    "Hash": "{7A95FA47-5D05-1061-FF81-9FD3B70DFE66}",
     "ObjectPath": "play_pressE",
     "ShortName": "play_pressE",
     "Path": "Event/play_pressE.bnk",
@@ -34,6 +34,18 @@
       "CachePath": "SFX/Soundly Voice Designer, Chloe 2_pressE_818F3B66.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "243807965",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\Accessibility\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{69BE9D56-C47C-47ED-8002-6403E799CC09}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "4163557712",
@@ -55,7 +67,14 @@
          {
           "Id": "560275138"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "243807965"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -68,9 +87,24 @@
          {
           "Id": "608328131"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "243807965"
+          }
+         ]
+        }
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2831153469",
+      "Name": "Accessibility_VoiceSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Accessibility_VoiceSpeed",
+      "GUID": "{B0DAF7F3-A80B-4DB2-9EE0-180CAA0C3E1D}"
      }
     ],
     "SwitchGroups": [
@@ -97,6 +131,6 @@
     ]
    }
   ],
-  "FileHash": "{5352BE63-B13B-14E3-77A3-69535BDBF64B}"
+  "FileHash": "{CE057E5D-DCAD-B60C-AD19-6F612EE85D3B}"
  }
 }

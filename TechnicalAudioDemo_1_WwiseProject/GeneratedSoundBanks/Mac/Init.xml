@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{3160A95F-912C-C3C6-6B61-A44AAAB141FB}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{8F86A587-F5D7-A9E7-D237-CB17BB701102}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -20,6 +20,7 @@
 				<GameParameter Id="1181406953" Name="Distance_10m" ObjectPath="\Game Parameters\Default Work Unit\Distance_10m" GUID="{03DFE036-B24C-4B4A-9AC9-04D020E6023A}"/>
 				<GameParameter Id="1289178653" Name="Distance_250m" ObjectPath="\Game Parameters\Default Work Unit\Distance_250m" GUID="{23AB3CA2-AC07-4B53-A76C-E869E64F2B6A}"/>
 				<GameParameter Id="1304350001" Name="Distance_2000cm" ObjectPath="\Game Parameters\Default Work Unit\Distance_2000cm" GUID="{BEF63D22-0E68-480D-8425-3944122F867E}"/>
+				<GameParameter Id="2831153469" Name="Accessibility_VoiceSpeed" ObjectPath="\Game Parameters\Default Work Unit\Accessibility_VoiceSpeed" GUID="{B0DAF7F3-A80B-4DB2-9EE0-180CAA0C3E1D}"/>
 				<GameParameter Id="2925587597" Name="Distance_50m" ObjectPath="\Game Parameters\Default Work Unit\Distance_50m" GUID="{7C73F6D7-16B6-4C21-87E1-C183C818F7A3}"/>
 				<GameParameter Id="3094496655" Name="Distance_200" ObjectPath="\Game Parameters\Default Work Unit\Distance_200" GUID="{758C5DD1-8881-46AB-9397-3764E81F97C2}"/>
 				<GameParameter Id="3467608380" Name="Disctance_100m" ObjectPath="\Game Parameters\Default Work Unit\Disctance_100m" GUID="{1359DE8B-C4FD-4437-A829-D4D2FDC1DE4B}"/>
@@ -50,5 +51,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AD80FEF9-660C-9C78-EC80-74E3F4E633AC}</FileHash>
+	<FileHash>{8B9BDC3B-4CAD-7F1D-6EC8-BD14FC125BBE}</FileHash>
 </SoundBanksInfo>

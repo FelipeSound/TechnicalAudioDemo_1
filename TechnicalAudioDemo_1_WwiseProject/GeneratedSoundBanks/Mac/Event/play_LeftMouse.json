@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{478E0E86-C9DB-4FEA-9DD7-E544FAA8D5B6}",
     "Language": "SFX",
-    "Hash": "{979B0B40-D133-BEEC-1FF9-B92B49288D16}",
+    "Hash": "{D80B8D89-8EFD-9481-33F6-F9093A8B45E8}",
     "ObjectPath": "play_LeftMouse",
     "ShortName": "play_LeftMouse",
     "Path": "Event/play_LeftMouse.bnk",
@@ -34,6 +34,18 @@
       "CachePath": "SFX/Soundly Voice Designer, Carter 2_LeftMouse_818F3B66.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "243807965",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\Accessibility\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{69BE9D56-C47C-47ED-8002-6403E799CC09}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "2693973154",
@@ -55,7 +67,14 @@
          {
           "Id": "374404574"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "243807965"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -68,9 +87,24 @@
          {
           "Id": "167130513"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "243807965"
+          }
+         ]
+        }
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2831153469",
+      "Name": "Accessibility_VoiceSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Accessibility_VoiceSpeed",
+      "GUID": "{B0DAF7F3-A80B-4DB2-9EE0-180CAA0C3E1D}"
      }
     ],
     "SwitchGroups": [
@@ -97,6 +131,6 @@
     ]
    }
   ],
-  "FileHash": "{5F55CA95-6645-90F1-C7DF-083146A520CF}"
+  "FileHash": "{B73901F6-BE8C-512E-4369-7066BAB19CE3}"
  }
 }

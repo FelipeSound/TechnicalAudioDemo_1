@@ -2,8 +2,9 @@
 <PluginInfo Platform="Mac" BasePlatform="Mac">
 	<PluginLibs>
 		<PluginLib LibName="Wwise Flanger" LibId="8192003" Type="Effect" DLL="AkFlanger" StaticLib="AkFlangerFX"/>
+		<PluginLib LibName="Wwise Time Stretch" LibId="8519683" Type="Effect" DLL="AkTimeStretch" StaticLib="AkTimeStretchFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{355FEC0D-5293-FB9C-3D63-04462CF4F7B0}</FileHash>
+	<FileHash>{26C5CCCF-82B0-28DE-AAAC-59DA45D510FF}</FileHash>
 </PluginInfo>
