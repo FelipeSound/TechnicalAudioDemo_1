@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1774933973" Type="Event" GUID="{126560E8-C882-462B-A125-BBFD8B9CA8B3}" Language="SFX" Hash="{312B0BB0-831E-4762-B1A0-EB7A5BD39480}">
+			<ObjectPath>play_RightMouse</ObjectPath>
+			<ShortName>play_RightMouse</ShortName>
+			<Path>Event/play_RightMouse.bnk</Path>
+			<Media>
+				<File Id="124859620" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Carter 3_RMouse.wav</ShortName>
+					<Path>Media/124859620.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Carter 3_RMouse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="673626243" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Chloe 1_RightMouse.wav</ShortName>
+					<Path>Media/673626243.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Chloe 1_RightMouse_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1774933973" Name="play_RightMouse" ObjectPath="\Events\Default Work Unit\Accessibility\play_RightMouse" GUID="{126560E8-C882-462B-A125-BBFD8B9CA8B3}" DurationType="OneShot" DurationMin="4.051875" DurationMax="4.0526457">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="2143576054" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+							<MediaRefs>
+								<MediaRef Id="124859620"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="4243229216" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+							<MediaRefs>
+								<MediaRef Id="673626243"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3182480512" Name="voice_switch" ObjectPath="\Switches\Default Work Unit\voice_switch" GUID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
+					<Switches>
+						<Switch Id="2143576054" Name="Carter" ObjectPath="\Switches\Default Work Unit\voice_switch\Carter" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+						<Switch Id="4243229216" Name="Chloe" ObjectPath="\Switches\Default Work Unit\voice_switch\Chloe" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3100DA80-FBE4-7568-F4F7-479343D7484E}</FileHash>
+</SoundBanksInfo>

@@ -19,6 +19,12 @@
 						<Switch Name="right" ID="{378FCFBC-87C4-4A77-8FF4-91806AD7319D}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="voice_switch" ID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
+					<ChildrenList>
+						<Switch Name="Chloe" ID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+						<Switch Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

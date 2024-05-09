@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4163557712	play_pressE			\Default Work Unit\Accessibility\play_pressE	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3182480512	voice_switch			\Default Work Unit\voice_switch	
+
+Switch	ID	Name	Switch Group			Notes
+	2143576054	Carter	voice_switch			
+	4243229216	Chloe	voice_switch			
+

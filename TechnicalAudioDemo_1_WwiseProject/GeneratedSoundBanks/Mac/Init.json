@@ -132,6 +132,26 @@
       ]
      },
      {
+      "Id": "3182480512",
+      "Name": "voice_switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\voice_switch",
+      "GUID": "{347F538E-9F0B-4FB5-B882-34B4129679A6}",
+      "Switches": [
+       {
+        "Id": "2143576054",
+        "Name": "Carter",
+        "ObjectPath": "\\Switches\\Default Work Unit\\voice_switch\\Carter",
+        "GUID": "{3909450E-36D7-4BE9-ADED-241B5C143CEA}"
+       },
+       {
+        "Id": "4243229216",
+        "Name": "Chloe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\voice_switch\\Chloe",
+        "GUID": "{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"
+       }
+      ]
+     },
+     {
       "Id": "4136547178",
       "Name": "vehicle_incoming",
       "ObjectPath": "\\Switches\\Default Work Unit\\vehicle_incoming",
@@ -160,6 +180,6 @@
     ]
    }
   ],
-  "FileHash": "{2A8ADCC7-CA66-38AE-2379-B883645A7A0C}"
+  "FileHash": "{49A7F562-5E48-38FF-1CB1-6B7D6A2A7BB5}"
  }
 }

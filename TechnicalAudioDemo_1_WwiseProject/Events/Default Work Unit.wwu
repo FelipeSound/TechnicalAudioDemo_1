@@ -83,6 +83,69 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Accessibility" ID="{B45DBC41-3CB7-4FF9-BB6D-DF089847F9D4}" ShortID="1036867049">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="play_LeftMouse" ID="{478E0E86-C9DB-4FEA-9DD7-E544FAA8D5B6}">
+							<ChildrenList>
+								<Action Name="" ID="{786F72F0-3304-4DD4-99D2-56A6E4232FC5}" ShortID="324456577">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LeftMouse_switchContainer" ID="{08D12467-C1AB-49D4-82A9-7811F502AD8E}" WorkUnitID="{90B187AA-4204-487C-A830-B1C8C5BC1603}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_RightMouse" ID="{126560E8-C882-462B-A125-BBFD8B9CA8B3}">
+							<ChildrenList>
+								<Action Name="" ID="{F2485E4D-4EA7-4A2F-A25D-C2DF085189A2}" ShortID="736975169">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RightMouse_switchContainer" ID="{BB3C5ACC-763F-4E61-942B-B83C4B3E8FB7}" WorkUnitID="{90B187AA-4204-487C-A830-B1C8C5BC1603}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_pressE" ID="{C7C7AE9F-D9E9-4EE1-BBAF-688C323DF86E}">
+							<ChildrenList>
+								<Action Name="" ID="{15589550-9908-43C3-A36F-CB18EE21EBBA}" ShortID="109708094">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pressE_switchContainer" ID="{36FF826A-9EB6-4714-B173-3CA7E2A59BF4}" WorkUnitID="{90B187AA-4204-487C-A830-B1C8C5BC1603}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_WASD" ID="{8E6F2E1D-EA56-4DDA-A152-11F8B9E71118}">
+							<ChildrenList>
+								<Action Name="" ID="{F8BAD0A2-CADF-4C2C-BA5E-4AC4F6F2D895}" ShortID="105625423">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WASD_switchContainer" ID="{2ED61214-F946-47C7-A158-681050FCB84B}" WorkUnitID="{90B187AA-4204-487C-A830-B1C8C5BC1603}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_press_X" ID="{4EAFC289-95B8-4517-9110-BB7094BE9D69}">
+							<ChildrenList>
+								<Action Name="" ID="{8F833630-E821-4C4F-8490-B358936CBFFE}" ShortID="140568367">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="press_X_switchContainer" ID="{58EBC5D0-4535-4C07-9C8D-783668982612}" WorkUnitID="{90B187AA-4204-487C-A830-B1C8C5BC1603}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

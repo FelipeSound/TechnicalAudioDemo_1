@@ -1,0 +1,102 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1236949051",
+    "Type": "Event",
+    "GUID": "{8E6F2E1D-EA56-4DDA-A152-11F8B9E71118}",
+    "Language": "SFX",
+    "Hash": "{EE5C43A8-CFCA-14A8-B691-1F3D8A6F4826}",
+    "ObjectPath": "play_WASD",
+    "ShortName": "play_WASD",
+    "Path": "Event/play_WASD.bnk",
+    "Media": [
+     {
+      "Id": "293000065",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Soundly Voice Designer, Carter 5_WASD.wav",
+      "Path": "Media/293000065.wem",
+      "CachePath": "SFX/Soundly Voice Designer, Carter 5_WASD_818F3B66.wem"
+     },
+     {
+      "Id": "938746060",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Soundly Voice Designer, Chloe 3_WASD.wav",
+      "Path": "Media/938746060.wem",
+      "CachePath": "SFX/Soundly Voice Designer, Chloe 3_WASD_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1236949051",
+      "Name": "play_WASD",
+      "ObjectPath": "\\Events\\Default Work Unit\\Accessibility\\play_WASD",
+      "GUID": "{8E6F2E1D-EA56-4DDA-A152-11F8B9E71118}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.387646",
+      "DurationMax": "8.633271",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3182480512",
+         "Id": "2143576054",
+         "GUID": "{3909450E-36D7-4BE9-ADED-241B5C143CEA}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "293000065"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3182480512",
+         "Id": "4243229216",
+         "GUID": "{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "938746060"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3182480512",
+      "Name": "voice_switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\voice_switch",
+      "GUID": "{347F538E-9F0B-4FB5-B882-34B4129679A6}",
+      "Switches": [
+       {
+        "Id": "2143576054",
+        "Name": "Carter",
+        "ObjectPath": "\\Switches\\Default Work Unit\\voice_switch\\Carter",
+        "GUID": "{3909450E-36D7-4BE9-ADED-241B5C143CEA}"
+       },
+       {
+        "Id": "4243229216",
+        "Name": "Chloe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\voice_switch\\Chloe",
+        "GUID": "{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0BFD61E4-56E9-88EB-A598-AE99D13414E5}"
+ }
+}

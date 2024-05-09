@@ -9,6 +9,49 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="359940518" Type="Event" GUID="{4EAFC289-95B8-4517-9110-BB7094BE9D69}" Language="SFX" Hash="{6230EAA0-5D76-A59A-E21B-A617A5DCD8B1}">
+			<ObjectPath>play_press_X</ObjectPath>
+			<ShortName>play_press_X</ShortName>
+			<Path>Event/play_press_X.bnk</Path>
+			<Media>
+				<File Id="50382941" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Chloe 4_pressX.wav</ShortName>
+					<Path>Media/50382941.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Chloe 4_pressX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="618482312" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Carter 7_pressX.wav</ShortName>
+					<Path>Media/618482312.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Carter 7_pressX_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="359940518" Name="play_press_X" ObjectPath="\Events\Default Work Unit\Accessibility\play_press_X" GUID="{4EAFC289-95B8-4517-9110-BB7094BE9D69}" DurationType="OneShot" DurationMin="3.982771" DurationMax="4.154896">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="2143576054" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+							<MediaRefs>
+								<MediaRef Id="618482312"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="4243229216" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+							<MediaRefs>
+								<MediaRef Id="50382941"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3182480512" Name="voice_switch" ObjectPath="\Switches\Default Work Unit\voice_switch" GUID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
+					<Switches>
+						<Switch Id="2143576054" Name="Carter" ObjectPath="\Switches\Default Work Unit\voice_switch\Carter" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+						<Switch Id="4243229216" Name="Chloe" ObjectPath="\Switches\Default Work Unit\voice_switch\Chloe" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
 		<SoundBank Id="386634130" Type="Event" GUID="{E33B9C70-1767-4C29-A460-CEEBE9582D72}" Language="SFX" Hash="{C52F3C22-12BB-F4EE-E5EE-3C23695C9D2A}">
 			<ObjectPath>GuitarIntro_Stop</ObjectPath>
 			<ShortName>GuitarIntro_Stop</ShortName>
@@ -16,6 +59,49 @@
 			<Events>
 				<Event Id="386634130" Name="GuitarIntro_Stop" ObjectPath="\Events\Default Work Unit\GuitarIntro_Stop" GUID="{E33B9C70-1767-4C29-A460-CEEBE9582D72}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+		</SoundBank>
+		<SoundBank Id="1236949051" Type="Event" GUID="{8E6F2E1D-EA56-4DDA-A152-11F8B9E71118}" Language="SFX" Hash="{EE5C43A8-CFCA-14A8-B691-1F3D8A6F4826}">
+			<ObjectPath>play_WASD</ObjectPath>
+			<ShortName>play_WASD</ShortName>
+			<Path>Event/play_WASD.bnk</Path>
+			<Media>
+				<File Id="293000065" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Carter 5_WASD.wav</ShortName>
+					<Path>Media/293000065.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Carter 5_WASD_818F3B66.wem</CachePath>
+				</File>
+				<File Id="938746060" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Chloe 3_WASD.wav</ShortName>
+					<Path>Media/938746060.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Chloe 3_WASD_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1236949051" Name="play_WASD" ObjectPath="\Events\Default Work Unit\Accessibility\play_WASD" GUID="{8E6F2E1D-EA56-4DDA-A152-11F8B9E71118}" DurationType="OneShot" DurationMin="8.387646" DurationMax="8.633271">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="2143576054" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+							<MediaRefs>
+								<MediaRef Id="293000065"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="4243229216" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+							<MediaRefs>
+								<MediaRef Id="938746060"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3182480512" Name="voice_switch" ObjectPath="\Switches\Default Work Unit\voice_switch" GUID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
+					<Switches>
+						<Switch Id="2143576054" Name="Carter" ObjectPath="\Switches\Default Work Unit\voice_switch\Carter" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+						<Switch Id="4243229216" Name="Chloe" ObjectPath="\Switches\Default Work Unit\voice_switch\Chloe" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{3160A95F-912C-C3C6-6B61-A44AAAB141FB}">
 			<ObjectPath>Init</ObjectPath>
@@ -48,6 +134,12 @@
 						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\Ground_Materials\Carpet" GUID="{1E25A2FC-A699-48F4-9C44-D0D56D510E08}"/>
 						<Switch Id="3725073853" Name="Cement" ObjectPath="\Switches\Default Work Unit\Ground_Materials\Cement" GUID="{FA83EA79-BEC2-4A51-A618-16BDB6D16790}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Ground_Materials\Grass" GUID="{7DE1E764-5516-4782-A92B-1516B6D28B5F}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3182480512" Name="voice_switch" ObjectPath="\Switches\Default Work Unit\voice_switch" GUID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
+					<Switches>
+						<Switch Id="2143576054" Name="Carter" ObjectPath="\Switches\Default Work Unit\voice_switch\Carter" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+						<Switch Id="4243229216" Name="Chloe" ObjectPath="\Switches\Default Work Unit\voice_switch\Chloe" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="4136547178" Name="vehicle_incoming" ObjectPath="\Switches\Default Work Unit\vehicle_incoming" GUID="{DA80A04C-8E1C-4601-9921-1595DB46FED6}">
@@ -118,6 +210,92 @@
 			<GameParameters>
 				<GameParameter Id="270201265" Name="Distance_1m" ObjectPath="\Game Parameters\Default Work Unit\Distance_1m" GUID="{55C1A90C-AEAD-40DA-BEAB-4D0FB5AE2663}"/>
 			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1774933973" Type="Event" GUID="{126560E8-C882-462B-A125-BBFD8B9CA8B3}" Language="SFX" Hash="{312B0BB0-831E-4762-B1A0-EB7A5BD39480}">
+			<ObjectPath>play_RightMouse</ObjectPath>
+			<ShortName>play_RightMouse</ShortName>
+			<Path>Event/play_RightMouse.bnk</Path>
+			<Media>
+				<File Id="124859620" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Carter 3_RMouse.wav</ShortName>
+					<Path>Media/124859620.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Carter 3_RMouse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="673626243" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Chloe 1_RightMouse.wav</ShortName>
+					<Path>Media/673626243.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Chloe 1_RightMouse_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1774933973" Name="play_RightMouse" ObjectPath="\Events\Default Work Unit\Accessibility\play_RightMouse" GUID="{126560E8-C882-462B-A125-BBFD8B9CA8B3}" DurationType="OneShot" DurationMin="4.051875" DurationMax="4.0526457">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="2143576054" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+							<MediaRefs>
+								<MediaRef Id="124859620"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="4243229216" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+							<MediaRefs>
+								<MediaRef Id="673626243"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3182480512" Name="voice_switch" ObjectPath="\Switches\Default Work Unit\voice_switch" GUID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
+					<Switches>
+						<Switch Id="2143576054" Name="Carter" ObjectPath="\Switches\Default Work Unit\voice_switch\Carter" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+						<Switch Id="4243229216" Name="Chloe" ObjectPath="\Switches\Default Work Unit\voice_switch\Chloe" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2693973154" Type="Event" GUID="{478E0E86-C9DB-4FEA-9DD7-E544FAA8D5B6}" Language="SFX" Hash="{979B0B40-D133-BEEC-1FF9-B92B49288D16}">
+			<ObjectPath>play_LeftMouse</ObjectPath>
+			<ShortName>play_LeftMouse</ShortName>
+			<Path>Event/play_LeftMouse.bnk</Path>
+			<Media>
+				<File Id="167130513" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Chloe_leftMouse.wav</ShortName>
+					<Path>Media/167130513.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Chloe_leftMouse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="374404574" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Carter 2_LeftMouse.wav</ShortName>
+					<Path>Media/374404574.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Carter 2_LeftMouse_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2693973154" Name="play_LeftMouse" ObjectPath="\Events\Default Work Unit\Accessibility\play_LeftMouse" GUID="{478E0E86-C9DB-4FEA-9DD7-E544FAA8D5B6}" DurationType="OneShot" DurationMin="2.5170624" DurationMax="2.602521">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="2143576054" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+							<MediaRefs>
+								<MediaRef Id="374404574"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="4243229216" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+							<MediaRefs>
+								<MediaRef Id="167130513"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3182480512" Name="voice_switch" ObjectPath="\Switches\Default Work Unit\voice_switch" GUID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
+					<Switches>
+						<Switch Id="2143576054" Name="Carter" ObjectPath="\Switches\Default Work Unit\voice_switch\Carter" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+						<Switch Id="4243229216" Name="Chloe" ObjectPath="\Switches\Default Work Unit\voice_switch\Chloe" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{090F98A3-61AF-9FA9-D3C7-CBEFDD3DDF63}">
 			<ObjectPath>play_drone_engine</ObjectPath>
@@ -362,6 +540,49 @@
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="4163557712" Type="Event" GUID="{C7C7AE9F-D9E9-4EE1-BBAF-688C323DF86E}" Language="SFX" Hash="{DA01C5F4-5066-28D8-5267-98B485D6B953}">
+			<ObjectPath>play_pressE</ObjectPath>
+			<ShortName>play_pressE</ShortName>
+			<Path>Event/play_pressE.bnk</Path>
+			<Media>
+				<File Id="560275138" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Carter 4_pressE.wav</ShortName>
+					<Path>Media/560275138.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Carter 4_pressE_818F3B66.wem</CachePath>
+				</File>
+				<File Id="608328131" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Chloe 2_pressE.wav</ShortName>
+					<Path>Media/608328131.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Chloe 2_pressE_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4163557712" Name="play_pressE" ObjectPath="\Events\Default Work Unit\Accessibility\play_pressE" GUID="{C7C7AE9F-D9E9-4EE1-BBAF-688C323DF86E}" DurationType="OneShot" DurationMin="1.3381875" DurationMax="1.3879375">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="2143576054" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+							<MediaRefs>
+								<MediaRef Id="560275138"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="4243229216" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+							<MediaRefs>
+								<MediaRef Id="608328131"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3182480512" Name="voice_switch" ObjectPath="\Switches\Default Work Unit\voice_switch" GUID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
+					<Switches>
+						<Switch Id="2143576054" Name="Carter" ObjectPath="\Switches\Default Work Unit\voice_switch\Carter" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+						<Switch Id="4243229216" Name="Chloe" ObjectPath="\Switches\Default Work Unit\voice_switch\Chloe" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1CA879D8-F088-CFBF-E010-3432082F3FB7}</FileHash>
+	<FileHash>{BCFB144F-6644-0C0E-516C-D898866CBE7E}</FileHash>
 </SoundBanksInfo>

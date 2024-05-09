@@ -47,6 +47,547 @@
 						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Accessibility" ID="{E00B45BE-F835-49B9-93E2-2D78574D0C57}" ShortID="452957670">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="LeftMouse_switchContainer" ID="{08D12467-C1AB-49D4-82A9-7811F502AD8E}" ShortID="418954328">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="voice_switch" ID="{347F538E-9F0B-4FB5-B882-34B4129679A6}" WorkUnitID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LeftMouse_Chloe" ID="{63D9E584-1593-4582-8795-4EA8C735AD82}" ShortID="524268880">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Chloe_leftMouse" ID="{04A815B5-F961-4626-8D95-246FBE1A6852}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Chloe_leftMouse.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="167130513"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Chloe_leftMouse" ID="{04A815B5-F961-4626-8D95-246FBE1A6852}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeftMouse_Carter" ID="{CC4089BD-2CFC-4835-AC3E-F1B5A1BB627C}" ShortID="1063918015">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Carter 2_LeftMouse" ID="{50D23B83-3B1B-4B55-A33C-867BCB288E6B}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Carter 2_LeftMouse.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="374404574"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Carter 2_LeftMouse" ID="{50D23B83-3B1B-4B55-A33C-867BCB288E6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{3924EDB6-DE2D-43E2-8102-214BCA1F1D4C}" ShortID="804866130">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Voice Speed" ID="{0D5C8853-AC1C-4364-AD1D-BFEFA7D78CDE}" ShortID="122208328" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+																<PropertyList>
+																	<Property Name="OutputGain" Type="Real32" Value="-6"/>
+																	<Property Name="QualityEnable" Type="int16" Value="1"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="LeftMouse_Chloe" ID="{63D9E584-1593-4582-8795-4EA8C735AD82}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="LeftMouse_Carter" ID="{CC4089BD-2CFC-4835-AC3E-F1B5A1BB627C}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+										<ItemList>
+											<ItemRef Name="LeftMouse_Carter" ID="{CC4089BD-2CFC-4835-AC3E-F1B5A1BB627C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chloe" ID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+										<ItemList>
+											<ItemRef Name="LeftMouse_Chloe" ID="{63D9E584-1593-4582-8795-4EA8C735AD82}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="press_X_switchContainer" ID="{58EBC5D0-4535-4C07-9C8D-783668982612}" ShortID="1004923417">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="voice_switch" ID="{347F538E-9F0B-4FB5-B882-34B4129679A6}" WorkUnitID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="press_X_Chloe" ID="{E676DD87-7D5E-4F3B-89ED-D82FA202820A}" ShortID="801470031">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Chloe 4_pressX" ID="{AD5403BC-9CFA-424D-92CB-81551CED7C60}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Chloe 4_pressX.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="50382941"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Chloe 4_pressX" ID="{AD5403BC-9CFA-424D-92CB-81551CED7C60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="press_X_Carter" ID="{7D1CCA60-58CE-4407-B98F-473EA0A1BBAD}" ShortID="503409191">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Carter 7_pressX" ID="{D407F66D-0302-4861-A0A3-2FF34636F0D9}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Carter 7_pressX.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="618482312"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Carter 7_pressX" ID="{D407F66D-0302-4861-A0A3-2FF34636F0D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{4BA1C730-CF61-4802-814A-F547AA56EBD6}" ShortID="896170311">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Voice Speed" ID="{36EFF473-857A-4A15-93AC-425878A8E56D}" ShortID="851318572" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+																<PropertyList>
+																	<Property Name="OutputGain" Type="Real32" Value="-6"/>
+																	<Property Name="QualityEnable" Type="int16" Value="1"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="press_X_Carter" ID="{7D1CCA60-58CE-4407-B98F-473EA0A1BBAD}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="press_X_Chloe" ID="{E676DD87-7D5E-4F3B-89ED-D82FA202820A}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+										<ItemList>
+											<ItemRef Name="press_X_Carter" ID="{7D1CCA60-58CE-4407-B98F-473EA0A1BBAD}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chloe" ID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+										<ItemList>
+											<ItemRef Name="press_X_Chloe" ID="{E676DD87-7D5E-4F3B-89ED-D82FA202820A}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="RightMouse_switchContainer" ID="{BB3C5ACC-763F-4E61-942B-B83C4B3E8FB7}" ShortID="814263531">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="voice_switch" ID="{347F538E-9F0B-4FB5-B882-34B4129679A6}" WorkUnitID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="RightMouse_Chloe" ID="{56D57B78-B6A2-4056-92A1-8C581D70FDA8}" ShortID="750301508">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Chloe 1_RightMouse" ID="{ED5CD3FB-5795-472A-B29C-549775447CBD}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Chloe 1_RightMouse.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="673626243"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Chloe 1_RightMouse" ID="{ED5CD3FB-5795-472A-B29C-549775447CBD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RightMouse_Carter" ID="{116BFCF3-3698-4AA1-997E-1AD2FCAF09AB}" ShortID="402695972">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Carter 3_RMouse" ID="{75BCFECA-C9F1-40CC-A288-607960DAECA1}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Carter 3_RMouse.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="124859620"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Carter 3_RMouse" ID="{75BCFECA-C9F1-40CC-A288-607960DAECA1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{9CE7DC87-3AAB-4AAC-81D1-4A4234A920C0}" ShortID="237046171">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Voice Speed" ID="{DDE12FFD-8651-435B-AEE3-3600C36F5B90}" ShortID="720447606" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+																<PropertyList>
+																	<Property Name="OutputGain" Type="Real32" Value="-6"/>
+																	<Property Name="QualityEnable" Type="int16" Value="1"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="RightMouse_Chloe" ID="{56D57B78-B6A2-4056-92A1-8C581D70FDA8}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="RightMouse_Carter" ID="{116BFCF3-3698-4AA1-997E-1AD2FCAF09AB}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+										<ItemList>
+											<ItemRef Name="RightMouse_Carter" ID="{116BFCF3-3698-4AA1-997E-1AD2FCAF09AB}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chloe" ID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+										<ItemList>
+											<ItemRef Name="RightMouse_Chloe" ID="{56D57B78-B6A2-4056-92A1-8C581D70FDA8}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="pressE_switchContainer" ID="{36FF826A-9EB6-4714-B173-3CA7E2A59BF4}" ShortID="22601465">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="voice_switch" ID="{347F538E-9F0B-4FB5-B882-34B4129679A6}" WorkUnitID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="pressE_Chloe" ID="{15EE1102-5492-4F37-A335-777D36204B52}" ShortID="690681127">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Chloe 2_pressE" ID="{0B78AC93-03FD-40AE-B95C-19B492065E7A}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Chloe 2_pressE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="608328131"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Chloe 2_pressE" ID="{0B78AC93-03FD-40AE-B95C-19B492065E7A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pressE_Carter" ID="{5F82FB16-C248-43C9-97C9-E3911264491D}" ShortID="416513858">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Carter 4_pressE" ID="{9D7C64F6-1705-42F8-8701-4668844E7AB9}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Carter 4_pressE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="560275138"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Carter 4_pressE" ID="{9D7C64F6-1705-42F8-8701-4668844E7AB9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{F3374ED8-9144-47D0-BFFE-70535290E990}" ShortID="1039402360">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Voice Speed" ID="{59F1DA88-B6DA-48C8-A8DE-447D56708517}" ShortID="417327502" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+																<PropertyList>
+																	<Property Name="OutputGain" Type="Real32" Value="-6"/>
+																	<Property Name="QualityEnable" Type="int16" Value="1"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="pressE_Chloe" ID="{15EE1102-5492-4F37-A335-777D36204B52}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="pressE_Carter" ID="{5F82FB16-C248-43C9-97C9-E3911264491D}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+										<ItemList>
+											<ItemRef Name="pressE_Carter" ID="{5F82FB16-C248-43C9-97C9-E3911264491D}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chloe" ID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+										<ItemList>
+											<ItemRef Name="pressE_Chloe" ID="{15EE1102-5492-4F37-A335-777D36204B52}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="WASD_switchContainer" ID="{2ED61214-F946-47C7-A158-681050FCB84B}" ShortID="647993951">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="voice_switch" ID="{347F538E-9F0B-4FB5-B882-34B4129679A6}" WorkUnitID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WASD_Chloe" ID="{2DD0F988-0F36-4AB7-9F1C-932A1F8B3DAD}" ShortID="785499168">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Chloe 3_WASD" ID="{8AF1B085-14BB-4A69-81A7-C5837F7B6D0A}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Chloe 3_WASD.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="938746060"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Chloe 3_WASD" ID="{8AF1B085-14BB-4A69-81A7-C5837F7B6D0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WASD_Carter" ID="{5982B5B8-3488-403E-997A-7168F23EBFAE}" ShortID="668371379">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Carter 5_WASD" ID="{8709CD7E-8961-42D8-90D9-74E5517D6B41}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Carter 5_WASD.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="293000065"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Carter 5_WASD" ID="{8709CD7E-8961-42D8-90D9-74E5517D6B41}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{75C451EA-D441-4E99-9790-311F13CC1A4E}" ShortID="332094597">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Voice Speed" ID="{3A542D26-605F-47B8-BF9D-B0121D86C695}" ShortID="321068717" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+																<PropertyList>
+																	<Property Name="OutputGain" Type="Real32" Value="-6"/>
+																	<Property Name="QualityEnable" Type="int16" Value="1"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="WASD_Chloe" ID="{2DD0F988-0F36-4AB7-9F1C-932A1F8B3DAD}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="WASD_Carter" ID="{5982B5B8-3488-403E-997A-7168F23EBFAE}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+										<ItemList>
+											<ItemRef Name="WASD_Carter" ID="{5982B5B8-3488-403E-997A-7168F23EBFAE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chloe" ID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+										<ItemList>
+											<ItemRef Name="WASD_Chloe" ID="{2DD0F988-0F36-4AB7-9F1C-932A1F8B3DAD}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
