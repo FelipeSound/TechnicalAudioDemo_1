@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4075332698" Type="Bus" GUID="{3F793FCE-D4BE-44E6-BB7C-AD68F0A49ECA}" Language="SFX" Hash="{03B5EEA3-9BEF-E437-2044-B0959DE0CBF4}">
+			<ObjectPath>beach</ObjectPath>
+			<ShortName>beach</ShortName>
+			<Path>Bus/beach.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="4075332698" Name="beach" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\beach" GUID="{3F793FCE-D4BE-44E6-BB7C-AD68F0A49ECA}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{068F76F3-7B68-21F7-DE1F-CDC73C6B6926}</FileHash>
+</SoundBanksInfo>

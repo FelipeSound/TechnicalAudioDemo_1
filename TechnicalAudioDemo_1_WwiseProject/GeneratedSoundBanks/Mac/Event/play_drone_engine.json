@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2344E5ED-FFFC-452A-A6FB-395490BB6650}",
     "Language": "SFX",
-    "Hash": "{090F98A3-61AF-9FA9-D3C7-CBEFDD3DDF63}",
+    "Hash": "{48D34E46-4600-6260-5800-7D89F665AC8D}",
     "ObjectPath": "play_drone_engine",
     "ShortName": "play_drone_engine",
     "Path": "Event/play_drone_engine.bnk",
@@ -69,6 +69,6 @@
     ]
    }
   ],
-  "FileHash": "{19743376-B0B0-DE64-D8DD-1EB30B34603A}"
+  "FileHash": "{50A8590D-2600-3529-E577-2C7181F1CEE1}"
  }
 }

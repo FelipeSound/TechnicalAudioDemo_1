@@ -9,6 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="106613531" Type="Bus" GUID="{5975AE91-E9B4-445A-A49D-82349E2295ED}" Language="SFX" Hash="{50D7B2EF-9706-F486-2230-9106376BAEB0}">
+			<ObjectPath>decending_stairs</ObjectPath>
+			<ShortName>decending_stairs</ShortName>
+			<Path>Bus/decending_stairs.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="106613531" Name="decending_stairs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\decending_stairs" GUID="{5975AE91-E9B4-445A-A49D-82349E2295ED}"/>
+			</AuxBusses>
+		</SoundBank>
 		<SoundBank Id="359940518" Type="Event" GUID="{4EAFC289-95B8-4517-9110-BB7094BE9D69}" Language="SFX" Hash="{EF8148A2-CE96-BE1C-370F-20FE9655A0F2}">
 			<ObjectPath>play_press_X</ObjectPath>
 			<ShortName>play_press_X</ShortName>
@@ -78,6 +86,33 @@
 				<Event Id="386634130" Name="GuitarIntro_Stop" ObjectPath="\Events\Default Work Unit\GuitarIntro_Stop" GUID="{E33B9C70-1767-4C29-A460-CEEBE9582D72}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="578926554" Type="Bus" GUID="{D55561E7-8596-48C7-8219-1730B6372E59}" Language="SFX" Hash="{A9E7DD6D-C13D-C3FE-0B62-26FED09CDED3}">
+			<ObjectPath>lab</ObjectPath>
+			<ShortName>lab</ShortName>
+			<Path>Bus/lab.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="578926554" Name="lab" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\lab" GUID="{D55561E7-8596-48C7-8219-1730B6372E59}"/>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="1040134269" Type="Bus" GUID="{D4823E81-9F33-4BBB-B507-BA2751C2BCC6}" Language="SFX" Hash="{FE66D7E3-721F-CA4F-9A80-ED25296B8244}">
+			<ObjectPath>beach_Caves</ObjectPath>
+			<ShortName>beach_Caves</ShortName>
+			<Path>Bus/beach_Caves.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2849147824" Name="Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Cathedrals\Medium" GUID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="1040134269" Name="beach_Caves" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\beach_Caves" GUID="{D4823E81-9F33-4BBB-B507-BA2751C2BCC6}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2849147824"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
 		<SoundBank Id="1236949051" Type="Event" GUID="{8E6F2E1D-EA56-4DDA-A152-11F8B9E71118}" Language="SFX" Hash="{CC840214-BAEA-1EB9-C6AD-0134C7B80A71}">
 			<ObjectPath>play_WASD</ObjectPath>
 			<ShortName>play_WASD</ShortName>
@@ -139,11 +174,15 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{8F86A587-F5D7-A9E7-D237-CB17BB701102}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{57AB5544-5C48-4F38-F03C-2EE8DABFE5FC}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2849147824" Name="Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Cathedrals\Medium" GUID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{999B8C8B-155D-4AB0-BACD-C8AB14C606B9}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{D48B4411-A519-4415-9810-D427DBDA357A}" LibName="System" LibId="11403271"/>
@@ -152,6 +191,25 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="106613531" Name="decending_stairs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\decending_stairs" GUID="{5975AE91-E9B4-445A-A49D-82349E2295ED}"/>
+				<AuxBus Id="578926554" Name="lab" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\lab" GUID="{D55561E7-8596-48C7-8219-1730B6372E59}"/>
+				<AuxBus Id="1040134269" Name="beach_Caves" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\beach_Caves" GUID="{D4823E81-9F33-4BBB-B507-BA2751C2BCC6}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2849147824"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2719600009" Name="Ruins_Interior" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ruins_Interior" GUID="{21EB74FA-463E-4737-A082-30CF4FF657DF}"/>
+				<AuxBus Id="4075332698" Name="beach" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\beach" GUID="{3F793FCE-D4BE-44E6-BB7C-AD68F0A49ECA}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="270201265" Name="Distance_1m" ObjectPath="\Game Parameters\Default Work Unit\Distance_1m" GUID="{55C1A90C-AEAD-40DA-BEAB-4D0FB5AE2663}"/>
 				<GameParameter Id="1131074043" Name="Distance_150" ObjectPath="\Game Parameters\Default Work Unit\Distance_150" GUID="{E5FCBFFB-3D67-443B-B257-1BBE5D592CDA}"/>
@@ -207,7 +265,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{4FC0A6A6-7E3C-5D9D-2638-440824CE5785}">
+		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{A1196819-C659-418C-2B8A-9BC2CB203136}">
 			<ObjectPath>play_ocean</ObjectPath>
 			<ShortName>play_ocean</ShortName>
 			<Path>Event/play_ocean.bnk</Path>
@@ -370,7 +428,15 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{090F98A3-61AF-9FA9-D3C7-CBEFDD3DDF63}">
+		<SoundBank Id="2719600009" Type="Bus" GUID="{21EB74FA-463E-4737-A082-30CF4FF657DF}" Language="SFX" Hash="{FD7F1853-57E4-E998-4B6F-BC30334BA071}">
+			<ObjectPath>Ruins_Interior</ObjectPath>
+			<ShortName>Ruins_Interior</ShortName>
+			<Path>Bus/Ruins_Interior.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="2719600009" Name="Ruins_Interior" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ruins_Interior" GUID="{21EB74FA-463E-4737-A082-30CF4FF657DF}"/>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{48D34E46-4600-6260-5800-7D89F665AC8D}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -402,7 +468,7 @@
 				<GameParameter Id="1304350001" Name="Distance_2000cm" ObjectPath="\Game Parameters\Default Work Unit\Distance_2000cm" GUID="{BEF63D22-0E68-480D-8425-3944122F867E}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{F6680765-B1DE-D0FC-1CD0-DD7EBF25D81A}">
+		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{49D7FFEA-9B72-F525-FC47-52E47D10C799}">
 			<ObjectPath>play_3d_vehicles</ObjectPath>
 			<ShortName>play_3d_vehicles</ShortName>
 			<Path>Event/play_3d_vehicles.bnk</Path>
@@ -593,7 +659,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3196045927" Type="Event" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" Language="English(US)" Hash="{497FF714-1019-C18D-7C15-83801281C84D}">
+		<SoundBank Id="3196045927" Type="Event" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" Language="English(US)" Hash="{05E300A0-B7AA-7C38-53B9-8BF7A0FE0E37}">
 			<ObjectPath>dialogue_1</ObjectPath>
 			<ShortName>dialogue_1</ShortName>
 			<Path>Event/English(US)/dialogue_1.bnk</Path>
@@ -612,6 +678,25 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4075332698" Type="Bus" GUID="{3F793FCE-D4BE-44E6-BB7C-AD68F0A49ECA}" Language="SFX" Hash="{03B5EEA3-9BEF-E437-2044-B0959DE0CBF4}">
+			<ObjectPath>beach</ObjectPath>
+			<ShortName>beach</ShortName>
+			<Path>Bus/beach.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="4075332698" Name="beach" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\beach" GUID="{3F793FCE-D4BE-44E6-BB7C-AD68F0A49ECA}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 		</SoundBank>
 		<SoundBank Id="4163557712" Type="Event" GUID="{C7C7AE9F-D9E9-4EE1-BBAF-688C323DF86E}" Language="SFX" Hash="{7A95FA47-5D05-1061-FF81-9FD3B70DFE66}">
 			<ObjectPath>play_pressE</ObjectPath>
@@ -675,5 +760,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{608E9593-2124-1448-E337-D72091EDA066}</FileHash>
+	<FileHash>{B9C66EE0-F17B-AA52-08BE-8A9C4AB9882A}</FileHash>
 </SoundBanksInfo>

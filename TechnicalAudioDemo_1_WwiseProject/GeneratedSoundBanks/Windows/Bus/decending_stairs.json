@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "106613531",
+    "Type": "Bus",
+    "GUID": "{5975AE91-E9B4-445A-A49D-82349E2295ED}",
+    "Language": "SFX",
+    "Hash": "{50D7B2EF-9706-F486-2230-9106376BAEB0}",
+    "ObjectPath": "decending_stairs",
+    "ShortName": "decending_stairs",
+    "Path": "Bus/decending_stairs.bnk",
+    "AuxBusses": [
+     {
+      "Id": "106613531",
+      "Name": "decending_stairs",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\decending_stairs",
+      "GUID": "{5975AE91-E9B4-445A-A49D-82349E2295ED}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EE8D95C9-9E7E-6D73-4688-0D66079426AD}"
+ }
+}

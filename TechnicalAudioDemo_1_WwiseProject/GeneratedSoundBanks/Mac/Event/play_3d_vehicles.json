@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{82620295-12B3-452D-A1D6-E9E01EB12EDC}",
     "Language": "SFX",
-    "Hash": "{F6680765-B1DE-D0FC-1CD0-DD7EBF25D81A}",
+    "Hash": "{49D7FFEA-9B72-F525-FC47-52E47D10C799}",
     "ObjectPath": "play_3d_vehicles",
     "ShortName": "play_3d_vehicles",
     "Path": "Event/play_3d_vehicles.bnk",
@@ -393,6 +393,6 @@
     ]
    }
   ],
-  "FileHash": "{3244231D-E781-FB24-687B-EA40637ECE07}"
+  "FileHash": "{477C8451-4F9B-6B9D-1108-47BF549FECA9}"
  }
 }

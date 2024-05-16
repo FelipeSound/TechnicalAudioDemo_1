@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2719600009",
+    "Type": "Bus",
+    "GUID": "{21EB74FA-463E-4737-A082-30CF4FF657DF}",
+    "Language": "SFX",
+    "Hash": "{FD7F1853-57E4-E998-4B6F-BC30334BA071}",
+    "ObjectPath": "Ruins_Interior",
+    "ShortName": "Ruins_Interior",
+    "Path": "Bus/Ruins_Interior.bnk",
+    "AuxBusses": [
+     {
+      "Id": "2719600009",
+      "Name": "Ruins_Interior",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ruins_Interior",
+      "GUID": "{21EB74FA-463E-4737-A082-30CF4FF657DF}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B62651A3-C9EC-C31B-B043-FD2736993B2E}"
+ }
+}

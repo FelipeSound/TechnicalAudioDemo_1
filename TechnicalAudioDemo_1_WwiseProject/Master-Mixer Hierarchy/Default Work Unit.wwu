@@ -9,6 +9,45 @@
 							<ObjectRef Name="System" ID="{D48B4411-A519-4415-9810-D427DBDA357A}" WorkUnitID="{EC4A5DF4-63D1-4122-9E8B-95A3FE2E5350}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="beach_Caves" ID="{D4823E81-9F33-4BBB-B507-BA2751C2BCC6}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{CDF9A6D7-D475-4276-A752-4E20CFB457BC}" ShortID="196456400">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="beach" ID="{3F793FCE-D4BE-44E6-BB7C-AD68F0A49ECA}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{FD2F8C13-14FC-41AC-92B9-40EE17923A2A}" ShortID="772439037">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="lab" ID="{D55561E7-8596-48C7-8219-1730B6372E59}"/>
+						<AuxBus Name="Ruins_Interior" ID="{21EB74FA-463E-4737-A082-30CF4FF657DF}"/>
+						<AuxBus Name="decending_stairs" ID="{5975AE91-E9B4-445A-A49D-82349E2295ED}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2719600009	Ruins_Interior			\Default Work Unit\Master Audio Bus\Ruins_Interior	
+

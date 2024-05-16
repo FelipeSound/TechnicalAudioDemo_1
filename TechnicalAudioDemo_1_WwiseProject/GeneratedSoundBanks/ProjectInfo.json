@@ -3,7 +3,7 @@
   "Project": {
    "Name": "TechnicalAudioDemo_1_WwiseProject",
    "GUID": "{77389EA4-5CD1-40F6-B05E-AE11E3C3E927}",
-   "Generator": "2023.1.3.8471"
+   "Generator": "2023.1.1.8417"
   },
   "CacheRoot": "../.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{3F209D62-9F69-AC0F-6B40-A3E09D604DD5}"
+  "FileHash": "{A7830AAF-0245-50EF-E502-5DFE4CC318A0}"
  }
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1040134269" Type="Bus" GUID="{D4823E81-9F33-4BBB-B507-BA2751C2BCC6}" Language="SFX" Hash="{FE66D7E3-721F-CA4F-9A80-ED25296B8244}">
+			<ObjectPath>beach_Caves</ObjectPath>
+			<ShortName>beach_Caves</ShortName>
+			<Path>Bus/beach_Caves.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2849147824" Name="Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Cathedrals\Medium" GUID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="1040134269" Name="beach_Caves" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\beach_Caves" GUID="{D4823E81-9F33-4BBB-B507-BA2751C2BCC6}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2849147824"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0314EF17-CD24-72FD-9953-EED1B78DEE68}</FileHash>
+</SoundBanksInfo>

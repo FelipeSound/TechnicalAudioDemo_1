@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "578926554",
+    "Type": "Bus",
+    "GUID": "{D55561E7-8596-48C7-8219-1730B6372E59}",
+    "Language": "SFX",
+    "Hash": "{A9E7DD6D-C13D-C3FE-0B62-26FED09CDED3}",
+    "ObjectPath": "lab",
+    "ShortName": "lab",
+    "Path": "Bus/lab.bnk",
+    "AuxBusses": [
+     {
+      "Id": "578926554",
+      "Name": "lab",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\lab",
+      "GUID": "{D55561E7-8596-48C7-8219-1730B6372E59}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D220DB15-1D71-789A-4D3D-DF8B024C9177}"
+ }
+}
