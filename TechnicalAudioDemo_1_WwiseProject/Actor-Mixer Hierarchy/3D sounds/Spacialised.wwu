@@ -120,6 +120,11 @@
 				</ActorMixer>
 				<ActorMixer Name="Whoosh_Movement" ID="{05B4B0CC-B0FC-4823-8719-BADA6615CDBF}" ShortID="1038681340">
 					<PropertyList>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{A1196819-C659-418C-2B8A-9BC2CB203136}">
+		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{EFC047C7-772A-8548-AB5C-F9622F19312F}">
 			<ObjectPath>play_ocean</ObjectPath>
 			<ShortName>play_ocean</ShortName>
 			<Path>Event/play_ocean.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1724638476" Name="play_ocean" ObjectPath="\Events\Default Work Unit\play_ocean" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" MaxAttenuation="3000" DurationType="Infinite">
+				<Event Id="1724638476" Name="play_ocean" ObjectPath="\Events\Default Work Unit\play_ocean" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" MaxAttenuation="5000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="209184179"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8E21FDB2-5584-FCFD-948B-6357174BF99D}</FileHash>
+	<FileHash>{3DFA0A23-9362-8167-7856-0464017EE1AA}</FileHash>
 </SoundBanksInfo>

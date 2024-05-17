@@ -643,7 +643,7 @@
     "Type": "Event",
     "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
     "Language": "SFX",
-    "Hash": "{A1196819-C659-418C-2B8A-9BC2CB203136}",
+    "Hash": "{EFC047C7-772A-8548-AB5C-F9622F19312F}",
     "ObjectPath": "play_ocean",
     "ShortName": "play_ocean",
     "Path": "Event/play_ocean.bnk",
@@ -664,7 +664,7 @@
       "Name": "play_ocean",
       "ObjectPath": "\\Events\\Default Work Unit\\play_ocean",
       "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
-      "MaxAttenuation": "3000",
+      "MaxAttenuation": "5000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1055,7 +1055,7 @@
     "Type": "Event",
     "GUID": "{82620295-12B3-452D-A1D6-E9E01EB12EDC}",
     "Language": "SFX",
-    "Hash": "{49D7FFEA-9B72-F525-FC47-52E47D10C799}",
+    "Hash": "{BEFE25F7-7D96-F899-632C-9CE9C83DF6B8}",
     "ObjectPath": "play_3d_vehicles",
     "ShortName": "play_3d_vehicles",
     "Path": "Event/play_3d_vehicles.bnk",
@@ -1642,6 +1642,6 @@
     ]
    }
   ],
-  "FileHash": "{6CE85AEC-A8B4-9A38-4DC1-8999931E37E6}"
+  "FileHash": "{8A99F669-BBED-ECB3-90BE-757FB0AC828E}"
  }
 }
