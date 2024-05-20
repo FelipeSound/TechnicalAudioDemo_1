@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="106613531" Type="Bus" GUID="{5975AE91-E9B4-445A-A49D-82349E2295ED}" Language="SFX" Hash="{50D7B2EF-9706-F486-2230-9106376BAEB0}">
+		<SoundBank Id="106613531" Type="Bus" GUID="{5975AE91-E9B4-445A-A49D-82349E2295ED}" Language="SFX" Hash="{E7494E15-CF54-11C0-FAE1-B816B412C4B4}">
 			<ObjectPath>decending_stairs</ObjectPath>
 			<ShortName>decending_stairs</ShortName>
 			<Path>Bus/decending_stairs.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2891462749" Name="Room_Medium_High_Absorbtion" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium_High_Absorbtion" GUID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="106613531" Name="decending_stairs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\decending_stairs" GUID="{5975AE91-E9B4-445A-A49D-82349E2295ED}"/>
+				<AuxBus Id="106613531" Name="decending_stairs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\decending_stairs" GUID="{5975AE91-E9B4-445A-A49D-82349E2295ED}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2891462749"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F4936606-633A-AA33-BECD-239CA9E80EAF}</FileHash>
+	<FileHash>{01B4DA07-892B-3408-9EB8-2A37DB18FE96}</FileHash>
 </SoundBanksInfo>

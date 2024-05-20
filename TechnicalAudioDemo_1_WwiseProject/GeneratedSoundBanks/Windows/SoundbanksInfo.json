@@ -18,16 +18,35 @@
     "Type": "Bus",
     "GUID": "{5975AE91-E9B4-445A-A49D-82349E2295ED}",
     "Language": "SFX",
-    "Hash": "{50D7B2EF-9706-F486-2230-9106376BAEB0}",
+    "Hash": "{E7494E15-CF54-11C0-FAE1-B816B412C4B4}",
     "ObjectPath": "decending_stairs",
     "ShortName": "decending_stairs",
     "Path": "Bus/decending_stairs.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2891462749",
+       "Name": "Room_Medium_High_Absorbtion",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_High_Absorbtion",
+       "GUID": "{E22DBBB6-7656-4B93-A28D-C003FD416889}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "106613531",
       "Name": "decending_stairs",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\decending_stairs",
-      "GUID": "{5975AE91-E9B4-445A-A49D-82349E2295ED}"
+      "GUID": "{5975AE91-E9B4-445A-A49D-82349E2295ED}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2891462749"
+        }
+       ]
+      }
      }
     ]
    },
@@ -363,7 +382,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{3B7D7732-F8B1-FCFC-9259-5C018BA04AC5}",
+    "Hash": "{16EED29C-B28A-26F9-6B2A-5F33CD94F50E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -378,10 +397,34 @@
        "LibId": "7733251"
       },
       {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
        "Id": "2849147824",
        "Name": "Medium",
        "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Medium",
        "GUID": "{AEB3F175-958B-45F2-A4C2-3FBD4F456568}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2891462749",
+       "Name": "Room_Medium_High_Absorbtion",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_High_Absorbtion",
+       "GUID": "{E22DBBB6-7656-4B93-A28D-C003FD416889}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2945072214",
+       "Name": "My_Closet",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\My_Closet",
+       "GUID": "{384A82A1-3C92-4AC5-AFC2-474F2080642C}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -418,7 +461,14 @@
       "Id": "106613531",
       "Name": "decending_stairs",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\decending_stairs",
-      "GUID": "{5975AE91-E9B4-445A-A49D-82349E2295ED}"
+      "GUID": "{5975AE91-E9B4-445A-A49D-82349E2295ED}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2891462749"
+        }
+       ]
+      }
      },
      {
       "Id": "578926554",
@@ -440,10 +490,30 @@
       }
      },
      {
+      "Id": "1471240835",
+      "Name": "Wood_cylinder",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Wood_cylinder",
+      "GUID": "{642830D7-EBFB-476F-B0FB-87E1C26C1C11}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2945072214"
+        }
+       ]
+      }
+     },
+     {
       "Id": "2719600009",
       "Name": "Ruins_Interior",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ruins_Interior",
-      "GUID": "{21EB74FA-463E-4737-A082-30CF4FF657DF}"
+      "GUID": "{21EB74FA-463E-4737-A082-30CF4FF657DF}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2513915904"
+        }
+       ]
+      }
      },
      {
       "Id": "4075332698",
@@ -743,11 +813,48 @@
     ]
    },
    {
+    "Id": "1471240835",
+    "Type": "Bus",
+    "GUID": "{642830D7-EBFB-476F-B0FB-87E1C26C1C11}",
+    "Language": "SFX",
+    "Hash": "{14F22631-7A14-39DA-B48F-3DD86A3E612E}",
+    "ObjectPath": "Wood_cylinder",
+    "ShortName": "Wood_cylinder",
+    "Path": "Bus/Wood_cylinder.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2945072214",
+       "Name": "My_Closet",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\My_Closet",
+       "GUID": "{384A82A1-3C92-4AC5-AFC2-474F2080642C}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1471240835",
+      "Name": "Wood_cylinder",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Wood_cylinder",
+      "GUID": "{642830D7-EBFB-476F-B0FB-87E1C26C1C11}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2945072214"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
     "Id": "1724638476",
     "Type": "Event",
     "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
     "Language": "SFX",
-    "Hash": "{E047CB9A-FA10-49ED-CCB5-8E2F762F1B9A}",
+    "Hash": "{E1B2B62E-28B9-89E7-3F02-E75AD5B95423}",
     "ObjectPath": "play_ocean",
     "ShortName": "play_ocean",
     "Path": "Event/play_ocean.bnk",
@@ -768,7 +875,7 @@
       "Name": "play_ocean",
       "ObjectPath": "\\Events\\Default Work Unit\\play_ocean",
       "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
-      "MaxAttenuation": "5000",
+      "MaxAttenuation": "7500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1078,16 +1185,35 @@
     "Type": "Bus",
     "GUID": "{21EB74FA-463E-4737-A082-30CF4FF657DF}",
     "Language": "SFX",
-    "Hash": "{FD7F1853-57E4-E998-4B6F-BC30334BA071}",
+    "Hash": "{8D0AAFE9-CA78-73F7-89ED-A8B74CF1BECD}",
     "ObjectPath": "Ruins_Interior",
     "ShortName": "Ruins_Interior",
     "Path": "Bus/Ruins_Interior.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "2719600009",
       "Name": "Ruins_Interior",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ruins_Interior",
-      "GUID": "{21EB74FA-463E-4737-A082-30CF4FF657DF}"
+      "GUID": "{21EB74FA-463E-4737-A082-30CF4FF657DF}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2513915904"
+        }
+       ]
+      }
      }
     ]
    },
@@ -1096,7 +1222,7 @@
     "Type": "Event",
     "GUID": "{2344E5ED-FFFC-452A-A6FB-395490BB6650}",
     "Language": "SFX",
-    "Hash": "{48D34E46-4600-6260-5800-7D89F665AC8D}",
+    "Hash": "{CF134491-04AE-7D5D-5209-0093A097081B}",
     "ObjectPath": "play_drone_engine",
     "ShortName": "play_drone_engine",
     "Path": "Event/play_drone_engine.bnk",
@@ -1112,6 +1238,16 @@
      }
     ],
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "24291192",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\NPCs\\npc_motion\\Engine_Loop\\[Effect Slot [1]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{D5792126-191B-48B6-925D-B234E9B77013}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ],
      "ShareSets": [
       {
        "Id": "2131109290",
@@ -1137,6 +1273,11 @@
        }
       ],
       "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "24291192"
+        }
+       ],
        "ShareSets": [
         {
          "Id": "2131109290"
@@ -1546,7 +1687,7 @@
     "Type": "Event",
     "GUID": "{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}",
     "Language": "English(US)",
-    "Hash": "{05E300A0-B7AA-7C38-53B9-8BF7A0FE0E37}",
+    "Hash": "{0FA26E02-85C4-0E00-49CE-CCEB0FA27559}",
     "ObjectPath": "dialogue_1",
     "ShortName": "dialogue_1",
     "Path": "Event/English(US)/dialogue_1.bnk",
@@ -1578,7 +1719,7 @@
     "Type": "Event",
     "GUID": "{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}",
     "Language": "SFX",
-    "Hash": "{82BC642C-9A71-7AE4-0DFB-2A50D81DC8EF}",
+    "Hash": "{832707CE-4B1F-D0CB-6A4A-7A50940CC6E8}",
     "ObjectPath": "play_footsteps",
     "ShortName": "play_footsteps",
     "Path": "Event/play_footsteps.bnk",
@@ -2896,6 +3037,6 @@
     ]
    }
   ],
-  "FileHash": "{3AB94D87-81A3-7DBC-477A-77DD55A3685B}"
+  "FileHash": "{CA8241F4-1BF7-770D-7C05-C7E119880114}"
  }
 }

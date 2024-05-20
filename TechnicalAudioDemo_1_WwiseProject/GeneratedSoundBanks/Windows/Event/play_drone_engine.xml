@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{48D34E46-4600-6260-5800-7D89F665AC8D}">
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{CF134491-04AE-7D5D-5209-0093A097081B}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -13,6 +13,9 @@
 				</File>
 			</Media>
 			<Plugins>
+				<Custom>
+					<Plugin Id="24291192" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\NPCs\npc_motion\Engine_Loop\[Effect Slot [1]: (Time Stretch)]\Time Stretch (Custom)" GUID="{D5792126-191B-48B6-925D-B234E9B77013}" LibName="Wwise Time Stretch" LibId="8519683"/>
+				</Custom>
 				<ShareSets>
 					<Plugin Id="2131109290" Name="Drone_engine" ObjectPath="\Effects\Default Work Unit\Drone_engine" GUID="{9965A16B-DB48-4C33-87FD-3BA3457E64EE}" LibName="Wwise Flanger" LibId="8192003"/>
 				</ShareSets>
@@ -23,6 +26,9 @@
 						<MediaRef Id="638373736"/>
 					</MediaRefs>
 					<PluginRefs>
+						<Custom>
+							<PluginRef Id="24291192"/>
+						</Custom>
 						<ShareSets>
 							<PluginRef Id="2131109290"/>
 						</ShareSets>
@@ -34,5 +40,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F414E23B-8C6F-A961-D98E-008CC8EA9BFB}</FileHash>
+	<FileHash>{49E3F686-404A-5372-5142-1AAE5334DB90}</FileHash>
 </SoundBanksInfo>

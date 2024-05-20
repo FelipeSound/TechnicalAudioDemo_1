@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1471240835" Type="Bus" GUID="{642830D7-EBFB-476F-B0FB-87E1C26C1C11}" Language="SFX" Hash="{14F22631-7A14-39DA-B48F-3DD86A3E612E}">
+			<ObjectPath>Wood_cylinder</ObjectPath>
+			<ShortName>Wood_cylinder</ShortName>
+			<Path>Bus/Wood_cylinder.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2945072214" Name="My_Closet" ObjectPath="\Effects\Factory Effects\RoomVerb\Claustrophobia\My_Closet" GUID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="1471240835" Name="Wood_cylinder" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Wood_cylinder" GUID="{642830D7-EBFB-476F-B0FB-87E1C26C1C11}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2945072214"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{98CEDCBE-F69D-9E1E-0593-FA50F6FF07D3}</FileHash>
+</SoundBanksInfo>

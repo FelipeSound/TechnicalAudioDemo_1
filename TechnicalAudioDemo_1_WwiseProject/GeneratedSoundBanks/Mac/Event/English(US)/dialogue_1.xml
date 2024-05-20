@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3196045927" Type="Event" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" Language="English(US)" Hash="{05E300A0-B7AA-7C38-53B9-8BF7A0FE0E37}">
+		<SoundBank Id="3196045927" Type="Event" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" Language="English(US)" Hash="{0FA26E02-85C4-0E00-49CE-CCEB0FA27559}">
 			<ObjectPath>dialogue_1</ObjectPath>
 			<ShortName>dialogue_1</ShortName>
 			<Path>Event/English(US)/dialogue_1.bnk</Path>
@@ -17,5 +17,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F960F251-A952-AB8B-9B0F-E5992785589A}</FileHash>
+	<FileHash>{89DC3AD2-EBD3-2383-9BB9-94E74F869755}</FileHash>
 </SoundBanksInfo>

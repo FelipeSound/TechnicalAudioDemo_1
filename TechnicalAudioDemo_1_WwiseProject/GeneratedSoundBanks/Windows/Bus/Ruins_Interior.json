@@ -10,20 +10,39 @@
     "Type": "Bus",
     "GUID": "{21EB74FA-463E-4737-A082-30CF4FF657DF}",
     "Language": "SFX",
-    "Hash": "{FD7F1853-57E4-E998-4B6F-BC30334BA071}",
+    "Hash": "{8D0AAFE9-CA78-73F7-89ED-A8B74CF1BECD}",
     "ObjectPath": "Ruins_Interior",
     "ShortName": "Ruins_Interior",
     "Path": "Bus/Ruins_Interior.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "2719600009",
       "Name": "Ruins_Interior",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ruins_Interior",
-      "GUID": "{21EB74FA-463E-4737-A082-30CF4FF657DF}"
+      "GUID": "{21EB74FA-463E-4737-A082-30CF4FF657DF}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2513915904"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{B62651A3-C9EC-C31B-B043-FD2736993B2E}"
+  "FileHash": "{054BC46B-6ACD-C43E-7963-4391D231B701}"
  }
 }

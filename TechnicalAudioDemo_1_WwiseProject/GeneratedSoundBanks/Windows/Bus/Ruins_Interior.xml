@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2719600009" Type="Bus" GUID="{21EB74FA-463E-4737-A082-30CF4FF657DF}" Language="SFX" Hash="{FD7F1853-57E4-E998-4B6F-BC30334BA071}">
+		<SoundBank Id="2719600009" Type="Bus" GUID="{21EB74FA-463E-4737-A082-30CF4FF657DF}" Language="SFX" Hash="{8D0AAFE9-CA78-73F7-89ED-A8B74CF1BECD}">
 			<ObjectPath>Ruins_Interior</ObjectPath>
 			<ShortName>Ruins_Interior</ShortName>
 			<Path>Bus/Ruins_Interior.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2513915904" Name="Hall_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large" GUID="{6D154498-FF6D-4823-96FC-56841B70E079}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="2719600009" Name="Ruins_Interior" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ruins_Interior" GUID="{21EB74FA-463E-4737-A082-30CF4FF657DF}"/>
+				<AuxBus Id="2719600009" Name="Ruins_Interior" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ruins_Interior" GUID="{21EB74FA-463E-4737-A082-30CF4FF657DF}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2513915904"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D388D5FE-20D8-771A-AF7A-A06B4CFAA9D5}</FileHash>
+	<FileHash>{8AD29159-D78F-7566-7D40-F48023F03A71}</FileHash>
 </SoundBanksInfo>

@@ -47,6 +47,60 @@
 									</EffectSlot>
 								</Local>
 							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{B7B3C001-7C02-4C52-A5A3-B9AE939A2912}" ShortID="989388628">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Time Stretch (Custom)" ID="{D5792126-191B-48B6-925D-B234E9B77013}" ShortID="24291192" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{D4AEE5C8-7FDB-4E33-954C-800E669D2586}" ShortID="264223420">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{55A099A2-602D-4C9B-A0C7-7F4517879B11}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>250.5736</YPos>
+																									<Flags>5</Flags>
+																									<SegmentShape>Log3</SegmentShape>
+																								</Point>
+																								<Point>
+																									<XPos>5000</XPos>
+																									<YPos>100</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
 						</ObjectList>
 						<ObjectList Name="RTPC">
 							<Reference>

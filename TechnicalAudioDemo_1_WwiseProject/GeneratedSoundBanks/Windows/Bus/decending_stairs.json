@@ -10,20 +10,39 @@
     "Type": "Bus",
     "GUID": "{5975AE91-E9B4-445A-A49D-82349E2295ED}",
     "Language": "SFX",
-    "Hash": "{50D7B2EF-9706-F486-2230-9106376BAEB0}",
+    "Hash": "{E7494E15-CF54-11C0-FAE1-B816B412C4B4}",
     "ObjectPath": "decending_stairs",
     "ShortName": "decending_stairs",
     "Path": "Bus/decending_stairs.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2891462749",
+       "Name": "Room_Medium_High_Absorbtion",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_High_Absorbtion",
+       "GUID": "{E22DBBB6-7656-4B93-A28D-C003FD416889}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "106613531",
       "Name": "decending_stairs",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\decending_stairs",
-      "GUID": "{5975AE91-E9B4-445A-A49D-82349E2295ED}"
+      "GUID": "{5975AE91-E9B4-445A-A49D-82349E2295ED}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2891462749"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{EE8D95C9-9E7E-6D73-4688-0D66079426AD}"
+  "FileHash": "{D9C077E2-01E5-D343-520C-438995BB9243}"
  }
 }

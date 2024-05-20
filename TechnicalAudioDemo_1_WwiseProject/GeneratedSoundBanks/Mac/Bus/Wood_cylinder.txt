@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1471240835	Wood_cylinder			\Default Work Unit\Master Audio Bus\Wood_cylinder	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2945072214	My_Closet	Wwise RoomVerb			
+

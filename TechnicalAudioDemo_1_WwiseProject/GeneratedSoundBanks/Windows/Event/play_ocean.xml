@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{E047CB9A-FA10-49ED-CCB5-8E2F762F1B9A}">
+		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{E1B2B62E-28B9-89E7-3F02-E75AD5B95423}">
 			<ObjectPath>play_ocean</ObjectPath>
 			<ShortName>play_ocean</ShortName>
 			<Path>Event/play_ocean.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1724638476" Name="play_ocean" ObjectPath="\Events\Default Work Unit\play_ocean" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" MaxAttenuation="5000" DurationType="Infinite">
+				<Event Id="1724638476" Name="play_ocean" ObjectPath="\Events\Default Work Unit\play_ocean" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" MaxAttenuation="7500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="209184179"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{62F9B816-BE77-DC3D-95DA-2A96AAC8A643}</FileHash>
+	<FileHash>{5F310CA0-1E9A-039A-5B06-A92AB6BC9151}</FileHash>
 </SoundBanksInfo>

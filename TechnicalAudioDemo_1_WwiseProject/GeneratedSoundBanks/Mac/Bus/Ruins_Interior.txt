@@ -1,3 +1,6 @@
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2719600009	Ruins_Interior			\Default Work Unit\Master Audio Bus\Ruins_Interior	
 
+Effect plug-ins	ID	Name	Type				Notes
+	2513915904	Hall_Large	Wwise RoomVerb			
+

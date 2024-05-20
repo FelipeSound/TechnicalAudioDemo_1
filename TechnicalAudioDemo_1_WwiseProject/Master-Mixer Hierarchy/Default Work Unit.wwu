@@ -45,8 +45,57 @@
 							</ObjectLists>
 						</AuxBus>
 						<AuxBus Name="lab" ID="{D55561E7-8596-48C7-8219-1730B6372E59}"/>
-						<AuxBus Name="Ruins_Interior" ID="{21EB74FA-463E-4737-A082-30CF4FF657DF}"/>
-						<AuxBus Name="decending_stairs" ID="{5975AE91-E9B4-445A-A49D-82349E2295ED}"/>
+						<AuxBus Name="Ruins_Interior" ID="{21EB74FA-463E-4737-A082-30CF4FF657DF}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A6DE2851-B7E3-4354-9259-41CB48807EDF}" ShortID="801662991">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="decending_stairs" ID="{5975AE91-E9B4-445A-A49D-82349E2295ED}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{1695B69F-1E6B-4994-9711-A7F11003ACD3}" ShortID="441582904">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_Medium_High_Absorbtion" ID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="Wood_cylinder" ID="{642830D7-EBFB-476F-B0FB-87E1C26C1C11}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{232A6F90-EC73-4091-BB57-FB7B3083A5A4}" ShortID="649473679">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="My_Closet" ID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

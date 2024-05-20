@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2344E5ED-FFFC-452A-A6FB-395490BB6650}",
     "Language": "SFX",
-    "Hash": "{48D34E46-4600-6260-5800-7D89F665AC8D}",
+    "Hash": "{CF134491-04AE-7D5D-5209-0093A097081B}",
     "ObjectPath": "play_drone_engine",
     "ShortName": "play_drone_engine",
     "Path": "Event/play_drone_engine.bnk",
@@ -26,6 +26,16 @@
      }
     ],
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "24291192",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\NPCs\\npc_motion\\Engine_Loop\\[Effect Slot [1]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{D5792126-191B-48B6-925D-B234E9B77013}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ],
      "ShareSets": [
       {
        "Id": "2131109290",
@@ -51,6 +61,11 @@
        }
       ],
       "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "24291192"
+        }
+       ],
        "ShareSets": [
         {
          "Id": "2131109290"
@@ -69,6 +84,6 @@
     ]
    }
   ],
-  "FileHash": "{7512778A-8AD7-0918-74D6-18E8BAA6BB80}"
+  "FileHash": "{04435313-A339-07DA-AC77-8837C64FC0E7}"
  }
 }
