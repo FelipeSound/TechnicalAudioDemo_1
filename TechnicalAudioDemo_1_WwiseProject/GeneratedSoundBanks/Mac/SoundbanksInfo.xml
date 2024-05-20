@@ -702,7 +702,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3854155799" Type="Event" GUID="{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}" Language="SFX" Hash="{11887EDA-17B1-C8D6-B446-D2E19DF18579}">
+		<SoundBank Id="3854155799" Type="Event" GUID="{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}" Language="SFX" Hash="{82BC642C-9A71-7AE4-0DFB-2A50D81DC8EF}">
 			<ObjectPath>play_footsteps</ObjectPath>
 			<ShortName>play_footsteps</ShortName>
 			<Path>Event/play_footsteps.bnk</Path>
@@ -1339,5 +1339,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{16C8793C-CE80-224F-D896-05D121BD62DF}</FileHash>
+	<FileHash>{54F81D28-5A1F-F94B-A259-88E733B35C7E}</FileHash>
 </SoundBanksInfo>
