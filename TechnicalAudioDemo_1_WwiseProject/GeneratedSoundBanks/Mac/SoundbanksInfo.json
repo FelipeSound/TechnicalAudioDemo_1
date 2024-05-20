@@ -1578,7 +1578,7 @@
     "Type": "Event",
     "GUID": "{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}",
     "Language": "SFX",
-    "Hash": "{5E203915-5384-2040-0BF5-659662177E2F}",
+    "Hash": "{11887EDA-17B1-C8D6-B446-D2E19DF18579}",
     "ObjectPath": "play_footsteps",
     "ShortName": "play_footsteps",
     "Path": "Event/play_footsteps.bnk",
@@ -2312,7 +2312,7 @@
       "GUID": "{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "1.2026042",
+      "DurationMax": "0.7026042",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -2419,8 +2419,7 @@
            "GroupType": "Switch",
            "GroupId": "4039126265",
            "Id": "3526580628",
-           "GUID": "{50178C86-AF48-40DA-AE28-AE95B17A40CB}",
-           "Default": "true"
+           "GUID": "{50178C86-AF48-40DA-AE28-AE95B17A40CB}"
           },
           "MediaRefs": [
            {
@@ -2897,6 +2896,6 @@
     ]
    }
   ],
-  "FileHash": "{C901A26A-EDF4-F8B2-42F3-AF689AEF137C}"
+  "FileHash": "{9A7DE93A-8A1E-1267-9586-BD25A6A68B6A}"
  }
 }

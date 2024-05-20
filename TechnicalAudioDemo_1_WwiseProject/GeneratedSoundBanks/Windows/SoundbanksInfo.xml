@@ -702,7 +702,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3854155799" Type="Event" GUID="{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}" Language="SFX" Hash="{5E203915-5384-2040-0BF5-659662177E2F}">
+		<SoundBank Id="3854155799" Type="Event" GUID="{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}" Language="SFX" Hash="{11887EDA-17B1-C8D6-B446-D2E19DF18579}">
 			<ObjectPath>play_footsteps</ObjectPath>
 			<ShortName>play_footsteps</ShortName>
 			<Path>Event/play_footsteps.bnk</Path>
@@ -1109,7 +1109,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3854155799" Name="play_footsteps" ObjectPath="\Events\Default Work Unit\Locomotion\play_footsteps" GUID="{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}" DurationType="OneShot" DurationMin="0" DurationMax="1.2026042">
+				<Event Id="3854155799" Name="play_footsteps" ObjectPath="\Events\Default Work Unit\Locomotion\play_footsteps" GUID="{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}" DurationType="OneShot" DurationMin="0" DurationMax="0.7026042">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2866300569" Id="1181096339" GUID="{8B7F1D20-0E41-4C0C-B50D-21F0E314F9B5}"/>
@@ -1148,7 +1148,7 @@
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="4039126265" Id="3526580628" GUID="{50178C86-AF48-40DA-AE28-AE95B17A40CB}" Default="true"/>
+									<SwitchValue GroupType="Switch" GroupId="4039126265" Id="3526580628" GUID="{50178C86-AF48-40DA-AE28-AE95B17A40CB}"/>
 									<MediaRefs>
 										<MediaRef Id="27729263"/>
 										<MediaRef Id="68436258"/>
@@ -1339,5 +1339,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6CBC69CB-E738-C855-8BCF-968EABF292FA}</FileHash>
+	<FileHash>{5943FBDA-9C9B-C1ED-7AF3-5B4A934B702A}</FileHash>
 </SoundBanksInfo>

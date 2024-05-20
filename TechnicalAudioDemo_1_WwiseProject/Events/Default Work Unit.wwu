@@ -163,10 +163,6 @@
 						<Event Name="play_footsteps" ID="{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}">
 							<ChildrenList>
 								<Action Name="" ID="{5431E5DA-CAF4-4BF8-859A-7708D756A5DE}" ShortID="172724869">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.5"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="footsteps_wetness" ID="{EB2C36DC-B3C9-4ADA-AC79-7B11E50621CF}" WorkUnitID="{5A9FB26D-F62A-4B7C-B38C-2D4411C5616A}"/>

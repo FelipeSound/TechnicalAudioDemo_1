@@ -11864,7 +11864,12 @@
 					</WorkUnit>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\MainCharacter_Motion">
-					<WorkUnit Name="MainCharacter_Motion" ID="{3346D232-E1AC-4B64-BC95-6FED50AED266}" PersistMode="Standalone"/>
+					<WorkUnit Name="MainCharacter_Motion" ID="{3346D232-E1AC-4B64-BC95-6FED50AED266}" PersistMode="Standalone">
+						<PropertyList>
+							<Property Name="Color" Type="int16" Value="12"/>
+							<Property Name="OverrideColor" Type="bool" Value="True"/>
+						</PropertyList>
+					</WorkUnit>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\NPCs">
 					<WorkUnit Name="NPCs" ID="{8C68415B-1F23-423A-B068-80B7B8CE7E2A}" PersistMode="Standalone"/>
