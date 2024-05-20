@@ -643,7 +643,7 @@
     "Type": "Event",
     "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
     "Language": "SFX",
-    "Hash": "{EFC047C7-772A-8548-AB5C-F9622F19312F}",
+    "Hash": "{E047CB9A-FA10-49ED-CCB5-8E2F762F1B9A}",
     "ObjectPath": "play_ocean",
     "ShortName": "play_ocean",
     "Path": "Event/play_ocean.bnk",
@@ -1642,6 +1642,6 @@
     ]
    }
   ],
-  "FileHash": "{8A99F669-BBED-ECB3-90BE-757FB0AC828E}"
+  "FileHash": "{2FD77B13-9104-D977-3C65-25A391061FE4}"
  }
 }

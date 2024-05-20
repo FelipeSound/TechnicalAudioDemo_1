@@ -265,7 +265,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{EFC047C7-772A-8548-AB5C-F9622F19312F}">
+		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{E047CB9A-FA10-49ED-CCB5-8E2F762F1B9A}">
 			<ObjectPath>play_ocean</ObjectPath>
 			<ShortName>play_ocean</ShortName>
 			<Path>Event/play_ocean.bnk</Path>
@@ -760,5 +760,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1DEA142F-8D9D-68A0-6897-C6CDA3AD138B}</FileHash>
+	<FileHash>{7B52AD94-6D09-C576-A1C0-3938A0E4D7A3}</FileHash>
 </SoundBanksInfo>
