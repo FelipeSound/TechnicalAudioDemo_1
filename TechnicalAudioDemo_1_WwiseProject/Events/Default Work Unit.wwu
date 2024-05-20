@@ -29,6 +29,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="play_3d_vehicles" ID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{2970F329-2CB0-42F6-BCA6-CC7A6A75FFA2}" ShortID="330387705">
 							<ReferenceList>
@@ -73,6 +77,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="dialogue_1" ID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{DE0C9032-CDE1-44A6-B616-3009C79F6A30}" ShortID="594717235">
 							<ReferenceList>
@@ -139,6 +147,29 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="press_X_switchContainer" ID="{58EBC5D0-4535-4C07-9C8D-783668982612}" WorkUnitID="{90B187AA-4204-487C-A830-B1C8C5BC1603}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Locomotion" ID="{5907851D-548E-4221-BDF4-1D593CF6A147}" ShortID="204554436">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="play_footsteps" ID="{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}">
+							<ChildrenList>
+								<Action Name="" ID="{5431E5DA-CAF4-4BF8-859A-7708D756A5DE}" ShortID="172724869">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="footsteps_wetness" ID="{EB2C36DC-B3C9-4ADA-AC79-7B11E50621CF}" WorkUnitID="{5A9FB26D-F62A-4B7C-B38C-2D4411C5616A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

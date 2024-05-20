@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3854155799	play_footsteps			\Default Work Unit\Locomotion\play_footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1295756645	footsteps_wetground_Type			\Default Work Unit\footsteps_wetground_Type	
+	2866300569	footsteps_wetness_level			\Default Work Unit\footsteps_wetness_level	
+	4039126265	footsteps_dry_ground_Type			\Default Work Unit\footsteps_dry_ground_Type	
+	4062168902	footsteps_midWet_ground_Type			\Default Work Unit\footsteps_midWet_ground_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	2176766015	wet_asphalt	footsteps_wetground_Type			
+	2411610137	wet_wood	footsteps_wetground_Type			
+	3658039484	wet_sand	footsteps_wetground_Type			
+	630539344	dry	footsteps_wetness_level			
+	1181096339	wet	footsteps_wetness_level			
+	1591993813	medium_wet	footsteps_wetness_level			
+	354838112	dry_wood	footsteps_dry_ground_Type			
+	3526580628	dry_asphalt	footsteps_dry_ground_Type			
+	3934345385	dry_sand	footsteps_dry_ground_Type			
+	280863616	midwet_sand	footsteps_midWet_ground_Type			
+	1557596925	midwet_wood	footsteps_midWet_ground_Type			
+	2670893147	midwet_asphalt	footsteps_midWet_ground_Type			
+
