@@ -6,5 +6,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	24291192	Time Stretch (Custom)	Wwise Time Stretch			
+	403546093	Guitar Distortion (Custom)	Wwise Guitar Distortion			
 	2131109290	Drone_engine	Wwise Flanger			
 

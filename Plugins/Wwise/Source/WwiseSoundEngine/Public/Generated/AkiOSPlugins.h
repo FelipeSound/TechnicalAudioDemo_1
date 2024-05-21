@@ -18,5 +18,6 @@ Copyright (c) 2024 Audiokinetic Inc.
 #if PLATFORM_IOS
 #include <AK/Plugin/AkRoomVerbFXFactory.h>
 #include <AK/Plugin/AkFlangerFXFactory.h>
+#include <AK/Plugin/AkGuitarDistortionFXFactory.h>
 #include <AK/Plugin/AkTimeStretchFXFactory.h>
 #endif

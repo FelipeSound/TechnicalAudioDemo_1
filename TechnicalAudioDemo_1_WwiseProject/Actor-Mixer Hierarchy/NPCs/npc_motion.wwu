@@ -101,6 +101,64 @@
 									</EffectSlot>
 								</Local>
 							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{1B6F8F5B-A34C-4EB5-922C-B4BCE623EB8F}" ShortID="208764893">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Guitar Distortion (Custom)" ID="{0D4B227E-231D-4630-942F-6E8312805E51}" ShortID="403546093" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+														<PropertyList>
+															<Property Name="PostEQBand3Enable" Type="bool" Value="True"/>
+															<Property Name="PostEQBand3Gain" Type="Real32" Value="3"/>
+														</PropertyList>
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{986085E1-EB97-4330-A348-FA4B92A13B21}" ShortID="974226982">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="OutputLevel"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{EE94FC53-EA15-42E6-A095-C47BE14EB961}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="3"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>2.90623</YPos>
+																									<Flags>5</Flags>
+																									<SegmentShape>Exp3</SegmentShape>
+																								</Point>
+																								<Point>
+																									<XPos>5000</XPos>
+																									<YPos>0</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
 						</ObjectList>
 						<ObjectList Name="RTPC">
 							<Reference>

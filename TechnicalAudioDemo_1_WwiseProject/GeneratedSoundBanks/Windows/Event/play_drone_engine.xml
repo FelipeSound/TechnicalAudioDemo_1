@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{CF134491-04AE-7D5D-5209-0093A097081B}">
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{2CE5956E-ADFE-4118-560F-8CF4D06FCF8A}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -15,6 +15,7 @@
 			<Plugins>
 				<Custom>
 					<Plugin Id="24291192" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\NPCs\npc_motion\Engine_Loop\[Effect Slot [1]: (Time Stretch)]\Time Stretch (Custom)" GUID="{D5792126-191B-48B6-925D-B234E9B77013}" LibName="Wwise Time Stretch" LibId="8519683"/>
+					<Plugin Id="403546093" Name="Guitar Distortion (Custom)" ObjectPath="\Actor-Mixer Hierarchy\NPCs\npc_motion\Engine_Loop\[Effect Slot [2]: (Guitar Distortion)]\Guitar Distortion (Custom)" GUID="{0D4B227E-231D-4630-942F-6E8312805E51}" LibName="Wwise Guitar Distortion" LibId="8257539"/>
 				</Custom>
 				<ShareSets>
 					<Plugin Id="2131109290" Name="Drone_engine" ObjectPath="\Effects\Default Work Unit\Drone_engine" GUID="{9965A16B-DB48-4C33-87FD-3BA3457E64EE}" LibName="Wwise Flanger" LibId="8192003"/>
@@ -28,6 +29,7 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="24291192"/>
+							<PluginRef Id="403546093"/>
 						</Custom>
 						<ShareSets>
 							<PluginRef Id="2131109290"/>
@@ -40,5 +42,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{49E3F686-404A-5372-5142-1AAE5334DB90}</FileHash>
+	<FileHash>{93B82B7B-DFDA-EE64-FA7B-F81EB16EAD0B}</FileHash>
 </SoundBanksInfo>

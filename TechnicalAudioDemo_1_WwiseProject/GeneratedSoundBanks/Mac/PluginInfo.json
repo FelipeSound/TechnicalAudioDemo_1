@@ -18,6 +18,13 @@
     "StaticLib": "AkFlangerFX"
    },
    {
+    "LibName": "Wwise Guitar Distortion",
+    "LibId": "8257539",
+    "Type": "Effect",
+    "DLL": "AkGuitarDistortion",
+    "StaticLib": "AkGuitarDistortionFX"
+   },
+   {
     "LibName": "Wwise Time Stretch",
     "LibId": "8519683",
     "Type": "Effect",
@@ -35,6 +42,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{B1B1E09E-BF49-BE37-14A1-620DA59D0860}"
+  "FileHash": "{463FE3FC-1D57-B976-94B7-B4C4860CF7A1}"
  }
 }
