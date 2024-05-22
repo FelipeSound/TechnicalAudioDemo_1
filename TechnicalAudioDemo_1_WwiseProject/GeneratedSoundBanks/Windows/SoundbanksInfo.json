@@ -1698,7 +1698,7 @@
     "Type": "Event",
     "GUID": "{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}",
     "Language": "English(US)",
-    "Hash": "{0FA26E02-85C4-0E00-49CE-CCEB0FA27559}",
+    "Hash": "{A4BC7978-68A0-DB5D-C13E-2A16C2DC0E09}",
     "ObjectPath": "dialogue_1",
     "ShortName": "dialogue_1",
     "Path": "Event/English(US)/dialogue_1.bnk",
@@ -1716,6 +1716,7 @@
       "Name": "dialogue_1",
       "ObjectPath": "\\Events\\Default Work Unit\\dialogue_1",
       "GUID": "{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}",
+      "MaxAttenuation": "1500",
       "DurationType": "Unknown",
       "ExternalSourceRefs": [
        {
@@ -3048,6 +3049,6 @@
     ]
    }
   ],
-  "FileHash": "{6E12161E-C304-7738-E408-ADD46B5041C5}"
+  "FileHash": "{C991E425-5458-8FCE-4801-129D7E89F994}"
  }
 }

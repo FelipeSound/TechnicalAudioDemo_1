@@ -758,7 +758,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3196045927" Type="Event" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" Language="English(US)" Hash="{0FA26E02-85C4-0E00-49CE-CCEB0FA27559}">
+		<SoundBank Id="3196045927" Type="Event" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" Language="English(US)" Hash="{A4BC7978-68A0-DB5D-C13E-2A16C2DC0E09}">
 			<ObjectPath>dialogue_1</ObjectPath>
 			<ShortName>dialogue_1</ShortName>
 			<Path>Event/English(US)/dialogue_1.bnk</Path>
@@ -766,7 +766,7 @@
 				<Source Cookie="618371124" Name="External_Source" ObjectPath="\Actor-Mixer Hierarchy\Dialogue\Dialogue\DialogueMix\MainCharacter_Dialogue\character_dialog\External_Source" GUID="{C1DCFF75-F235-4139-BBF2-5A1F29525F23}"/>
 			</ExternalSources>
 			<Events>
-				<Event Id="3196045927" Name="dialogue_1" ObjectPath="\Events\Default Work Unit\dialogue_1" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" DurationType="Unknown">
+				<Event Id="3196045927" Name="dialogue_1" ObjectPath="\Events\Default Work Unit\dialogue_1" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" MaxAttenuation="1500" DurationType="Unknown">
 					<ExternalSourceRefs>
 						<ExternalSourceRef Cookie="618371124"/>
 					</ExternalSourceRefs>
@@ -1410,5 +1410,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{70AC1B8C-C81C-A939-454F-F3305B1E4D8D}</FileHash>
+	<FileHash>{1F0CC3D0-D6A7-D9A1-524B-BE2C66BC1B48}</FileHash>
 </SoundBanksInfo>

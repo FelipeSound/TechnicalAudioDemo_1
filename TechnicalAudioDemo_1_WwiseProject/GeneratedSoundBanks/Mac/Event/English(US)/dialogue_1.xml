@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3196045927" Type="Event" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" Language="English(US)" Hash="{0FA26E02-85C4-0E00-49CE-CCEB0FA27559}">
+		<SoundBank Id="3196045927" Type="Event" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" Language="English(US)" Hash="{A4BC7978-68A0-DB5D-C13E-2A16C2DC0E09}">
 			<ObjectPath>dialogue_1</ObjectPath>
 			<ShortName>dialogue_1</ShortName>
 			<Path>Event/English(US)/dialogue_1.bnk</Path>
@@ -9,7 +9,7 @@
 				<Source Cookie="618371124" Name="External_Source" ObjectPath="\Actor-Mixer Hierarchy\Dialogue\Dialogue\DialogueMix\MainCharacter_Dialogue\character_dialog\External_Source" GUID="{C1DCFF75-F235-4139-BBF2-5A1F29525F23}"/>
 			</ExternalSources>
 			<Events>
-				<Event Id="3196045927" Name="dialogue_1" ObjectPath="\Events\Default Work Unit\dialogue_1" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" DurationType="Unknown">
+				<Event Id="3196045927" Name="dialogue_1" ObjectPath="\Events\Default Work Unit\dialogue_1" GUID="{5D19A157-7D2C-4FD2-B23D-618CE77DAD6F}" MaxAttenuation="1500" DurationType="Unknown">
 					<ExternalSourceRefs>
 						<ExternalSourceRef Cookie="618371124"/>
 					</ExternalSourceRefs>
@@ -17,5 +17,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{89DC3AD2-EBD3-2383-9BB9-94E74F869755}</FileHash>
+	<FileHash>{33959D23-95BF-2A02-DB10-FC4369BBAB26}</FileHash>
 </SoundBanksInfo>
