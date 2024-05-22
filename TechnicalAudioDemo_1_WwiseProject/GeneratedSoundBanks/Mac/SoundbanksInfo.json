@@ -198,6 +198,28 @@
     ]
    },
    {
+    "Id": "514476953",
+    "Type": "Event",
+    "GUID": "{4D759C12-9E62-4326-BB57-8980E4E387F3}",
+    "Language": "SFX",
+    "Hash": "{5F4E50DE-D200-6E4B-E419-EFE01BD7DC83}",
+    "ObjectPath": "End_dialogue_1",
+    "ShortName": "End_dialogue_1",
+    "Path": "Event/End_dialogue_1.bnk",
+    "Events": [
+     {
+      "Id": "514476953",
+      "Name": "End_dialogue_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\End_dialogue_1",
+      "GUID": "{4D759C12-9E62-4326-BB57-8980E4E387F3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   },
+   {
     "Id": "578926554",
     "Type": "Bus",
     "GUID": "{D55561E7-8596-48C7-8219-1730B6372E59}",
@@ -3049,6 +3071,6 @@
     ]
    }
   ],
-  "FileHash": "{4DF2F15D-9FEE-1915-26A5-2904CFAAF0A8}"
+  "FileHash": "{DBABAF5C-12D8-F13F-9FA2-7C857ACAA9CB}"
  }
 }
