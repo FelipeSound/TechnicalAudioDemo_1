@@ -10,20 +10,39 @@
     "Type": "Bus",
     "GUID": "{D55561E7-8596-48C7-8219-1730B6372E59}",
     "Language": "SFX",
-    "Hash": "{A9E7DD6D-C13D-C3FE-0B62-26FED09CDED3}",
+    "Hash": "{7623F5F6-1675-01E0-1979-873B7216464E}",
     "ObjectPath": "lab",
     "ShortName": "lab",
     "Path": "Bus/lab.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1159390747",
+       "Name": "Room_Medium_Tiled",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_Tiled",
+       "GUID": "{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "578926554",
       "Name": "lab",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\lab",
-      "GUID": "{D55561E7-8596-48C7-8219-1730B6372E59}"
+      "GUID": "{D55561E7-8596-48C7-8219-1730B6372E59}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1159390747"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{98426621-2067-FA03-0697-B33ACD6BB1FF}"
+  "FileHash": "{B4173A5F-9BF4-0847-1E10-542817F563A0}"
  }
 }

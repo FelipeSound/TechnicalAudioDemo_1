@@ -44,7 +44,23 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
-						<AuxBus Name="lab" ID="{D55561E7-8596-48C7-8219-1730B6372E59}"/>
+						<AuxBus Name="lab" ID="{D55561E7-8596-48C7-8219-1730B6372E59}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{9C426383-F15B-4606-8554-2EA569AA1B86}" ShortID="160243259">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
 						<AuxBus Name="Ruins_Interior" ID="{21EB74FA-463E-4737-A082-30CF4FF657DF}">
 							<ObjectLists>
 								<ObjectList Name="Effects">

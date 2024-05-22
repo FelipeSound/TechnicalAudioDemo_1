@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E719FCF4-B1E9-34D6-8CA8-B9EFBC7707ED}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{0D551D7F-3D2C-A1D7-8C44-7BC421D3D37B}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1159390747" Name="Room_Medium_Tiled" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium_Tiled" GUID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2513915904" Name="Hall_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large" GUID="{6D154498-FF6D-4823-96FC-56841B70E079}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2849147824" Name="Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Cathedrals\Medium" GUID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2891462749" Name="Room_Medium_High_Absorbtion" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium_High_Absorbtion" GUID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -29,7 +30,13 @@
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
-				<AuxBus Id="578926554" Name="lab" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\lab" GUID="{D55561E7-8596-48C7-8219-1730B6372E59}"/>
+				<AuxBus Id="578926554" Name="lab" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\lab" GUID="{D55561E7-8596-48C7-8219-1730B6372E59}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1159390747"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 				<AuxBus Id="1040134269" Name="beach_Caves" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\beach_Caves" GUID="{D4823E81-9F33-4BBB-B507-BA2751C2BCC6}">
 					<PluginRefs>
 						<ShareSets>
@@ -124,5 +131,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{506C33D5-59A8-E26E-89B3-C383DD84CB0B}</FileHash>
+	<FileHash>{01C95DBF-6C63-26B7-2B4B-7DF478859F2C}</FileHash>
 </SoundBanksInfo>
