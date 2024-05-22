@@ -173,6 +173,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="End_dialogue_1" ID="{4D759C12-9E62-4326-BB57-8980E4E387F3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{3E37DC7E-4115-4010-B976-710C158953F3}" ShortID="58130729">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="character_dialog" ID="{2D648C8E-38A7-46BF-976F-2FD23138AC40}" WorkUnitID="{1F7590B5-7D7B-4169-933C-983C06B6C1D8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

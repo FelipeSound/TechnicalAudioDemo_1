@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "514476953",
+    "Type": "Event",
+    "GUID": "{4D759C12-9E62-4326-BB57-8980E4E387F3}",
+    "Language": "SFX",
+    "Hash": "{5F4E50DE-D200-6E4B-E419-EFE01BD7DC83}",
+    "ObjectPath": "End_dialogue_1",
+    "ShortName": "End_dialogue_1",
+    "Path": "Event/End_dialogue_1.bnk",
+    "Events": [
+     {
+      "Id": "514476953",
+      "Name": "End_dialogue_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\End_dialogue_1",
+      "GUID": "{4D759C12-9E62-4326-BB57-8980E4E387F3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{13414630-1AE1-C7E2-3FC9-E55095BF7251}"
+ }
+}

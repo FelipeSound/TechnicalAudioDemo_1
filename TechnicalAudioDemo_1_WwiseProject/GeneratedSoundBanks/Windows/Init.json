@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CFB90021-B7D8-07C6-3E97-A210DD224E79}",
+    "Hash": "{601493B2-736F-FB8A-F0B9-1A90555806CB}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -21,6 +21,14 @@
        "Name": "Have_U_Ever_Been_Outside",
        "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
        "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1159390747",
+       "Name": "Room_Medium_Tiled",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_Tiled",
+       "GUID": "{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       },
@@ -102,7 +110,14 @@
       "Id": "578926554",
       "Name": "lab",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\lab",
-      "GUID": "{D55561E7-8596-48C7-8219-1730B6372E59}"
+      "GUID": "{D55561E7-8596-48C7-8219-1730B6372E59}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1159390747"
+        }
+       ]
+      }
      },
      {
       "Id": "1040134269",
@@ -405,6 +420,6 @@
     ]
    }
   ],
-  "FileHash": "{9E6EABD0-0EBD-9A0D-C25E-02996ACF49D4}"
+  "FileHash": "{26CE215B-5026-9AF3-F274-2985DE523676}"
  }
 }
