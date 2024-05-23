@@ -1898,11 +1898,517 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="metal" ID="{B3347175-7436-419E-8987-6C13BD7ADF56}" ShortID="431491583">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>47</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="footsteps_metal-014" ID="{FCBC50BB-810C-4D95-9A8A-CA3B3935B9B0}" ShortID="185706453">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-014" ID="{3484D9DD-EE1C-4FDB-8985-8B1732596C13}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-014.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="115767788"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-014" ID="{3484D9DD-EE1C-4FDB-8985-8B1732596C13}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-015" ID="{C178F944-531B-4A9C-8F61-BDD6B470D637}" ShortID="857223357">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-015" ID="{C5851820-C04D-4410-A4F8-A7D8D9179A02}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-015.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="797264458"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-015" ID="{C5851820-C04D-4410-A4F8-A7D8D9179A02}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-016" ID="{AEF40E72-571C-4A1C-B79A-63DD9299BAC5}" ShortID="776243747">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-016" ID="{8916AE5B-5CF8-4F52-BBF9-C1CC9A78FA7D}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-016.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="156056762"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-016" ID="{8916AE5B-5CF8-4F52-BBF9-C1CC9A78FA7D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-017" ID="{4D6868CA-FEF7-4C31-BA15-A17389F030DB}" ShortID="623892277">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-017" ID="{3B51B2A9-144E-445B-845E-1592AEE5D88C}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-017.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="147752101"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-017" ID="{3B51B2A9-144E-445B-845E-1592AEE5D88C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-018" ID="{A429AC22-D071-495B-8C29-66284E199BF2}" ShortID="176585898">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-018" ID="{94376AF5-2582-4D93-A7EF-73827F3CA0A0}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-018.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="769665219"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-018" ID="{94376AF5-2582-4D93-A7EF-73827F3CA0A0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-019" ID="{356517F0-C6DD-4BCC-BC91-E884242B3BF3}" ShortID="947020742">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-019" ID="{502DB4CE-3EFE-483C-A18D-FBC1CC2B9122}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-019.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="556303419"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-019" ID="{502DB4CE-3EFE-483C-A18D-FBC1CC2B9122}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-020" ID="{E5035494-BB0B-4106-B7F4-E23BDCA53296}" ShortID="989264915">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-020" ID="{5298E790-3945-4924-B765-EC0E3EE676E4}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-020.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="280498110"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-020" ID="{5298E790-3945-4924-B765-EC0E3EE676E4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-021" ID="{2FF6AA30-215F-4D93-933D-B7E8AE564BFA}" ShortID="739323154">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-021" ID="{C3DC383B-4C8A-4464-B1C8-A6CF7AADBEF7}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-021.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="913025541"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-021" ID="{C3DC383B-4C8A-4464-B1C8-A6CF7AADBEF7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-022" ID="{8AA1F543-9B0F-4588-B95A-DB26298A38E0}" ShortID="752737747">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-022" ID="{492E753C-2E62-41A6-8341-35FD4D88434A}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-022.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1023614455"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-022" ID="{492E753C-2E62-41A6-8341-35FD4D88434A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-001" ID="{48E0871C-EB3A-4F5C-AC49-486E52F51887}" ShortID="1010376186">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-001" ID="{938EBC21-BD61-410E-900A-13E180D16BEB}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="289386821"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-001" ID="{938EBC21-BD61-410E-900A-13E180D16BEB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-002" ID="{2EE4BC47-5619-4A42-B0F1-DAE30F48AEC9}" ShortID="845037136">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-002" ID="{1B520984-F70B-4D5F-A1F2-B91E33A3E440}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="888575028"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-002" ID="{1B520984-F70B-4D5F-A1F2-B91E33A3E440}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-003" ID="{05223E32-282A-49C7-AA83-172E008FA278}" ShortID="71205078">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-003" ID="{0EC01EF8-4C1E-4541-A1DB-E9EC65715770}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="742489226"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-003" ID="{0EC01EF8-4C1E-4541-A1DB-E9EC65715770}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-004" ID="{9CCF08ED-1BB3-41DC-8B62-C9E5D10D5A18}" ShortID="524658061">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-004" ID="{2111EFAB-0847-47F5-A5FD-58F281984D6A}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="517608864"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-004" ID="{2111EFAB-0847-47F5-A5FD-58F281984D6A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-005" ID="{9E97F58E-85E1-4B94-84A2-5620066CECF5}" ShortID="441064950">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-005" ID="{ECE0FC34-B76F-4511-BAF4-9D09437C1629}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="338284905"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-005" ID="{ECE0FC34-B76F-4511-BAF4-9D09437C1629}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-006" ID="{CE27953C-2E9D-4A1C-A376-1D1ADA3FBF73}" ShortID="467041297">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-006" ID="{E96F10C9-F525-4F05-B286-02832EB267E1}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="668499153"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-006" ID="{E96F10C9-F525-4F05-B286-02832EB267E1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-007" ID="{2940126E-1F30-482B-A707-5D913B6149C8}" ShortID="738663297">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-007" ID="{C150B0B9-A79D-4A8F-AD89-BF6A0662AAD6}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="699620789"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-007" ID="{C150B0B9-A79D-4A8F-AD89-BF6A0662AAD6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-008" ID="{1A9F1284-1E9F-4CA6-BB49-199321F86777}" ShortID="752656229">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-008" ID="{DEBFD6F4-8466-4E94-969D-17343E2064ED}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="65134820"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-008" ID="{DEBFD6F4-8466-4E94-969D-17343E2064ED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-009" ID="{509FF4FD-4E72-47FB-B42B-4B01BFC79BCE}" ShortID="300290157">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-009" ID="{F7066317-F8DF-4A9C-8A03-221211449497}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="153864341"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-009" ID="{F7066317-F8DF-4A9C-8A03-221211449497}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-010" ID="{7A56BF7E-9F6F-4088-9F43-B405D8A75F03}" ShortID="346922962">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-010" ID="{8722957D-91CE-4A53-A478-3288AECB61E8}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="548703675"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-010" ID="{8722957D-91CE-4A53-A478-3288AECB61E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-011" ID="{659D1C29-AA9F-493D-A2D0-F0BA137C204F}" ShortID="734284529">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-011" ID="{7FFEFE70-E180-49F3-9C1F-4F9AD5E67EAF}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-011.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="499664781"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-011" ID="{7FFEFE70-E180-49F3-9C1F-4F9AD5E67EAF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-012" ID="{18589FD7-57DE-4D30-9E56-1226FF7B6780}" ShortID="872699976">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-012" ID="{98413FEA-549C-4504-9ED4-5ED14F585CF5}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-012.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="945508485"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-012" ID="{98413FEA-549C-4504-9ED4-5ED14F585CF5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_metal-013" ID="{28BCE123-AB16-45F7-B2F3-8E7192016DD3}" ShortID="208268915">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_metal-013" ID="{800D04C8-BBE9-449B-9031-2BA0F74683DC}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_metal-013.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="193166937"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_metal-013" ID="{800D04C8-BBE9-449B-9031-2BA0F74683DC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="wood" ID="{6AA7536B-2772-4A3A-B49A-EF7AE166A088}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="metal" ID="{B3347175-7436-419E-8987-6C13BD7ADF56}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="asphalt" ID="{6859C0D9-C37C-43DE-92B2-06354CBDA769}"/>
@@ -1922,6 +2428,12 @@
 												<SwitchRef Name="dry_asphalt" ID="{50178C86-AF48-40DA-AE28-AE95B17A40CB}"/>
 												<ItemList>
 													<ItemRef Name="asphalt" ID="{6859C0D9-C37C-43DE-92B2-06354CBDA769}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="dry_metal" ID="{CA7EF789-CA3F-40D8-93AC-BD50B362F72F}"/>
+												<ItemList>
+													<ItemRef Name="metal" ID="{B3347175-7436-419E-8987-6C13BD7ADF56}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -1955,6 +2467,624 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="footsteps_Med_wetSand-001" ID="{4715D5C0-C92F-496D-8BF4-50D836E6BB90}" ShortID="148335141">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-001" ID="{DFB53F61-FD9A-4B05-B850-0967C5E5B67D}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="624921932"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-001" ID="{DFB53F61-FD9A-4B05-B850-0967C5E5B67D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-002" ID="{707940E5-6A20-4E94-B922-CDDC0D6AD631}" ShortID="507223587">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-002" ID="{8529860B-C45B-431F-A044-653B954D4054}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="323762951"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-002" ID="{8529860B-C45B-431F-A044-653B954D4054}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-003" ID="{9D53AE05-F2FC-4FEF-A1F4-D7BF7F394469}" ShortID="881069031">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-003" ID="{646BA362-F439-40D7-A6B0-31670559D35F}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="131146007"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-003" ID="{646BA362-F439-40D7-A6B0-31670559D35F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-004" ID="{C14A8EF3-F6FA-496C-B1F4-B5F6E604DF5C}" ShortID="962324132">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-004" ID="{B2BAAAA1-84AD-4929-9A47-2E05C216293A}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1032523833"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-004" ID="{B2BAAAA1-84AD-4929-9A47-2E05C216293A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-005" ID="{2EB1FAA0-108A-41C2-990B-72CEEFD375FF}" ShortID="769153233">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-005" ID="{419C2EDF-2F39-4337-BF75-7F4404171DDD}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="968806276"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-005" ID="{419C2EDF-2F39-4337-BF75-7F4404171DDD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-006" ID="{54AD3B60-AA3C-418B-AF19-F54E35E8BB4D}" ShortID="820577813">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-006" ID="{DD3018EE-2450-4A26-9EFF-36778D93F17A}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="788679266"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-006" ID="{DD3018EE-2450-4A26-9EFF-36778D93F17A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-007" ID="{A63D4723-666A-4C40-A231-90E3B720E26B}" ShortID="993204098">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-007" ID="{CCD8F71B-1FCE-4FFC-A42E-BACEAA530C77}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="989878656"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-007" ID="{CCD8F71B-1FCE-4FFC-A42E-BACEAA530C77}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-008" ID="{CACE00E7-CAF6-4D23-ACC4-24FC407A2ED8}" ShortID="14372117">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-008" ID="{88764A68-5E55-44AA-A264-D610BEA430B6}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="83243983"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-008" ID="{88764A68-5E55-44AA-A264-D610BEA430B6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-009" ID="{8CF8110D-0419-46A1-A22D-10EA2E2D5CF3}" ShortID="56718108">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-009" ID="{35D8FC71-2C72-4055-9DC1-6835E4673513}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="330605954"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-009" ID="{35D8FC71-2C72-4055-9DC1-6835E4673513}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-010" ID="{8909CC61-F72A-4CC5-A377-99BE7D4039E2}" ShortID="861930751">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-010" ID="{8086E5AB-C4AD-4637-9B10-1FF99F40ED20}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="410451189"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-010" ID="{8086E5AB-C4AD-4637-9B10-1FF99F40ED20}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-011" ID="{6B2DD1A6-2523-411F-927C-0781B0928886}" ShortID="2296169">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-011" ID="{A473EE3C-6246-4072-BE1E-DC7B23754915}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-011.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="277298397"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-011" ID="{A473EE3C-6246-4072-BE1E-DC7B23754915}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-012" ID="{02198AD7-DAC6-4443-94D4-DB92C0883195}" ShortID="592995324">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-012" ID="{8A35FF24-67E9-4065-BBFD-2E8978F553D5}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-012.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="977098591"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-012" ID="{8A35FF24-67E9-4065-BBFD-2E8978F553D5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-013" ID="{11105A6B-DA10-4FBF-B595-F3F5B3895241}" ShortID="841646499">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-013" ID="{1944E14C-C516-402B-86A8-2D682A33254D}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-013.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="356264625"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-013" ID="{1944E14C-C516-402B-86A8-2D682A33254D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-014" ID="{80CBD821-892A-41C6-80D7-D62290EE4ED8}" ShortID="1071645319">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-014" ID="{A39F5C10-74AB-48C2-8740-C022F24404B9}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-014.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="651125205"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-014" ID="{A39F5C10-74AB-48C2-8740-C022F24404B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-015" ID="{F196AFE7-B9A7-4EB7-AF91-A84E6575B8C5}" ShortID="1039595162">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-015" ID="{FE1E5D7E-0329-4044-8B6C-B35D074360E3}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-015.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="395948433"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-015" ID="{FE1E5D7E-0329-4044-8B6C-B35D074360E3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-016" ID="{77B3B4A9-F79C-46DC-A9D1-2CDF322E8B73}" ShortID="948294050">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-016" ID="{000B72F9-F30D-4A06-B21F-B1CB5B2CE428}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-016.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1008278810"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-016" ID="{000B72F9-F30D-4A06-B21F-B1CB5B2CE428}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-017" ID="{7C9FD481-1259-4B84-A2F4-30A82EB75EC3}" ShortID="319573233">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-017" ID="{A4C156B1-4E76-469B-91E2-BCC7274FFBFB}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-017.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="43742727"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-017" ID="{A4C156B1-4E76-469B-91E2-BCC7274FFBFB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-018" ID="{13E18BD0-7D79-49BA-8116-AE36699D208F}" ShortID="80494969">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-018" ID="{4913E1AF-CE86-4EC2-A586-790FA54699B0}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-018.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="632689890"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-018" ID="{4913E1AF-CE86-4EC2-A586-790FA54699B0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-019" ID="{5514FDAF-B19F-4463-8C63-188BD1091756}" ShortID="706771129">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-019" ID="{94EAA197-4AE0-429E-9AB4-5940269A5B07}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-019.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="42002011"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-019" ID="{94EAA197-4AE0-429E-9AB4-5940269A5B07}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-020" ID="{94BAA736-FA5E-41F5-AD41-696E0B1766A9}" ShortID="548862468">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-020" ID="{D712448A-1672-4712-B1EA-5F9AAFC4E041}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-020.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="647448980"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-020" ID="{D712448A-1672-4712-B1EA-5F9AAFC4E041}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-021" ID="{92881FF0-209B-4538-9BB5-34D391363E1A}" ShortID="377295386">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-021" ID="{89DF3712-C416-4236-87CF-5BD08EEDDDD8}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-021.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1059978508"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-021" ID="{89DF3712-C416-4236-87CF-5BD08EEDDDD8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-022" ID="{2D770115-65E1-4638-9FF3-7F5C56779A93}" ShortID="94291036">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-022" ID="{71E6C581-1A80-4C1B-9AA5-874F8756E96A}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-022.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="713694462"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-022" ID="{71E6C581-1A80-4C1B-9AA5-874F8756E96A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-023" ID="{922A09E9-D545-4EBC-A6B7-17105B5B425E}" ShortID="1046098008">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-023" ID="{50C86F8D-77E5-4904-A04A-B0234BF316A1}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-023.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="100808557"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-023" ID="{50C86F8D-77E5-4904-A04A-B0234BF316A1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-024" ID="{143DABDD-1EDB-4CEE-BBC9-274D2103EBC0}" ShortID="527724279">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-024" ID="{A3B08023-56FF-4CAF-BFB0-87A73C78722C}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-024.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="259027499"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-024" ID="{A3B08023-56FF-4CAF-BFB0-87A73C78722C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-025" ID="{F56C8335-2EE2-42C2-952F-1594F5B3F06C}" ShortID="122728736">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-025" ID="{31D79DA1-300D-450D-AB88-1FF1184C7BF4}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-025.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="94620240"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-025" ID="{31D79DA1-300D-450D-AB88-1FF1184C7BF4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-026" ID="{79E91AD2-11D4-499B-AF00-6EC71AE9D39F}" ShortID="549343771">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-026" ID="{6BB6211D-328B-4DD5-BBA6-5DBDCD96C69E}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-026.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="46122286"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-026" ID="{6BB6211D-328B-4DD5-BBA6-5DBDCD96C69E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-027" ID="{1B6B2EAA-89CE-4DA3-BA28-2F3FF80B273D}" ShortID="445166022">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-027" ID="{57CA67A9-356B-41F9-A588-1D454D3FE2B5}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-027.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="33927007"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-027" ID="{57CA67A9-356B-41F9-A588-1D454D3FE2B5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Med_wetSand-028" ID="{1AFA88C8-BD76-40A1-ACA4-B398BC208970}" ShortID="758468879">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Med_wetSand-028" ID="{29DF9B27-F377-4CE9-AE46-B44818AE6EB4}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Med_wetSand-028.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="229013602"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Med_wetSand-028" ID="{29DF9B27-F377-4CE9-AE46-B44818AE6EB4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="midWet_wood" ID="{B9492CB2-2B81-413E-87B2-8C069C759EA6}" ShortID="80897236">
 											<ReferenceList>
@@ -2036,6 +3166,448 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="footsteps_Wet_Sand-002" ID="{B26B74A6-2692-41A6-AC85-26D4A497BE03}" ShortID="786484625">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-002" ID="{5461F8D5-19B4-4B9E-BA53-AD2ECE1829F5}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="410653227"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-002" ID="{5461F8D5-19B4-4B9E-BA53-AD2ECE1829F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-003" ID="{189D11E4-81E5-4A46-96F9-FA6E27DFE058}" ShortID="77117605">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-003" ID="{D5A3BD38-5840-4A41-8307-B387315218E8}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="361352781"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-003" ID="{D5A3BD38-5840-4A41-8307-B387315218E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-004" ID="{67936265-F328-448F-9BC1-B660B9CC7E45}" ShortID="600297627">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-004" ID="{B9246CE5-CAE5-4C1F-836A-B6394C8072BE}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="703105826"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-004" ID="{B9246CE5-CAE5-4C1F-836A-B6394C8072BE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-005" ID="{85CF7632-3892-4A74-B1E2-841C778E041D}" ShortID="615167435">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-005" ID="{FF69F3F9-6219-431C-9448-4AEA72E93801}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="634992132"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-005" ID="{FF69F3F9-6219-431C-9448-4AEA72E93801}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-006" ID="{E6F20A9C-5FEA-4A99-B605-5B0712C15121}" ShortID="496211465">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-006" ID="{4E0B14AD-2D55-4285-8442-B7DAF9DFFC1C}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="358179380"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-006" ID="{4E0B14AD-2D55-4285-8442-B7DAF9DFFC1C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-007" ID="{969ACA08-A1F1-4F50-825C-AA861E1C21A0}" ShortID="50516044">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-007" ID="{CEE9299B-E57B-41BB-94C6-4CBF94746FA2}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="103561621"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-007" ID="{CEE9299B-E57B-41BB-94C6-4CBF94746FA2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-008" ID="{6A1D0F84-3D5C-4598-959D-963657016513}" ShortID="954910949">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-008" ID="{06DE6DEA-A091-4F6B-B546-E48326435B33}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="365118030"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-008" ID="{06DE6DEA-A091-4F6B-B546-E48326435B33}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-009" ID="{9C8380E1-53CC-4FD0-9F65-D0D5D396FED1}" ShortID="506597612">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-009" ID="{1BD9122B-C736-41CD-866C-BDF97C9E740E}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="582471508"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-009" ID="{1BD9122B-C736-41CD-866C-BDF97C9E740E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-010" ID="{415DFEAF-6307-42C5-B4AC-83621F1803A3}" ShortID="98100585">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-010" ID="{87B47257-51E4-408C-A645-4D43172AE551}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="629568908"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-010" ID="{87B47257-51E4-408C-A645-4D43172AE551}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-011" ID="{494BC9A1-3207-4D36-90DF-D8F06173B3D3}" ShortID="829303199">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-011" ID="{7E632467-09AF-4EF2-A7D2-A2ADFB7D0082}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-011.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="755632276"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-011" ID="{7E632467-09AF-4EF2-A7D2-A2ADFB7D0082}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-012" ID="{C623CDCE-2734-438D-B269-6F881085F4B4}" ShortID="214928017">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-012" ID="{2CE78AFE-4FB2-4788-B72D-F32166B3D921}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-012.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="624432981"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-012" ID="{2CE78AFE-4FB2-4788-B72D-F32166B3D921}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-013" ID="{196EF074-A614-4277-A231-863CBE84EC3E}" ShortID="246423755">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-013" ID="{D9BD91DD-E93A-4862-9B7C-E8C882AC7696}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-013.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="540447927"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-013" ID="{D9BD91DD-E93A-4862-9B7C-E8C882AC7696}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-014" ID="{6B6142BD-DEAB-4353-9AEF-146DC4E4F4C7}" ShortID="132588139">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-014" ID="{4CE96306-FA26-4CDB-B667-3C321C8E3BA4}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-014.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="639223817"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-014" ID="{4CE96306-FA26-4CDB-B667-3C321C8E3BA4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-015" ID="{040AD238-A752-49DA-9270-6028BDB46AE7}" ShortID="543668022">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-015" ID="{6EC8B969-91AE-445B-9A06-370406BA7BAC}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-015.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="780395689"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-015" ID="{6EC8B969-91AE-445B-9A06-370406BA7BAC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-016" ID="{8F3C9F7B-B088-4016-BE3B-84B740D68BA8}" ShortID="225088265">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-016" ID="{22496E81-F03D-4638-B3A8-A0836A026486}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-016.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="454288591"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-016" ID="{22496E81-F03D-4638-B3A8-A0836A026486}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-017" ID="{D9DAC041-4E94-4C2E-BFCE-D382E8BE18A9}" ShortID="343272814">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-017" ID="{D653C242-F20A-4BE5-B917-69A2483EED0C}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-017.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="752508168"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-017" ID="{D653C242-F20A-4BE5-B917-69A2483EED0C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-018" ID="{C4AA4795-F79B-4312-B33D-4D56EF5D1828}" ShortID="382587016">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-018" ID="{633DA741-50FE-49D1-8B2C-60FA2F105430}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-018.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="215884673"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-018" ID="{633DA741-50FE-49D1-8B2C-60FA2F105430}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-019" ID="{B6394CF5-856E-4ACF-80C4-EFDA8D61298F}" ShortID="484251700">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-019" ID="{25665EB0-7D29-4D21-BF83-EA4D964A0ECE}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-019.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="83696469"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-019" ID="{25665EB0-7D29-4D21-BF83-EA4D964A0ECE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-020" ID="{BFC17D8C-D84C-40CB-9F03-F700CB3452A9}" ShortID="809162800">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-020" ID="{2AD2683E-34AB-4B81-9E96-721BC626619E}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-020.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1028357379"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-020" ID="{2AD2683E-34AB-4B81-9E96-721BC626619E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="footsteps_Wet_Sand-001" ID="{B700F7EA-15E8-41CE-AA9B-3E494B55C924}" ShortID="725675078">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_Wet_Sand-001" ID="{71DC8787-43EC-47D8-ADB1-5F9C73970BEE}">
+															<Language>SFX</Language>
+															<AudioFile>footsteps\footsteps_Wet_Sand-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="356888094"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_Wet_Sand-001" ID="{71DC8787-43EC-47D8-ADB1-5F9C73970BEE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="wet_wood" ID="{67611F8D-49D7-4608-B8FA-259A6D887215}" ShortID="1014717568">
 											<ReferenceList>

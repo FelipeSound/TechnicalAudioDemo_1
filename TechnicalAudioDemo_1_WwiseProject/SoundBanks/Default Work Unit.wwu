@@ -3,8 +3,10 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{D8120167-EAC2-45F3-BF9B-BC94859EA1BF}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="New_SoundBank" ID="{E63430AE-EA6F-4C31-8C51-F15E484C1A08}">
-					<ObjectInclusionList/>
+				<SoundBank Name="footsteps" ID="{E63430AE-EA6F-4C31-8C51-F15E484C1A08}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_footsteps" ID="{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}" WorkUnitID="{4FF316A6-E781-43C5-8BBA-99A0FB1BB21F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

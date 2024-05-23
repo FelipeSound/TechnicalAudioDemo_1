@@ -110,6 +110,7 @@
 				<SwitchGroup Id="4039126265" Name="footsteps_dry_ground_Type" ObjectPath="\Switches\Default Work Unit\footsteps_dry_ground_Type" GUID="{F92C9FE1-C5F5-46AB-AF4D-50DB324313D7}">
 					<Switches>
 						<Switch Id="354838112" Name="dry_wood" ObjectPath="\Switches\Default Work Unit\footsteps_dry_ground_Type\dry_wood" GUID="{32211BA3-A6F1-4104-866D-8BD568346EA5}"/>
+						<Switch Id="2893959276" Name="dry_metal" ObjectPath="\Switches\Default Work Unit\footsteps_dry_ground_Type\dry_metal" GUID="{CA7EF789-CA3F-40D8-93AC-BD50B362F72F}"/>
 						<Switch Id="3526580628" Name="dry_asphalt" ObjectPath="\Switches\Default Work Unit\footsteps_dry_ground_Type\dry_asphalt" GUID="{50178C86-AF48-40DA-AE28-AE95B17A40CB}"/>
 						<Switch Id="3934345385" Name="dry_sand" ObjectPath="\Switches\Default Work Unit\footsteps_dry_ground_Type\dry_sand" GUID="{DC935722-881F-4458-A708-2F549D25049F}"/>
 					</Switches>
@@ -131,5 +132,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{027BCAFD-EFCC-3A5F-1743-C33A720F431F}</FileHash>
+	<FileHash>{3CE1707D-ABDD-5031-D84B-46C5794F1A28}</FileHash>
 </SoundBanksInfo>

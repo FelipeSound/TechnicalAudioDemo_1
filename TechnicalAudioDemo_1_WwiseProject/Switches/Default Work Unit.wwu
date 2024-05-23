@@ -37,6 +37,7 @@
 						<Switch Name="dry_sand" ID="{DC935722-881F-4458-A708-2F549D25049F}"/>
 						<Switch Name="dry_wood" ID="{32211BA3-A6F1-4104-866D-8BD568346EA5}"/>
 						<Switch Name="dry_asphalt" ID="{50178C86-AF48-40DA-AE28-AE95B17A40CB}"/>
+						<Switch Name="dry_metal" ID="{CA7EF789-CA3F-40D8-93AC-BD50B362F72F}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="footsteps_midWet_ground_Type" ID="{D8CD34A8-39A2-4CB2-9EF7-E0E0F2941F10}">

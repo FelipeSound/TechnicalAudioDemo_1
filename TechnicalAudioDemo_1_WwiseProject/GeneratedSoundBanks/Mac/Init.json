@@ -352,6 +352,12 @@
         "GUID": "{32211BA3-A6F1-4104-866D-8BD568346EA5}"
        },
        {
+        "Id": "2893959276",
+        "Name": "dry_metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps_dry_ground_Type\\dry_metal",
+        "GUID": "{CA7EF789-CA3F-40D8-93AC-BD50B362F72F}"
+       },
+       {
         "Id": "3526580628",
         "Name": "dry_asphalt",
         "ObjectPath": "\\Switches\\Default Work Unit\\footsteps_dry_ground_Type\\dry_asphalt",
@@ -420,6 +426,6 @@
     ]
    }
   ],
-  "FileHash": "{54C2307A-6625-DB11-0087-30F536275F65}"
+  "FileHash": "{9CB870DC-5C58-D500-F001-6178B32686AE}"
  }
 }
