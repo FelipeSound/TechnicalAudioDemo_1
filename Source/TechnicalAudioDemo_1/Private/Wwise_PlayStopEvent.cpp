@@ -68,7 +68,8 @@ void UWwise_PlayStopEvent::AllInOneFunction(UAkAudioEvent* play_thisevent,
 	FOnAkPostEventCallback nullCallback;
 
 	UAkGameplayStatics::PostEvent(play_thisevent, GetOwner(), int32(0), nullCallback);
-	//UAkGameplayStatics::SetRTPCValue(DefaultRTPCValue, Value, InterpolationTimeMs, NULL, "");
-	UAkGameplayStatics::SetRTPCValue(select_RTPC, RTPC_Update_Value, RTPC_Interp_Time, NULL, "");
+	UAkGameplayStatics::SetRTPCValue(DefaultRTPCValue, Value, InterpolationTimeMs, NULL, "");
+	UAkGameplayStatics::SetSwitch(DefaultAkSwitchValue, NULL, "", "");
+	//UAkGameplayStatics::SetRTPCValue(select_RTPC, RTPC_Update_Value, RTPC_Interp_Time, NULL, "");
 
 }

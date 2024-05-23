@@ -40,7 +40,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	class UAkRtpc* select_RTPC;
 
-	float RTPC_Update_Value;
+	//float RTPC_Update_Value;
 
 	float RTPC_Interp_Time;
 
