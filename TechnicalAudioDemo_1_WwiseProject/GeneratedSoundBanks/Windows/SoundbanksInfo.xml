@@ -334,7 +334,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1454002101" Type="Event" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" Language="SFX" Hash="{D0CF287A-BBAB-228F-66F1-DF1926433E1C}">
+		<SoundBank Id="1454002101" Type="Event" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" Language="SFX" Hash="{53113BAA-A68C-0325-184A-49F0A5BFCBD9}">
 			<ObjectPath>play_Machines_LR</ObjectPath>
 			<ShortName>play_Machines_LR</ShortName>
 			<Path>Event/play_Machines_LR.bnk</Path>
@@ -474,7 +474,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2385628198" Type="User" GUID="{E63430AE-EA6F-4C31-8C51-F15E484C1A08}" Language="SFX" Hash="{DCF6822B-7389-7BC1-F641-1379D3EED65C}">
+		<SoundBank Id="2385628198" Type="User" GUID="{E63430AE-EA6F-4C31-8C51-F15E484C1A08}" Language="SFX" Hash="{5F71E86E-B42B-23A4-4A98-E35F93598A86}">
 			<ObjectPath>\SoundBanks\Default Work Unit\footsteps</ObjectPath>
 			<ShortName>footsteps</ShortName>
 			<Path>footsteps.bnk</Path>
@@ -1720,5 +1720,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C5C1CFFE-2CC9-4226-A53C-1025F5D3F27A}</FileHash>
+	<FileHash>{BDABA137-66D7-5FBD-7FBB-DEA0B91E8469}</FileHash>
 </SoundBanksInfo>

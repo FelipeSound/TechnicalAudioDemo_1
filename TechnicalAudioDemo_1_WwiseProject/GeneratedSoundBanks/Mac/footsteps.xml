@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2385628198" Type="User" GUID="{E63430AE-EA6F-4C31-8C51-F15E484C1A08}" Language="SFX" Hash="{DCF6822B-7389-7BC1-F641-1379D3EED65C}">
+		<SoundBank Id="2385628198" Type="User" GUID="{E63430AE-EA6F-4C31-8C51-F15E484C1A08}" Language="SFX" Hash="{5F71E86E-B42B-23A4-4A98-E35F93598A86}">
 			<ObjectPath>\SoundBanks\Default Work Unit\footsteps</ObjectPath>
 			<ShortName>footsteps</ShortName>
 			<Path>footsteps.bnk</Path>
@@ -841,5 +841,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F0D34BA7-F9DA-6915-8446-A582205B7BE7}</FileHash>
+	<FileHash>{2E3C40A6-8434-FD57-0C9D-BB960142B105}</FileHash>
 </SoundBanksInfo>

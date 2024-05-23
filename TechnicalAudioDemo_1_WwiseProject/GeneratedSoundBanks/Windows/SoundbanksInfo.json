@@ -843,7 +843,7 @@
     "Type": "Event",
     "GUID": "{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}",
     "Language": "SFX",
-    "Hash": "{D0CF287A-BBAB-228F-66F1-DF1926433E1C}",
+    "Hash": "{53113BAA-A68C-0325-184A-49F0A5BFCBD9}",
     "ObjectPath": "play_Machines_LR",
     "ShortName": "play_Machines_LR",
     "Path": "Event/play_Machines_LR.bnk",
@@ -1122,7 +1122,7 @@
     "Type": "User",
     "GUID": "{E63430AE-EA6F-4C31-8C51-F15E484C1A08}",
     "Language": "SFX",
-    "Hash": "{DCF6822B-7389-7BC1-F641-1379D3EED65C}",
+    "Hash": "{5F71E86E-B42B-23A4-4A98-E35F93598A86}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\footsteps",
     "ShortName": "footsteps",
     "Path": "footsteps.bnk",
@@ -3830,6 +3830,6 @@
     ]
    }
   ],
-  "FileHash": "{144F7C52-4491-6F13-181F-1EEB437AF5B8}"
+  "FileHash": "{A247A326-520C-5110-BC93-089BA96B6A69}"
  }
 }

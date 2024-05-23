@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E63430AE-EA6F-4C31-8C51-F15E484C1A08}",
     "Language": "SFX",
-    "Hash": "{DCF6822B-7389-7BC1-F641-1379D3EED65C}",
+    "Hash": "{5F71E86E-B42B-23A4-4A98-E35F93598A86}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\footsteps",
     "ShortName": "footsteps",
     "Path": "footsteps.bnk",
@@ -1885,6 +1885,6 @@
     ]
    }
   ],
-  "FileHash": "{AEF642CF-2B88-FE30-C960-60121FBA1738}"
+  "FileHash": "{155BA596-49AD-2834-56DD-463C94ED04BB}"
  }
 }

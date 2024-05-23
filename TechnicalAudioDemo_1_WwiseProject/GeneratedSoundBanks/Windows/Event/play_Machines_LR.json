@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}",
     "Language": "SFX",
-    "Hash": "{D0CF287A-BBAB-228F-66F1-DF1926433E1C}",
+    "Hash": "{53113BAA-A68C-0325-184A-49F0A5BFCBD9}",
     "ObjectPath": "play_Machines_LR",
     "ShortName": "play_Machines_LR",
     "Path": "Event/play_Machines_LR.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{44678216-3E2A-9C29-5761-9CA6BA55EDE5}"
+  "FileHash": "{676B6BD9-D26E-1375-34B1-7B7251B94564}"
  }
 }
