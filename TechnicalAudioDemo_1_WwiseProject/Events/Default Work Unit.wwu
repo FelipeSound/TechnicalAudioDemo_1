@@ -198,6 +198,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="dialogue_1stPerson" ID="{9AD1D5DB-DB6D-4A85-80E7-6EB11BC30C7F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{66310481-4C66-453D-9A5E-2CEA34C1E265}" ShortID="946309677">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="character_1stPers_dialog" ID="{A59535FA-9729-437C-AEEF-C1FC64BA8A0A}" WorkUnitID="{1F7590B5-7D7B-4169-933C-983C06B6C1D8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="End_dialogue_1stPerson" ID="{A4DFB686-41B3-46BE-9073-BF604BD999F6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{CE76C3DD-2962-4736-A438-189CBC5FE5AA}" ShortID="750045238">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="character_1stPers_dialog" ID="{A59535FA-9729-437C-AEEF-C1FC64BA8A0A}" WorkUnitID="{1F7590B5-7D7B-4169-933C-983C06B6C1D8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

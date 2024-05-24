@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1024703765",
+    "Type": "Event",
+    "GUID": "{9AD1D5DB-DB6D-4A85-80E7-6EB11BC30C7F}",
+    "Language": "English(US)",
+    "Hash": "{EC674F51-A505-637F-CD34-2C69F11B3CEB}",
+    "ObjectPath": "dialogue_1stPerson",
+    "ShortName": "dialogue_1stPerson",
+    "Path": "Event/English(US)/dialogue_1stPerson.bnk",
+    "ExternalSources": [
+     {
+      "Cookie": "618371124",
+      "Name": "External_Source",
+      "ObjectPath": "\\Actor-Mixer Hierarchy\\Dialogue\\Dialogue\\Dialogue_firstPersonMix\\MainCharacter_Dialogue\\character_1stPers_dialog\\External_Source",
+      "GUID": "{456AE2DC-A89D-40F8-AAC5-20D58406C3AA}"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1024703765",
+      "Name": "dialogue_1stPerson",
+      "ObjectPath": "\\Events\\Default Work Unit\\dialogue_1stPerson",
+      "GUID": "{9AD1D5DB-DB6D-4A85-80E7-6EB11BC30C7F}",
+      "DurationType": "Unknown",
+      "ExternalSourceRefs": [
+       {
+        "Cookie": "618371124"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{826B1EEB-AE2A-6649-2EE6-8CE617473838}"
+ }
+}

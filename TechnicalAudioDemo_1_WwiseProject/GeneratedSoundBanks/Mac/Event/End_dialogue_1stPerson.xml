@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3998225387" Type="Event" GUID="{A4DFB686-41B3-46BE-9073-BF604BD999F6}" Language="SFX" Hash="{E3C6AACC-D97B-40AE-B593-55122E903F99}">
+			<ObjectPath>End_dialogue_1stPerson</ObjectPath>
+			<ShortName>End_dialogue_1stPerson</ShortName>
+			<Path>Event/End_dialogue_1stPerson.bnk</Path>
+			<Events>
+				<Event Id="3998225387" Name="End_dialogue_1stPerson" ObjectPath="\Events\Default Work Unit\End_dialogue_1stPerson" GUID="{A4DFB686-41B3-46BE-9073-BF604BD999F6}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A71D11A7-C956-2192-C0F7-AB2F8EB4A5B8}</FileHash>
+</SoundBanksInfo>

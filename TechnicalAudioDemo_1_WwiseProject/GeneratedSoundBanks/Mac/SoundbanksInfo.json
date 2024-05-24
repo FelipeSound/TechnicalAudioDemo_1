@@ -294,6 +294,38 @@
     ]
    },
    {
+    "Id": "1024703765",
+    "Type": "Event",
+    "GUID": "{9AD1D5DB-DB6D-4A85-80E7-6EB11BC30C7F}",
+    "Language": "English(US)",
+    "Hash": "{EC674F51-A505-637F-CD34-2C69F11B3CEB}",
+    "ObjectPath": "dialogue_1stPerson",
+    "ShortName": "dialogue_1stPerson",
+    "Path": "Event/English(US)/dialogue_1stPerson.bnk",
+    "ExternalSources": [
+     {
+      "Cookie": "618371124",
+      "Name": "External_Source",
+      "ObjectPath": "\\Actor-Mixer Hierarchy\\Dialogue\\Dialogue\\Dialogue_firstPersonMix\\MainCharacter_Dialogue\\character_1stPers_dialog\\External_Source",
+      "GUID": "{456AE2DC-A89D-40F8-AAC5-20D58406C3AA}"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1024703765",
+      "Name": "dialogue_1stPerson",
+      "ObjectPath": "\\Events\\Default Work Unit\\dialogue_1stPerson",
+      "GUID": "{9AD1D5DB-DB6D-4A85-80E7-6EB11BC30C7F}",
+      "DurationType": "Unknown",
+      "ExternalSourceRefs": [
+       {
+        "Cookie": "618371124"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1040134269",
     "Type": "Bus",
     "GUID": "{D4823E81-9F33-4BBB-B507-BA2751C2BCC6}",
@@ -3770,6 +3802,28 @@
     ]
    },
    {
+    "Id": "3998225387",
+    "Type": "Event",
+    "GUID": "{A4DFB686-41B3-46BE-9073-BF604BD999F6}",
+    "Language": "SFX",
+    "Hash": "{E3C6AACC-D97B-40AE-B593-55122E903F99}",
+    "ObjectPath": "End_dialogue_1stPerson",
+    "ShortName": "End_dialogue_1stPerson",
+    "Path": "Event/End_dialogue_1stPerson.bnk",
+    "Events": [
+     {
+      "Id": "3998225387",
+      "Name": "End_dialogue_1stPerson",
+      "ObjectPath": "\\Events\\Default Work Unit\\End_dialogue_1stPerson",
+      "GUID": "{A4DFB686-41B3-46BE-9073-BF604BD999F6}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   },
+   {
     "Id": "4075332698",
     "Type": "Bus",
     "GUID": "{3F793FCE-D4BE-44E6-BB7C-AD68F0A49ECA}",
@@ -3932,6 +3986,6 @@
     ]
    }
   ],
-  "FileHash": "{53D37891-5590-1A6A-F06D-2A02CA8A5E21}"
+  "FileHash": "{8F4EADB8-5638-832E-FEC6-5731941F2FF4}"
  }
 }
