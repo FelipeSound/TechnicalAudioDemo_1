@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2344E5ED-FFFC-452A-A6FB-395490BB6650}",
     "Language": "SFX",
-    "Hash": "{2CE5956E-ADFE-4118-560F-8CF4D06FCF8A}",
+    "Hash": "{07607385-177D-B600-87C2-24B96F4E3C3C}",
     "ObjectPath": "play_drone_engine",
     "ShortName": "play_drone_engine",
     "Path": "Event/play_drone_engine.bnk",
@@ -30,7 +30,7 @@
       {
        "Id": "24291192",
        "Name": "Time Stretch (Custom)",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\NPCs\\npc_motion\\Engine_Loop\\[Effect Slot [1]: (Time Stretch)]\\Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\NPCs\\npc_motion\\EngineLoopMix\\Engine_Loop\\[Effect Slot [1]: (Time Stretch)]\\Time Stretch (Custom)",
        "GUID": "{D5792126-191B-48B6-925D-B234E9B77013}",
        "LibName": "Wwise Time Stretch",
        "LibId": "8519683"
@@ -38,7 +38,7 @@
       {
        "Id": "403546093",
        "Name": "Guitar Distortion (Custom)",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\NPCs\\npc_motion\\Engine_Loop\\[Effect Slot [2]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\NPCs\\npc_motion\\EngineLoopMix\\Engine_Loop\\[Effect Slot [2]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
        "GUID": "{0D4B227E-231D-4630-942F-6E8312805E51}",
        "LibName": "Wwise Guitar Distortion",
        "LibId": "8257539"
@@ -95,6 +95,6 @@
     ]
    }
   ],
-  "FileHash": "{17B28DC9-19A4-0F13-DDED-3C6D7E45BE5D}"
+  "FileHash": "{C7DEC9E3-3C65-EBA9-B307-8BC33EA1EA03}"
  }
 }

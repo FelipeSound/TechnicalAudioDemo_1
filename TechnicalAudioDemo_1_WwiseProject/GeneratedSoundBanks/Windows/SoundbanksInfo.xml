@@ -1393,7 +1393,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{2CE5956E-ADFE-4118-560F-8CF4D06FCF8A}">
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{07607385-177D-B600-87C2-24B96F4E3C3C}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -1406,8 +1406,8 @@
 			</Media>
 			<Plugins>
 				<Custom>
-					<Plugin Id="24291192" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\NPCs\npc_motion\Engine_Loop\[Effect Slot [1]: (Time Stretch)]\Time Stretch (Custom)" GUID="{D5792126-191B-48B6-925D-B234E9B77013}" LibName="Wwise Time Stretch" LibId="8519683"/>
-					<Plugin Id="403546093" Name="Guitar Distortion (Custom)" ObjectPath="\Actor-Mixer Hierarchy\NPCs\npc_motion\Engine_Loop\[Effect Slot [2]: (Guitar Distortion)]\Guitar Distortion (Custom)" GUID="{0D4B227E-231D-4630-942F-6E8312805E51}" LibName="Wwise Guitar Distortion" LibId="8257539"/>
+					<Plugin Id="24291192" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\NPCs\npc_motion\EngineLoopMix\Engine_Loop\[Effect Slot [1]: (Time Stretch)]\Time Stretch (Custom)" GUID="{D5792126-191B-48B6-925D-B234E9B77013}" LibName="Wwise Time Stretch" LibId="8519683"/>
+					<Plugin Id="403546093" Name="Guitar Distortion (Custom)" ObjectPath="\Actor-Mixer Hierarchy\NPCs\npc_motion\EngineLoopMix\Engine_Loop\[Effect Slot [2]: (Guitar Distortion)]\Guitar Distortion (Custom)" GUID="{0D4B227E-231D-4630-942F-6E8312805E51}" LibName="Wwise Guitar Distortion" LibId="8257539"/>
 				</Custom>
 				<ShareSets>
 					<Plugin Id="2131109290" Name="Drone_engine" ObjectPath="\Effects\Default Work Unit\Drone_engine" GUID="{9965A16B-DB48-4C33-87FD-3BA3457E64EE}" LibName="Wwise Flanger" LibId="8192003"/>
@@ -1720,5 +1720,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BDABA137-66D7-5FBD-7FBB-DEA0B91E8469}</FileHash>
+	<FileHash>{25AB248D-A27B-9714-F5C8-EAF796B0B454}</FileHash>
 </SoundBanksInfo>

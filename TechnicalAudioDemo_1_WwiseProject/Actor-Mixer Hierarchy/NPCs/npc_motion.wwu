@@ -7,12 +7,9 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Sound Name="Engine_Loop" ID="{91D95482-CED9-47CC-AA9F-916C7B98C66F}" ShortID="1019967091">
+				<ActorMixer Name="EngineLoopMix" ID="{A378F34A-6835-463A-92EB-A78FB429A7E5}" ShortID="960535620">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -26,187 +23,273 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="EngineSurfacesLayers_LoopStrong_plusEq_16bit" ID="{2A8FCD45-69EF-4D75-9F34-7394311F857B}">
-							<Language>SFX</Language>
-							<AudioFile>EngineSurfacesLayers_LoopStrong_plusEq_16bit.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="638373736"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="Engine_Loop" ID="{91D95482-CED9-47CC-AA9F-916C7B98C66F}" ShortID="1019967091">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DroneAttenuation" ID="{CA419C1E-6235-4295-986D-DD6C41390D36}" WorkUnitID="{E023F51C-79A1-41AB-BECC-2455DA87BFC4}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EngineSurfacesLayers_LoopStrong_plusEq_16bit" ID="{2A8FCD45-69EF-4D75-9F34-7394311F857B}">
+									<Language>SFX</Language>
+									<AudioFile>EngineSurfacesLayers_LoopStrong_plusEq_16bit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="638373736"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{C1539862-BB2E-4183-8096-7BABDE98916E}" ShortID="629609017">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+														<ObjectRef Name="Drone_engine" ID="{9965A16B-DB48-4C33-87FD-3BA3457E64EE}" WorkUnitID="{8178C475-8D46-486B-8465-B4CB5AA5D033}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{B7B3C001-7C02-4C52-A5A3-B9AE939A2912}" ShortID="989388628">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Time Stretch (Custom)" ID="{D5792126-191B-48B6-925D-B234E9B77013}" ShortID="24291192" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+																<ObjectLists>
+																	<ObjectList Name="RTPC">
+																		<Reference>
+																			<Local>
+																				<RTPC Name="" ID="{D4AEE5C8-7FDB-4E33-954C-800E669D2586}" ShortID="264223420">
+																					<PropertyList>
+																						<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="ControlInput">
+																							<ObjectRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
+																						</Reference>
+																						<Reference Name="Curve">
+																							<Custom>
+																								<Curve Name="" ID="{55A099A2-602D-4C9B-A0C7-7F4517879B11}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="1"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>250.5736</YPos>
+																											<Flags>5</Flags>
+																											<SegmentShape>Log3</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>5000</XPos>
+																											<YPos>100</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</Custom>
+																						</Reference>
+																					</ReferenceList>
+																				</RTPC>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{1B6F8F5B-A34C-4EB5-922C-B4BCE623EB8F}" ShortID="208764893">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Guitar Distortion (Custom)" ID="{0D4B227E-231D-4630-942F-6E8312805E51}" ShortID="403546093" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+																<PropertyList>
+																	<Property Name="PostEQBand3Enable" Type="bool" Value="True"/>
+																	<Property Name="PostEQBand3Gain" Type="Real32" Value="3"/>
+																</PropertyList>
+																<ObjectLists>
+																	<ObjectList Name="RTPC">
+																		<Reference>
+																			<Local>
+																				<RTPC Name="" ID="{986085E1-EB97-4330-A348-FA4B92A13B21}" ShortID="974226982">
+																					<PropertyList>
+																						<Property Name="PropertyName" Type="string" Value="OutputLevel"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="ControlInput">
+																							<ObjectRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
+																						</Reference>
+																						<Reference Name="Curve">
+																							<Custom>
+																								<Curve Name="" ID="{EE94FC53-EA15-42E6-A095-C47BE14EB961}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="3"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>2.90623</YPos>
+																											<Flags>5</Flags>
+																											<SegmentShape>Exp3</SegmentShape>
+																										</Point>
+																										<Point>
+																											<XPos>5000</XPos>
+																											<YPos>0</YPos>
+																											<Flags>37</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</Custom>
+																						</Reference>
+																					</ReferenceList>
+																				</RTPC>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{ADC2E4A0-F7AF-4A77-97C2-114238CC943D}" ShortID="1018874235">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{13894E57-EC32-4B98-8A05-C41BE27B2A1B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>390</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1540.54047</XPos>
+																		<YPos>-489</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>5000</XPos>
+																		<YPos>-1290</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="EngineSurfacesLayers_LoopStrong_plusEq_16bit" ID="{2A8FCD45-69EF-4D75-9F34-7394311F857B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Noise" ID="{6057CE11-9836-40E0-9C5A-52279FA876D8}" ShortID="767898079">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Tone Generator" ID="{7B317C74-2558-4BB3-BA0E-B2ECFEBD45D6}" ShortID="271715881" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+									<PropertyList>
+										<Property Name="WaveType" Type="int32" Value="5"/>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{F5444ABC-5CB8-489A-A201-46BAB87F9CF8}" ShortID="362008643">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{5E3329ED-1E24-4467-A708-2D426017FE5D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>5000</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Tone Generator" ID="{7B317C74-2558-4BB3-BA0E-B2ECFEBD45D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="Effects">
-							<Reference>
-								<Local>
-									<EffectSlot Name="" ID="{C1539862-BB2E-4183-8096-7BABDE98916E}" ShortID="629609017">
-										<ReferenceList>
-											<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
-												<ObjectRef Name="Drone_engine" ID="{9965A16B-DB48-4C33-87FD-3BA3457E64EE}" WorkUnitID="{8178C475-8D46-486B-8465-B4CB5AA5D033}"/>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot>
-								</Local>
-							</Reference>
-							<Reference>
-								<Local>
-									<EffectSlot Name="" ID="{B7B3C001-7C02-4C52-A5A3-B9AE939A2912}" ShortID="989388628">
-										<ReferenceList>
-											<Reference Name="Effect">
-												<Custom>
-													<Effect Name="Time Stretch (Custom)" ID="{D5792126-191B-48B6-925D-B234E9B77013}" ShortID="24291192" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
-														<ObjectLists>
-															<ObjectList Name="RTPC">
-																<Reference>
-																	<Local>
-																		<RTPC Name="" ID="{D4AEE5C8-7FDB-4E33-954C-800E669D2586}" ShortID="264223420">
-																			<PropertyList>
-																				<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="ControlInput">
-																					<ObjectRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
-																				</Reference>
-																				<Reference Name="Curve">
-																					<Custom>
-																						<Curve Name="" ID="{55A099A2-602D-4C9B-A0C7-7F4517879B11}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>250.5736</YPos>
-																									<Flags>5</Flags>
-																									<SegmentShape>Log3</SegmentShape>
-																								</Point>
-																								<Point>
-																									<XPos>5000</XPos>
-																									<YPos>100</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</Custom>
-																				</Reference>
-																			</ReferenceList>
-																		</RTPC>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</Effect>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot>
-								</Local>
-							</Reference>
-							<Reference>
-								<Local>
-									<EffectSlot Name="" ID="{1B6F8F5B-A34C-4EB5-922C-B4BCE623EB8F}" ShortID="208764893">
-										<ReferenceList>
-											<Reference Name="Effect">
-												<Custom>
-													<Effect Name="Guitar Distortion (Custom)" ID="{0D4B227E-231D-4630-942F-6E8312805E51}" ShortID="403546093" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
-														<PropertyList>
-															<Property Name="PostEQBand3Enable" Type="bool" Value="True"/>
-															<Property Name="PostEQBand3Gain" Type="Real32" Value="3"/>
-														</PropertyList>
-														<ObjectLists>
-															<ObjectList Name="RTPC">
-																<Reference>
-																	<Local>
-																		<RTPC Name="" ID="{986085E1-EB97-4330-A348-FA4B92A13B21}" ShortID="974226982">
-																			<PropertyList>
-																				<Property Name="PropertyName" Type="string" Value="OutputLevel"/>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="ControlInput">
-																					<ObjectRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
-																				</Reference>
-																				<Reference Name="Curve">
-																					<Custom>
-																						<Curve Name="" ID="{EE94FC53-EA15-42E6-A095-C47BE14EB961}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="3"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>2.90623</YPos>
-																									<Flags>5</Flags>
-																									<SegmentShape>Exp3</SegmentShape>
-																								</Point>
-																								<Point>
-																									<XPos>5000</XPos>
-																									<YPos>0</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</Custom>
-																				</Reference>
-																			</ReferenceList>
-																		</RTPC>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</Effect>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot>
-								</Local>
-							</Reference>
-						</ObjectList>
-						<ObjectList Name="RTPC">
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{ADC2E4A0-F7AF-4A77-97C2-114238CC943D}" ShortID="1018874235">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Pitch"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="ControlInput">
-												<ObjectRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
-											</Reference>
-											<Reference Name="Curve">
-												<Custom>
-													<Curve Name="" ID="{13894E57-EC32-4B98-8A05-C41BE27B2A1B}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>390</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1540.54047</XPos>
-																<YPos>-489</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>5000</XPos>
-																<YPos>-1290</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</RTPC>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
-					<ActiveSourceList>
-						<ActiveSource Name="EngineSurfacesLayers_LoopStrong_plusEq_16bit" ID="{2A8FCD45-69EF-4D75-9F34-7394311F857B}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
