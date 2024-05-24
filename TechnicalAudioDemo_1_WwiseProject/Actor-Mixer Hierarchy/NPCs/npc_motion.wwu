@@ -270,18 +270,18 @@
 														<PointList>
 															<Point>
 																<XPos>-48</XPos>
-																<YPos>0</YPos>
+																<YPos>-6.66429</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>-36.27092</XPos>
-																<YPos>0</YPos>
+																<YPos>-6.66429</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>-19.5059760956175</XPos>
-																<YPos>-5.38781767601785</YPos>
+																<XPos>-19.50598</XPos>
+																<YPos>-14.86359</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log2</SegmentShape>
 															</Point>

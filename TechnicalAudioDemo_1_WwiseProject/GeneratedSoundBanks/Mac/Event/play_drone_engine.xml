@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{74D8C479-C2C2-D344-F0DB-EE2CA67415E9}">
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{3980E4C3-9835-D78C-2DD9-9A3B6C8F27F1}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -45,5 +45,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6A2EE23D-515B-D2F5-7510-BE94C952E046}</FileHash>
+	<FileHash>{59818E9A-E41A-7331-F248-31344D0652A7}</FileHash>
 </SoundBanksInfo>

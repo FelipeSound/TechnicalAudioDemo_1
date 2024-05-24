@@ -407,7 +407,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{5F88A20C-ADEB-0DE0-5C90-316B8D774595}">
+		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{3B51B4A9-832F-9E8D-1C4E-CEDF8E43B49B}">
 			<ObjectPath>play_ocean</ObjectPath>
 			<ShortName>play_ocean</ShortName>
 			<Path>Event/play_ocean.bnk</Path>
@@ -1431,7 +1431,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{74D8C479-C2C2-D344-F0DB-EE2CA67415E9}">
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{3980E4C3-9835-D78C-2DD9-9A3B6C8F27F1}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -1761,5 +1761,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5A3FEE96-A5E6-AF3E-279B-54890E355156}</FileHash>
+	<FileHash>{8B393739-D9D5-5CFD-59A1-285072502299}</FileHash>
 </SoundBanksInfo>
