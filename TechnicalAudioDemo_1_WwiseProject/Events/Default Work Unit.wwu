@@ -67,10 +67,17 @@
 				</Event>
 				<Event Name="play_drone_engine" ID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}">
 					<ChildrenList>
-						<Action Name="" ID="{D540988A-69D4-4B92-AA6C-61C124E3145D}" ShortID="1036869232">
+						<Action Name="" ID="{20C71AA4-877D-480D-A45A-9EBE900F47CC}" ShortID="981124924">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Engine_Loop" ID="{91D95482-CED9-47CC-AA9F-916C7B98C66F}" WorkUnitID="{165EF3AD-CC61-47F7-83DA-F57D7AC730EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1DEF63CC-7D1E-4082-AE9A-5688A45609CB}" ShortID="687368896">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Noise" ID="{6057CE11-9836-40E0-9C5A-52279FA876D8}" WorkUnitID="{165EF3AD-CC61-47F7-83DA-F57D7AC730EA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

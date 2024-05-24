@@ -9,3 +9,6 @@ Effect plug-ins	ID	Name	Type				Notes
 	403546093	Guitar Distortion (Custom)	Wwise Guitar Distortion			
 	2131109290	Drone_engine	Wwise Flanger			
 
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	271715881	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\NPCs\npc_motion\EngineLoopMix\Noise\Tone Generator	
+

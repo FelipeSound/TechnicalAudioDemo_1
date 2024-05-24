@@ -423,7 +423,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{601493B2-736F-FB8A-F0B9-1A90555806CB}",
+    "Hash": "{A29D344A-EB9F-FF89-8D57-F19CEF0A582A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -3163,7 +3163,7 @@
     "Type": "Event",
     "GUID": "{2344E5ED-FFFC-452A-A6FB-395490BB6650}",
     "Language": "SFX",
-    "Hash": "{07607385-177D-B600-87C2-24B96F4E3C3C}",
+    "Hash": "{6AE24981-CCA1-8EE4-D08F-1C289261B2A8}",
     "ObjectPath": "play_drone_engine",
     "ShortName": "play_drone_engine",
     "Path": "Event/play_drone_engine.bnk",
@@ -3187,6 +3187,14 @@
        "GUID": "{D5792126-191B-48B6-925D-B234E9B77013}",
        "LibName": "Wwise Time Stretch",
        "LibId": "8519683"
+      },
+      {
+       "Id": "271715881",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\NPCs\\npc_motion\\EngineLoopMix\\Noise\\Tone Generator",
+       "GUID": "{7B317C74-2558-4BB3-BA0E-B2ECFEBD45D6}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
       },
       {
        "Id": "403546093",
@@ -3225,6 +3233,9 @@
        "Custom": [
         {
          "Id": "24291192"
+        },
+        {
+         "Id": "271715881"
         },
         {
          "Id": "403546093"
@@ -3830,6 +3841,6 @@
     ]
    }
   ],
-  "FileHash": "{2C914C8B-4341-8099-82C1-5CE6B4779AF1}"
+  "FileHash": "{51395C23-8368-5699-22D4-15CEB6E3366B}"
  }
 }

@@ -244,46 +244,6 @@
 									<Language>SFX</Language>
 								</SourcePlugin>
 							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{F5444ABC-5CB8-489A-A201-46BAB87F9CF8}" ShortID="362008643">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}" WorkUnitID="{D4F2F1D1-965D-4C0F-815F-C90863367535}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{5E3329ED-1E24-4467-A708-2D426017FE5D}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-0</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Log3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>5000</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="Tone Generator" ID="{7B317C74-2558-4BB3-BA0E-B2ECFEBD45D6}" Platform="Linked"/>
 							</ActiveSourceList>

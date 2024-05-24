@@ -204,7 +204,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{0D551D7F-3D2C-A1D7-8C44-7BC421D3D37B}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{27C61147-D804-0840-7B6E-888CE0D0221E}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -1393,7 +1393,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{07607385-177D-B600-87C2-24B96F4E3C3C}">
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{6AE24981-CCA1-8EE4-D08F-1C289261B2A8}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -1407,6 +1407,7 @@
 			<Plugins>
 				<Custom>
 					<Plugin Id="24291192" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\NPCs\npc_motion\EngineLoopMix\Engine_Loop\[Effect Slot [1]: (Time Stretch)]\Time Stretch (Custom)" GUID="{D5792126-191B-48B6-925D-B234E9B77013}" LibName="Wwise Time Stretch" LibId="8519683"/>
+					<Plugin Id="271715881" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\NPCs\npc_motion\EngineLoopMix\Noise\Tone Generator" GUID="{7B317C74-2558-4BB3-BA0E-B2ECFEBD45D6}" LibName="Wwise Tone Generator" LibId="6684674"/>
 					<Plugin Id="403546093" Name="Guitar Distortion (Custom)" ObjectPath="\Actor-Mixer Hierarchy\NPCs\npc_motion\EngineLoopMix\Engine_Loop\[Effect Slot [2]: (Guitar Distortion)]\Guitar Distortion (Custom)" GUID="{0D4B227E-231D-4630-942F-6E8312805E51}" LibName="Wwise Guitar Distortion" LibId="8257539"/>
 				</Custom>
 				<ShareSets>
@@ -1421,6 +1422,7 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="24291192"/>
+							<PluginRef Id="271715881"/>
 							<PluginRef Id="403546093"/>
 						</Custom>
 						<ShareSets>
@@ -1720,5 +1722,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{72C69A84-CC6F-624C-6953-25B26FD77B93}</FileHash>
+	<FileHash>{2A368D42-0295-6D42-D45F-31A5C1B84D26}</FileHash>
 </SoundBanksInfo>

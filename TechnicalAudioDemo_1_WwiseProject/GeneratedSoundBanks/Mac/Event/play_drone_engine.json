@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2344E5ED-FFFC-452A-A6FB-395490BB6650}",
     "Language": "SFX",
-    "Hash": "{07607385-177D-B600-87C2-24B96F4E3C3C}",
+    "Hash": "{6AE24981-CCA1-8EE4-D08F-1C289261B2A8}",
     "ObjectPath": "play_drone_engine",
     "ShortName": "play_drone_engine",
     "Path": "Event/play_drone_engine.bnk",
@@ -34,6 +34,14 @@
        "GUID": "{D5792126-191B-48B6-925D-B234E9B77013}",
        "LibName": "Wwise Time Stretch",
        "LibId": "8519683"
+      },
+      {
+       "Id": "271715881",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\NPCs\\npc_motion\\EngineLoopMix\\Noise\\Tone Generator",
+       "GUID": "{7B317C74-2558-4BB3-BA0E-B2ECFEBD45D6}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
       },
       {
        "Id": "403546093",
@@ -74,6 +82,9 @@
          "Id": "24291192"
         },
         {
+         "Id": "271715881"
+        },
+        {
          "Id": "403546093"
         }
        ],
@@ -95,6 +106,6 @@
     ]
    }
   ],
-  "FileHash": "{C7DEC9E3-3C65-EBA9-B307-8BC33EA1EA03}"
+  "FileHash": "{2210C095-5FA2-2E6E-C7FB-726E33251AD1}"
  }
 }
