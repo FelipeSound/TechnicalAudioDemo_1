@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{BEFE25F7-7D96-F899-632C-9CE9C83DF6B8}">
+		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{1407C743-56F2-E8FF-702C-6156EC4DEF26}">
 			<ObjectPath>play_3d_vehicles</ObjectPath>
 			<ShortName>play_3d_vehicles</ShortName>
 			<Path>Event/play_3d_vehicles.bnk</Path>
@@ -193,5 +193,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DB2765BB-E93D-B303-CAA2-B1D6E792ED45}</FileHash>
+	<FileHash>{9DFD0280-79CB-33A7-C71E-D8F514610484}</FileHash>
 </SoundBanksInfo>

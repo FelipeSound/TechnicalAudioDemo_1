@@ -20,5 +20,6 @@ Copyright (c) 2024 Audiokinetic Inc.
 #include <AK/Plugin/AkRoomVerbFXFactory.h>
 #include <AK/Plugin/AkFlangerFXFactory.h>
 #include <AK/Plugin/AkGuitarDistortionFXFactory.h>
+#include <AK/Plugin/AkMeterFXFactory.h>
 #include <AK/Plugin/AkTimeStretchFXFactory.h>
 #endif

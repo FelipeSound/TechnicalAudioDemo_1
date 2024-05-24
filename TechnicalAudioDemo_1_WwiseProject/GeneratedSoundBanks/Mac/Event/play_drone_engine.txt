@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1304350001	Distance_2000cm			\Default Work Unit\Distance_2000cm	
+	4035164671	Ambience_vol			\Default Work Unit\Ambience_vol	
 
 Effect plug-ins	ID	Name	Type				Notes
 	24291192	Time Stretch (Custom)	Wwise Time Stretch			

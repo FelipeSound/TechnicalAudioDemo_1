@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}",
     "Language": "SFX",
-    "Hash": "{E1B2B62E-28B9-89E7-3F02-E75AD5B95423}",
+    "Hash": "{5F88A20C-ADEB-0DE0-5C90-316B8D774595}",
     "ObjectPath": "play_ocean",
     "ShortName": "play_ocean",
     "Path": "Event/play_ocean.bnk",
@@ -39,9 +39,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "4035164671",
+      "Name": "Ambience_vol",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambience_vol",
+      "GUID": "{864F84C1-3FBE-4D19-B409-952C0775C25B}"
+     }
     ]
    }
   ],
-  "FileHash": "{026AE5F7-C340-24CE-67B4-8B0D97C36EC2}"
+  "FileHash": "{862E7436-7520-769A-97AC-0D84467BC65A}"
  }
 }

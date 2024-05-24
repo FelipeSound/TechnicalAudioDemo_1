@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{6AE24981-CCA1-8EE4-D08F-1C289261B2A8}">
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{74D8C479-C2C2-D344-F0DB-EE2CA67415E9}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -41,8 +41,9 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="1304350001" Name="Distance_2000cm" ObjectPath="\Game Parameters\Default Work Unit\Distance_2000cm" GUID="{BEF63D22-0E68-480D-8425-3944122F867E}"/>
+				<GameParameter Id="4035164671" Name="Ambience_vol" ObjectPath="\Game Parameters\Default Work Unit\Ambience_vol" GUID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B9073FA4-373D-5912-4B9E-F69053A9E5B0}</FileHash>
+	<FileHash>{6A2EE23D-515B-D2F5-7510-BE94C952E046}</FileHash>
 </SoundBanksInfo>

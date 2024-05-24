@@ -43,6 +43,17 @@
 						<Property Name="ModWaveform" Type="int32" Value="1"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="Ambience_Att_meter" ID="{0E8F6E7F-1BA1-4477-B4CA-FC6E433B152F}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.58"/>
+						<Property Name="Hold" Type="Real32" Value="0.57"/>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="3.89"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Ambience_vol" ID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>
+</PluginData>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

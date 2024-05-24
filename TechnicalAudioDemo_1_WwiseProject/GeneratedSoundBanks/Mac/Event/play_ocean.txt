@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1724638476	play_ocean			\Default Work Unit\play_ocean	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4035164671	Ambience_vol			\Default Work Unit\Ambience_vol	
+

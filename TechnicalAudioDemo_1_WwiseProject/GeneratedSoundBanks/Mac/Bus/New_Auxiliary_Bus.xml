@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="373392551" Type="Bus" GUID="{A8517D89-08AD-4712-9020-4A7C754A328E}" Language="SFX" Hash="{2355C658-3B86-38CC-CF91-E29CF3D8E6C4}">
+			<ObjectPath>New_Auxiliary_Bus</ObjectPath>
+			<ShortName>New_Auxiliary_Bus</ShortName>
+			<Path>Bus/New_Auxiliary_Bus.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2379705363" Name="Ambience_Att_meter" ObjectPath="\Effects\Default Work Unit\Ambience_Att_meter" GUID="{0E8F6E7F-1BA1-4477-B4CA-FC6E433B152F}" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="373392551" Name="New_Auxiliary_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New_Auxiliary_Bus" GUID="{A8517D89-08AD-4712-9020-4A7C754A328E}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2379705363"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EB873D75-0763-8437-F28C-2CEE41B89AFF}</FileHash>
+</SoundBanksInfo>

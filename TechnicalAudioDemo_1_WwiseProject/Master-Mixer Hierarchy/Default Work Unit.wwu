@@ -112,6 +112,40 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
+						<Bus Name="Ambience_sideChain" ID="{B26DC153-D9A3-4027-98CF-55C98609A650}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{F2591D33-0001-4FF4-A267-49DAC45C54B9}" ShortID="140689311">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<ObjectRef Name="Ambience_Att_meter" ID="{0E8F6E7F-1BA1-4477-B4CA-FC6E433B152F}" WorkUnitID="{8178C475-8D46-486B-8465-B4CB5AA5D033}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<AuxBus Name="New_Auxiliary_Bus" ID="{A8517D89-08AD-4712-9020-4A7C754A328E}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{0A4F1E14-A514-4286-AAD1-32EDDDCCE93D}" ShortID="744600381">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<ObjectRef Name="Ambience_Att_meter" ID="{0E8F6E7F-1BA1-4477-B4CA-FC6E433B152F}" WorkUnitID="{8178C475-8D46-486B-8465-B4CB5AA5D033}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

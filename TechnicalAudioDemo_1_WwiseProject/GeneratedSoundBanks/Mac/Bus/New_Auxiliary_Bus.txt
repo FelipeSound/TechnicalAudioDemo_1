@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	373392551	New_Auxiliary_Bus			\Default Work Unit\Master Audio Bus\New_Auxiliary_Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2379705363	Ambience_Att_meter	Wwise Meter			
+

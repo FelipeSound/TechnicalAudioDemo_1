@@ -89,6 +89,25 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="373392551" Type="Bus" GUID="{A8517D89-08AD-4712-9020-4A7C754A328E}" Language="SFX" Hash="{2355C658-3B86-38CC-CF91-E29CF3D8E6C4}">
+			<ObjectPath>New_Auxiliary_Bus</ObjectPath>
+			<ShortName>New_Auxiliary_Bus</ShortName>
+			<Path>Bus/New_Auxiliary_Bus.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2379705363" Name="Ambience_Att_meter" ObjectPath="\Effects\Default Work Unit\Ambience_Att_meter" GUID="{0E8F6E7F-1BA1-4477-B4CA-FC6E433B152F}" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="373392551" Name="New_Auxiliary_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New_Auxiliary_Bus" GUID="{A8517D89-08AD-4712-9020-4A7C754A328E}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2379705363"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
 		<SoundBank Id="386634130" Type="Event" GUID="{E33B9C70-1767-4C29-A460-CEEBE9582D72}" Language="SFX" Hash="{C52F3C22-12BB-F4EE-E5EE-3C23695C9D2A}">
 			<ObjectPath>GuitarIntro_Stop</ObjectPath>
 			<ShortName>GuitarIntro_Stop</ShortName>
@@ -204,7 +223,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{A29D344A-EB9F-FF89-8D57-F19CEF0A582A}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{51B7FF36-2988-3DFB-C000-27C65E7B012D}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -212,6 +231,7 @@
 				<ShareSets>
 					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="1159390747" Name="Room_Medium_Tiled" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium_Tiled" GUID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2379705363" Name="Ambience_Att_meter" ObjectPath="\Effects\Default Work Unit\Ambience_Att_meter" GUID="{0E8F6E7F-1BA1-4477-B4CA-FC6E433B152F}" LibName="Wwise Meter" LibId="8454147"/>
 					<Plugin Id="2513915904" Name="Hall_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large" GUID="{6D154498-FF6D-4823-96FC-56841B70E079}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2849147824" Name="Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Cathedrals\Medium" GUID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2891462749" Name="Room_Medium_High_Absorbtion" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium_High_Absorbtion" GUID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -223,6 +243,13 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="408848884" Name="Ambience_sideChain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience_sideChain" GUID="{B26DC153-D9A3-4027-98CF-55C98609A650}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2379705363"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<AuxBusses>
@@ -230,6 +257,13 @@
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="2891462749"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="373392551" Name="New_Auxiliary_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New_Auxiliary_Bus" GUID="{A8517D89-08AD-4712-9020-4A7C754A328E}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2379705363"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -279,6 +313,7 @@
 				<GameParameter Id="2925587597" Name="Distance_50m" ObjectPath="\Game Parameters\Default Work Unit\Distance_50m" GUID="{7C73F6D7-16B6-4C21-87E1-C183C818F7A3}"/>
 				<GameParameter Id="3094496655" Name="Distance_200" ObjectPath="\Game Parameters\Default Work Unit\Distance_200" GUID="{758C5DD1-8881-46AB-9397-3764E81F97C2}"/>
 				<GameParameter Id="3467608380" Name="Disctance_100m" ObjectPath="\Game Parameters\Default Work Unit\Disctance_100m" GUID="{1359DE8B-C4FD-4437-A829-D4D2FDC1DE4B}"/>
+				<GameParameter Id="4035164671" Name="Ambience_vol" ObjectPath="\Game Parameters\Default Work Unit\Ambience_vol" GUID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="404567067" Name="Ground_Materials" ObjectPath="\Switches\Default Work Unit\Ground_Materials" GUID="{B3B78204-B780-4976-ADA7-843967DC443D}">
@@ -372,7 +407,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{E1B2B62E-28B9-89E7-3F02-E75AD5B95423}">
+		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{5F88A20C-ADEB-0DE0-5C90-316B8D774595}">
 			<ObjectPath>play_ocean</ObjectPath>
 			<ShortName>play_ocean</ShortName>
 			<Path>Event/play_ocean.bnk</Path>
@@ -390,6 +425,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="4035164671" Name="Ambience_vol" ObjectPath="\Game Parameters\Default Work Unit\Ambience_vol" GUID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1728935863" Type="Event" GUID="{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}" Language="SFX" Hash="{EF0C5DFF-9830-BC4C-A596-7EF8579D6087}">
 			<ObjectPath>GuitarIntro</ObjectPath>
@@ -1393,7 +1431,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{6AE24981-CCA1-8EE4-D08F-1C289261B2A8}">
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{74D8C479-C2C2-D344-F0DB-EE2CA67415E9}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -1433,9 +1471,10 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="1304350001" Name="Distance_2000cm" ObjectPath="\Game Parameters\Default Work Unit\Distance_2000cm" GUID="{BEF63D22-0E68-480D-8425-3944122F867E}"/>
+				<GameParameter Id="4035164671" Name="Ambience_vol" ObjectPath="\Game Parameters\Default Work Unit\Ambience_vol" GUID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{BEFE25F7-7D96-F899-632C-9CE9C83DF6B8}">
+		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{1407C743-56F2-E8FF-702C-6156EC4DEF26}">
 			<ObjectPath>play_3d_vehicles</ObjectPath>
 			<ShortName>play_3d_vehicles</ShortName>
 			<Path>Event/play_3d_vehicles.bnk</Path>
@@ -1722,5 +1761,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{38D072F8-4DBF-B79A-D0E6-D6750DCD47CF}</FileHash>
+	<FileHash>{5A3FEE96-A5E6-AF3E-279B-54890E355156}</FileHash>
 </SoundBanksInfo>

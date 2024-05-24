@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{E1B2B62E-28B9-89E7-3F02-E75AD5B95423}">
+		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{5F88A20C-ADEB-0DE0-5C90-316B8D774595}">
 			<ObjectPath>play_ocean</ObjectPath>
 			<ShortName>play_ocean</ShortName>
 			<Path>Event/play_ocean.bnk</Path>
@@ -19,7 +19,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="4035164671" Name="Ambience_vol" ObjectPath="\Game Parameters\Default Work Unit\Ambience_vol" GUID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5F310CA0-1E9A-039A-5B06-A92AB6BC9151}</FileHash>
+	<FileHash>{6164DF06-D1BD-9807-F7FC-A43740B527BB}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2344E5ED-FFFC-452A-A6FB-395490BB6650}",
     "Language": "SFX",
-    "Hash": "{6AE24981-CCA1-8EE4-D08F-1C289261B2A8}",
+    "Hash": "{74D8C479-C2C2-D344-F0DB-EE2CA67415E9}",
     "ObjectPath": "play_drone_engine",
     "ShortName": "play_drone_engine",
     "Path": "Event/play_drone_engine.bnk",
@@ -102,10 +102,16 @@
       "Name": "Distance_2000cm",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_2000cm",
       "GUID": "{BEF63D22-0E68-480D-8425-3944122F867E}"
+     },
+     {
+      "Id": "4035164671",
+      "Name": "Ambience_vol",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambience_vol",
+      "GUID": "{864F84C1-3FBE-4D19-B409-952C0775C25B}"
      }
     ]
    }
   ],
-  "FileHash": "{2210C095-5FA2-2E6E-C7FB-726E33251AD1}"
+  "FileHash": "{9C47B79F-6FB9-1FED-66AD-F4CD39DA52CB}"
  }
 }

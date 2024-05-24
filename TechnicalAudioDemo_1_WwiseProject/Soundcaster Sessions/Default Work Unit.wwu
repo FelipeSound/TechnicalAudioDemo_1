@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6484D0DF-4765-4F1A-A0E9-9419A01D71AE}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{6484D0DF-4765-4F1A-A0E9-9419A01D71AE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6484D0DF-4765-4F1A-A0E9-9419A01D71AE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="sideChainSoundCaster" ID="{E7C70BD0-FA9C-4F11-89E2-7577BBEBF0CB}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="GuitarIntro" ID="{45DAA8CB-63A9-42BC-8CA8-023021F7D94C}" WorkUnitID="{4FF316A6-E781-43C5-8BBA-99A0FB1BB21F}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_drone_engine" ID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" WorkUnitID="{4FF316A6-E781-43C5-8BBA-99A0FB1BB21F}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="dry" ID="{B1BDB93B-4231-4831-AADA-138579820768}"/>
+						<CurrentSwitchRef Name="left" ID="{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"/>
+						<CurrentSwitchRef Name="dry_asphalt" ID="{50178C86-AF48-40DA-AE28-AE95B17A40CB}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{1E25A2FC-A699-48F4-9C44-D0D56D510E08}"/>
+						<CurrentSwitchRef Name="midwet_asphalt" ID="{F2B7D739-86A2-4EED-B645-40ACEC371957}"/>
+						<CurrentSwitchRef Name="wet_asphalt" ID="{54849032-486B-433E-8C75-1EFF7EE0358D}"/>
+						<CurrentSwitchRef Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
