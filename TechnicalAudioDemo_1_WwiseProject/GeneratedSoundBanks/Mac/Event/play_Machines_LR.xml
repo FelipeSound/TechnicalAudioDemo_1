@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1454002101" Type="Event" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" Language="SFX" Hash="{53113BAA-A68C-0325-184A-49F0A5BFCBD9}">
+		<SoundBank Id="1454002101" Type="Event" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" Language="SFX" Hash="{DC3859F1-1DD9-DA8B-A332-68A134275756}">
 			<ObjectPath>play_Machines_LR</ObjectPath>
 			<ShortName>play_Machines_LR</ShortName>
 			<Path>Event/play_Machines_LR.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1454002101" Name="play_Machines_LR" ObjectPath="\Events\Default Work Unit\play_Machines_LR" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" MaxAttenuation="1000" DurationType="Infinite">
+				<Event Id="1454002101" Name="play_Machines_LR" ObjectPath="\Events\Default Work Unit\play_Machines_LR" GUID="{EAD716FF-B6EB-4CD0-ABEC-E90D35C75E29}" MaxAttenuation="1250" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1071860770"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1B8E4B3C-272C-1718-EFB9-AC9B85870073}</FileHash>
+	<FileHash>{6480D9B4-FCC6-ED93-9CF4-AFBBCF8AAD88}</FileHash>
 </SoundBanksInfo>
