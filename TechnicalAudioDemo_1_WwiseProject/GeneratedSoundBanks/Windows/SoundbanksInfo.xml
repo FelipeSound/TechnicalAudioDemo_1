@@ -238,7 +238,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{BE1F9C0A-706E-17A2-E25D-E312649E2F14}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{708656C2-9092-0385-8BAB-B48301E34FD1}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -1450,7 +1450,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{3980E4C3-9835-D78C-2DD9-9A3B6C8F27F1}">
+		<SoundBank Id="2738026737" Type="Event" GUID="{2344E5ED-FFFC-452A-A6FB-395490BB6650}" Language="SFX" Hash="{8730F44E-3905-AE86-77C5-3A87FE97ECB2}">
 			<ObjectPath>play_drone_engine</ObjectPath>
 			<ShortName>play_drone_engine</ShortName>
 			<Path>Event/play_drone_engine.bnk</Path>
@@ -1493,7 +1493,7 @@
 				<GameParameter Id="4035164671" Name="Ambience_vol" ObjectPath="\Game Parameters\Default Work Unit\Ambience_vol" GUID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{1407C743-56F2-E8FF-702C-6156EC4DEF26}">
+		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{8AFFA25C-47DB-8E09-8549-E8BEC0A97810}">
 			<ObjectPath>play_3d_vehicles</ObjectPath>
 			<ShortName>play_3d_vehicles</ShortName>
 			<Path>Event/play_3d_vehicles.bnk</Path>
@@ -1674,6 +1674,9 @@
 					</SwitchContainers>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1304350001" Name="Distance_2000cm" ObjectPath="\Game Parameters\Default Work Unit\Distance_2000cm" GUID="{BEF63D22-0E68-480D-8425-3944122F867E}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="4136547178" Name="vehicle_incoming" ObjectPath="\Switches\Default Work Unit\vehicle_incoming" GUID="{DA80A04C-8E1C-4601-9921-1595DB46FED6}">
 					<Switches>
@@ -1788,5 +1791,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{50795CE7-FCC6-DD1E-EB20-695046877D71}</FileHash>
+	<FileHash>{6ED9D631-863F-DC15-A263-7B30C5AA1EFF}</FileHash>
 </SoundBanksInfo>

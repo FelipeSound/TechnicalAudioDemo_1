@@ -201,13 +201,14 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1540.54047</XPos>
+																		<XPos>1081.22287</XPos>
 																		<YPos>-489</YPos>
 																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>5000</XPos>
-																		<YPos>-1290</YPos>
+																		<YPos>-4757</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>

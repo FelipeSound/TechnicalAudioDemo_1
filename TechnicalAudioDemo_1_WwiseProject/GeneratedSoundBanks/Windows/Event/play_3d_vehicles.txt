@@ -9,6 +9,9 @@ Switch	ID	Name	Switch Group			Notes
 	1026627430	middle	vehicle_incoming			
 	3893817417	right	vehicle_incoming			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1304350001	Distance_2000cm			\Default Work Unit\Distance_2000cm	
+
 Effect plug-ins	ID	Name	Type				Notes
 	2437611967	Flanger_Passby	Wwise Flanger			
 

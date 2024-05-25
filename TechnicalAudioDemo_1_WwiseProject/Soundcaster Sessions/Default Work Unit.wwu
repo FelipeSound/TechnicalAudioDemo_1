@@ -16,8 +16,12 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}"/>
+							<Value>4140.75903362315</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Ambience_vol" ID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>
-							<Value>-24.3654054054054</Value>
+							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="wetness_RTPC" ID="{5E69F604-2497-4E0A-95EC-EDC42B285806}"/>
@@ -27,7 +31,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="dry_surf" ID="{C49E20DD-ADA7-4910-BCBE-39E98403FA6D}"/>
-						<CurrentSwitchRef Name="wet" ID="{8B7F1D20-0E41-4C0C-B50D-21F0E314F9B5}"/>
+						<CurrentSwitchRef Name="dry" ID="{B1BDB93B-4231-4831-AADA-138579820768}"/>
 						<CurrentSwitchRef Name="asphalt" ID="{13EFEC4F-F2AF-4235-808B-D316DE915AE1}"/>
 						<CurrentSwitchRef Name="left" ID="{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"/>
 						<CurrentSwitchRef Name="dry_asphalt" ID="{50178C86-AF48-40DA-AE28-AE95B17A40CB}"/>

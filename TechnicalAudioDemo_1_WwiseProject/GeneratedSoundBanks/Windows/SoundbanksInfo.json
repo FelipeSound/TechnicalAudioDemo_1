@@ -492,7 +492,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{BE1F9C0A-706E-17A2-E25D-E312649E2F14}",
+    "Hash": "{708656C2-9092-0385-8BAB-B48301E34FD1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -3283,7 +3283,7 @@
     "Type": "Event",
     "GUID": "{2344E5ED-FFFC-452A-A6FB-395490BB6650}",
     "Language": "SFX",
-    "Hash": "{3980E4C3-9835-D78C-2DD9-9A3B6C8F27F1}",
+    "Hash": "{8730F44E-3905-AE86-77C5-3A87FE97ECB2}",
     "ObjectPath": "play_drone_engine",
     "ShortName": "play_drone_engine",
     "Path": "Event/play_drone_engine.bnk",
@@ -3389,7 +3389,7 @@
     "Type": "Event",
     "GUID": "{82620295-12B3-452D-A1D6-E9E01EB12EDC}",
     "Language": "SFX",
-    "Hash": "{1407C743-56F2-E8FF-702C-6156EC4DEF26}",
+    "Hash": "{8AFFA25C-47DB-8E09-8549-E8BEC0A97810}",
     "ObjectPath": "play_3d_vehicles",
     "ShortName": "play_3d_vehicles",
     "Path": "Event/play_3d_vehicles.bnk",
@@ -3742,6 +3742,14 @@
       ]
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "1304350001",
+      "Name": "Distance_2000cm",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_2000cm",
+      "GUID": "{BEF63D22-0E68-480D-8425-3944122F867E}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "4136547178",
@@ -3989,6 +3997,6 @@
     ]
    }
   ],
-  "FileHash": "{71161B40-CD8F-3748-1E05-EFAA57C10056}"
+  "FileHash": "{749BCC23-4F38-EA54-2E94-77C7A1A0E6C6}"
  }
 }

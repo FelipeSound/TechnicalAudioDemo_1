@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{82620295-12B3-452D-A1D6-E9E01EB12EDC}",
     "Language": "SFX",
-    "Hash": "{1407C743-56F2-E8FF-702C-6156EC4DEF26}",
+    "Hash": "{8AFFA25C-47DB-8E09-8549-E8BEC0A97810}",
     "ObjectPath": "play_3d_vehicles",
     "ShortName": "play_3d_vehicles",
     "Path": "Event/play_3d_vehicles.bnk",
@@ -363,6 +363,14 @@
       ]
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "1304350001",
+      "Name": "Distance_2000cm",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_2000cm",
+      "GUID": "{BEF63D22-0E68-480D-8425-3944122F867E}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "4136547178",
@@ -393,6 +401,6 @@
     ]
    }
   ],
-  "FileHash": "{9263D49A-9042-8BE8-3EFF-D41382601068}"
+  "FileHash": "{9E123E7E-98C7-2252-28F5-3FC0C784253A}"
  }
 }
