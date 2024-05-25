@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9AD1D5DB-DB6D-4A85-80E7-6EB11BC30C7F}",
     "Language": "English(US)",
-    "Hash": "{EC674F51-A505-637F-CD34-2C69F11B3CEB}",
+    "Hash": "{C7CE5667-C4C9-27F4-3BD0-8A638621F2E2}",
     "ObjectPath": "dialogue_1stPerson",
     "ShortName": "dialogue_1stPerson",
     "Path": "Event/English(US)/dialogue_1stPerson.bnk",
@@ -38,6 +38,6 @@
     ]
    }
   ],
-  "FileHash": "{826B1EEB-AE2A-6649-2EE6-8CE617473838}"
+  "FileHash": "{8BED6261-8B59-5AA8-8F4C-B28FA9D2950D}"
  }
 }

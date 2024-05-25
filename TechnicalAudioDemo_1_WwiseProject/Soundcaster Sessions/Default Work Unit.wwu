@@ -19,13 +19,18 @@
 							<GameParameterRef Name="Ambience_vol" ID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>
 							<Value>-24.3654054054054</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="wetness_RTPC" ID="{5E69F604-2497-4E0A-95EC-EDC42B285806}"/>
+							<Value>9.42052926346117E-312</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="dry" ID="{B1BDB93B-4231-4831-AADA-138579820768}"/>
+						<CurrentSwitchRef Name="dry_surf" ID="{C49E20DD-ADA7-4910-BCBE-39E98403FA6D}"/>
+						<CurrentSwitchRef Name="wet" ID="{8B7F1D20-0E41-4C0C-B50D-21F0E314F9B5}"/>
+						<CurrentSwitchRef Name="asphalt" ID="{13EFEC4F-F2AF-4235-808B-D316DE915AE1}"/>
 						<CurrentSwitchRef Name="left" ID="{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"/>
 						<CurrentSwitchRef Name="dry_asphalt" ID="{50178C86-AF48-40DA-AE28-AE95B17A40CB}"/>
-						<CurrentSwitchRef Name="Carpet" ID="{1E25A2FC-A699-48F4-9C44-D0D56D510E08}"/>
 						<CurrentSwitchRef Name="midwet_asphalt" ID="{F2B7D739-86A2-4EED-B645-40ACEC371957}"/>
 						<CurrentSwitchRef Name="wet_asphalt" ID="{54849032-486B-433E-8C75-1EFF7EE0358D}"/>
 						<CurrentSwitchRef Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>

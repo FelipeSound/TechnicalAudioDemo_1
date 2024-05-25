@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{3B51B4A9-832F-9E8D-1C4E-CEDF8E43B49B}">
+		<SoundBank Id="1724638476" Type="Event" GUID="{8BEE6E7F-5460-473B-ADC2-3BBCD5BB62C2}" Language="SFX" Hash="{369B31F8-D3D1-97B8-4B67-094A3105601E}">
 			<ObjectPath>play_ocean</ObjectPath>
 			<ShortName>play_ocean</ShortName>
 			<Path>Event/play_ocean.bnk</Path>
@@ -24,5 +24,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0D1DEA96-C8AB-021A-6672-9F03A646575F}</FileHash>
+	<FileHash>{9A4BF938-CA6A-E146-7A46-2D51EAB0DC91}</FileHash>
 </SoundBanksInfo>

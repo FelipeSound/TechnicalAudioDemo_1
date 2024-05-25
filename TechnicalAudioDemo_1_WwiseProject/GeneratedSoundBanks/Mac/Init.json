@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{31583D10-0303-B818-B204-2E0A2E6F9A7E}",
+    "Hash": "{13E67C87-F78C-81AE-DDD1-26C4FB98C67F}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -238,6 +238,12 @@
       "GUID": "{BEF63D22-0E68-480D-8425-3944122F867E}"
      },
      {
+      "Id": "2386108444",
+      "Name": "wetness_RTPC",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\wetness_RTPC",
+      "GUID": "{5E69F604-2497-4E0A-95EC-EDC42B285806}"
+     },
+     {
       "Id": "2831153469",
       "Name": "Accessibility_VoiceSpeed",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Accessibility_VoiceSpeed",
@@ -270,44 +276,6 @@
     ],
     "SwitchGroups": [
      {
-      "Id": "404567067",
-      "Name": "Ground_Materials",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials",
-      "GUID": "{B3B78204-B780-4976-ADA7-843967DC443D}",
-      "Switches": [
-       {
-        "Id": "2058049674",
-        "Name": "Wood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials\\Wood",
-        "GUID": "{9CF57D6C-AC35-4F9D-B8B4-72682D02EE49}"
-       },
-       {
-        "Id": "2154251670",
-        "Name": "Metall",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials\\Metall",
-        "GUID": "{B7ED4B9A-4B06-4D64-AADE-6BA2C084B135}"
-       },
-       {
-        "Id": "2412606308",
-        "Name": "Carpet",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials\\Carpet",
-        "GUID": "{1E25A2FC-A699-48F4-9C44-D0D56D510E08}"
-       },
-       {
-        "Id": "3725073853",
-        "Name": "Cement",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials\\Cement",
-        "GUID": "{FA83EA79-BEC2-4A51-A618-16BDB6D16790}"
-       },
-       {
-        "Id": "4248645337",
-        "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Ground_Materials\\Grass",
-        "GUID": "{7DE1E764-5516-4782-A92B-1516B6D28B5F}"
-       }
-      ]
-     },
-     {
       "Id": "1295756645",
       "Name": "footsteps_wetground_Type",
       "ObjectPath": "\\Switches\\Default Work Unit\\footsteps_wetground_Type",
@@ -334,10 +302,42 @@
       ]
      },
      {
+      "Id": "2550190170",
+      "Name": "surface_wetness",
+      "ObjectPath": "\\Switches\\Default Work Unit\\surface_wetness",
+      "GUID": "{212FC817-A040-409A-869D-33D00E6A4241}",
+      "GameParameterRef": {
+       "Id": "2386108444"
+      },
+      "Switches": [
+       {
+        "Id": "460739652",
+        "Name": "medium_wet_surf",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface_wetness\\medium_wet_surf",
+        "GUID": "{0E771983-A7B5-4F3B-AF57-4111E734AAB2}"
+       },
+       {
+        "Id": "3728401302",
+        "Name": "wet_surf",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface_wetness\\wet_surf",
+        "GUID": "{10B2B37F-610C-4714-8540-5AB966F51BF7}"
+       },
+       {
+        "Id": "3870486315",
+        "Name": "dry_surf",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface_wetness\\dry_surf",
+        "GUID": "{C49E20DD-ADA7-4910-BCBE-39E98403FA6D}"
+       }
+      ]
+     },
+     {
       "Id": "2866300569",
       "Name": "footsteps_wetness_level",
       "ObjectPath": "\\Switches\\Default Work Unit\\footsteps_wetness_level",
       "GUID": "{223D16F5-209A-41B3-B3EB-FE487ECF8D1F}",
+      "GameParameterRef": {
+       "Id": "2386108444"
+      },
       "Switches": [
        {
         "Id": "630539344",
@@ -438,6 +438,38 @@
       ]
      },
      {
+      "Id": "4064446173",
+      "Name": "surface_Type",
+      "ObjectPath": "\\Switches\\Default Work Unit\\surface_Type",
+      "GUID": "{58DFAE6F-50F3-439C-A379-95895824D2EE}",
+      "Switches": [
+       {
+        "Id": "803837735",
+        "Name": "sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface_Type\\sand",
+        "GUID": "{ED52FDAF-7393-4D28-9A59-38B021A2F598}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface_Type\\wood",
+        "GUID": "{EA020E27-D921-476F-93B5-C100116829BA}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface_Type\\metal",
+        "GUID": "{87CA6703-9940-4387-9874-FD0585878663}"
+       },
+       {
+        "Id": "4169408098",
+        "Name": "asphalt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface_Type\\asphalt",
+        "GUID": "{13EFEC4F-F2AF-4235-808B-D316DE915AE1}"
+       }
+      ]
+     },
+     {
       "Id": "4136547178",
       "Name": "vehicle_incoming",
       "ObjectPath": "\\Switches\\Default Work Unit\\vehicle_incoming",
@@ -466,6 +498,6 @@
     ]
    }
   ],
-  "FileHash": "{D5808B9B-7C21-8BEF-F35A-C3759A97DD8D}"
+  "FileHash": "{D8C8099F-A3D1-AEBD-B99F-FCA8DE020C27}"
  }
 }

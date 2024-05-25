@@ -169,10 +169,10 @@
 					<ChildrenList>
 						<Event Name="play_footsteps" ID="{B46B4EF4-82AD-435B-8610-7A477ABCEBE3}">
 							<ChildrenList>
-								<Action Name="" ID="{5431E5DA-CAF4-4BF8-859A-7708D756A5DE}" ShortID="172724869">
+								<Action Name="" ID="{00ABFCD9-720F-4992-8E74-F93188E131E2}" ShortID="247353821">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="footsteps_wetness" ID="{EB2C36DC-B3C9-4ADA-AC79-7B11E50621CF}" WorkUnitID="{5A9FB26D-F62A-4B7C-B38C-2D4411C5616A}"/>
+											<ObjectRef Name="footsteps_Surface_01" ID="{2FB8E991-7994-4CFA-914D-799A0FBF32C3}" WorkUnitID="{5A9FB26D-F62A-4B7C-B38C-2D4411C5616A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

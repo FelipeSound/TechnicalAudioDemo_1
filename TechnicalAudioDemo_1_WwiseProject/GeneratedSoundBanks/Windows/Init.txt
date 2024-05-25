@@ -1,3 +1,20 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2550190170	surface_wetness			\Default Work Unit\surface_wetness	
+	2866300569	footsteps_wetness_level			\Default Work Unit\footsteps_wetness_level	
+	4064446173	surface_Type			\Default Work Unit\surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	460739652	medium_wet_surf	surface_wetness			
+	3728401302	wet_surf	surface_wetness			
+	3870486315	dry_surf	surface_wetness			
+	630539344	dry	footsteps_wetness_level			
+	1181096339	wet	footsteps_wetness_level			
+	1591993813	medium_wet	footsteps_wetness_level			
+	803837735	sand	surface_Type			
+	2058049674	wood	surface_Type			
+	2473969246	metal	surface_Type			
+	4169408098	asphalt	surface_Type			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	408848884	Ambience_sideChain			\Default Work Unit\Master Audio Bus\Ambience_sideChain	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

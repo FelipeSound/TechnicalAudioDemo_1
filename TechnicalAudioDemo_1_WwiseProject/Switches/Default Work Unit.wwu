@@ -3,15 +3,6 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="Ground_Materials" ID="{B3B78204-B780-4976-ADA7-843967DC443D}">
-					<ChildrenList>
-						<Switch Name="Cement" ID="{FA83EA79-BEC2-4A51-A618-16BDB6D16790}"/>
-						<Switch Name="Wood" ID="{9CF57D6C-AC35-4F9D-B8B4-72682D02EE49}"/>
-						<Switch Name="Carpet" ID="{1E25A2FC-A699-48F4-9C44-D0D56D510E08}"/>
-						<Switch Name="Grass" ID="{7DE1E764-5516-4782-A92B-1516B6D28B5F}"/>
-						<Switch Name="Metall" ID="{B7ED4B9A-4B06-4D64-AADE-6BA2C084B135}"/>
-					</ChildrenList>
-				</SwitchGroup>
 				<SwitchGroup Name="vehicle_incoming" ID="{DA80A04C-8E1C-4601-9921-1595DB46FED6}">
 					<ChildrenList>
 						<Switch Name="left" ID="{62E571FD-DFFB-4AB5-967A-04AC498CEAB9}"/>
@@ -26,11 +17,44 @@
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="footsteps_wetness_level" ID="{223D16F5-209A-41B3-B3EB-FE487ECF8D1F}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Switch Name="dry" ID="{B1BDB93B-4231-4831-AADA-138579820768}"/>
 						<Switch Name="medium_wet" ID="{7C23B189-F35E-434B-B282-4F97EBEEFF84}"/>
 						<Switch Name="wet" ID="{8B7F1D20-0E41-4C0C-B50D-21F0E314F9B5}"/>
 					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="wetness_RTPC" ID="{5E69F604-2497-4E0A-95EC-EDC42B285806}"/>
+						<Curve Name="" ID="{3A2C8452-BFF5-4972-9A75-65F647476455}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.4854</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.69063</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>3</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
 				</SwitchGroup>
 				<SwitchGroup Name="footsteps_dry_ground_Type" ID="{F92C9FE1-C5F5-46AB-AF4D-50DB324313D7}">
 					<ChildrenList>
@@ -53,6 +77,80 @@
 						<Switch Name="wet_wood" ID="{EEDE6B51-2410-42E2-B87D-C642291F4467}"/>
 						<Switch Name="wet_asphalt" ID="{54849032-486B-433E-8C75-1EFF7EE0358D}"/>
 					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="surface_Type" ID="{58DFAE6F-50F3-439C-A379-95895824D2EE}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="asphalt" ID="{13EFEC4F-F2AF-4235-808B-D316DE915AE1}"/>
+						<Switch Name="wood" ID="{EA020E27-D921-476F-93B5-C100116829BA}"/>
+						<Switch Name="metal" ID="{87CA6703-9940-4387-9874-FD0585878663}"/>
+						<Switch Name="sand" ID="{ED52FDAF-7393-4D28-9A59-38B021A2F598}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="wetness_RTPC" ID="{5E69F604-2497-4E0A-95EC-EDC42B285806}"/>
+						<Curve Name="" ID="{501DF9D0-49B7-452F-9CD7-6B902A1840DD}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="surface_wetness" ID="{212FC817-A040-409A-869D-33D00E6A4241}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="dry_surf" ID="{C49E20DD-ADA7-4910-BCBE-39E98403FA6D}"/>
+						<Switch Name="medium_wet_surf" ID="{0E771983-A7B5-4F3B-AF57-4111E734AAB2}"/>
+						<Switch Name="wet_surf" ID="{10B2B37F-610C-4714-8540-5AB966F51BF7}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="wetness_RTPC" ID="{5E69F604-2497-4E0A-95EC-EDC42B285806}"/>
+						<Curve Name="" ID="{CDDF2E11-4139-4BC7-832D-468E3745B790}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.49866</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.78954</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
 				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
