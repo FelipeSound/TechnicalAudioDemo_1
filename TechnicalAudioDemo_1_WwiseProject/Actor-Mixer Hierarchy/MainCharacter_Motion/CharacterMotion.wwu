@@ -2465,14 +2465,19 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="midWet_sand" ID="{D8EBFB87-CB81-4891-B657-9342822AB24D}" ShortID="107138275">
 											<PropertyList>
-												<Property Name="Lowpass" Type="int16">
+												<Property Name="Highpass" Type="int16">
 													<ValueList>
 														<Value>24</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>33</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-6</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3176,9 +3181,14 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="wet_sand" ID="{30436122-BD96-4C6E-AE7A-43E0AA9EC858}" ShortID="11911733">
 											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>24</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-6</Value>
+														<Value>-8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>

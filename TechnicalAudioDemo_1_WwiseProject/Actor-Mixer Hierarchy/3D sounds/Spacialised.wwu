@@ -117,8 +117,8 @@
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>-24.3253</XPos>
-																<YPos>-8.94316</YPos>
+																<XPos>-20.3253</XPos>
+																<YPos>-25.91191</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log2</SegmentShape>
 															</Point>

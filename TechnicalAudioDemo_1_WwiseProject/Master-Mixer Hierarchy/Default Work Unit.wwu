@@ -113,6 +113,9 @@
 							</ObjectLists>
 						</AuxBus>
 						<Bus Name="Ambience_sideChain" ID="{B26DC153-D9A3-4027-98CF-55C98609A650}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
