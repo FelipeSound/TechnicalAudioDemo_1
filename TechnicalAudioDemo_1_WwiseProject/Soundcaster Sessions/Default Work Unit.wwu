@@ -17,7 +17,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Distance_2000cm" ID="{BEF63D22-0E68-480D-8425-3944122F867E}"/>
-							<Value>4140.75903362315</Value>
+							<Value>789</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ambience_vol" ID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>

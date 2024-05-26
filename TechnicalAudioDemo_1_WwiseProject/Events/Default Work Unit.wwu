@@ -34,7 +34,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{2970F329-2CB0-42F6-BCA6-CC7A6A75FFA2}" ShortID="330387705">
+						<Action Name="" ID="{C7C52F44-8A89-4D4A-BB72-9524456D46A6}" ShortID="78617502">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Vehicle_direction" ID="{D690F0E0-BB52-4D2F-AFE4-93B2AD467E1D}" WorkUnitID="{701207B5-15B7-42F3-9089-DFD60E825D4E}"/>

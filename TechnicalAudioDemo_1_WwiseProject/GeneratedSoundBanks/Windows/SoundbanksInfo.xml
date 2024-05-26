@@ -1493,7 +1493,7 @@
 				<GameParameter Id="4035164671" Name="Ambience_vol" ObjectPath="\Game Parameters\Default Work Unit\Ambience_vol" GUID="{864F84C1-3FBE-4D19-B409-952C0775C25B}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{8AFFA25C-47DB-8E09-8549-E8BEC0A97810}">
+		<SoundBank Id="3072229573" Type="Event" GUID="{82620295-12B3-452D-A1D6-E9E01EB12EDC}" Language="SFX" Hash="{6FE32D10-BFDA-03F3-8EF0-378835AF0A71}">
 			<ObjectPath>play_3d_vehicles</ObjectPath>
 			<ShortName>play_3d_vehicles</ShortName>
 			<Path>Event/play_3d_vehicles.bnk</Path>
@@ -1791,5 +1791,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6ED9D631-863F-DC15-A263-7B30C5AA1EFF}</FileHash>
+	<FileHash>{E70AE4F4-28DF-F471-5C00-D59A0B43C617}</FileHash>
 </SoundBanksInfo>
