@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3092474139" Type="Event" GUID="{6D96F4EC-359A-4188-9600-623A7993F2FE}" Language="SFX" Hash="{88A3C456-9DCE-1121-5FDD-56E1B01D27EC}">
+			<ObjectPath>play_Yes</ObjectPath>
+			<ShortName>play_Yes</ShortName>
+			<Path>Event/play_Yes.bnk</Path>
+			<Media>
+				<File Id="30757058" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Chloe 29.wavs-001_Yes.wav</ShortName>
+					<Path>Media/30757058.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Chloe 29.wavs-001_Yes_818F3B66.wem</CachePath>
+				</File>
+				<File Id="48283260" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Soundly Voice Designer, Carter 8.wavs-001_Yes.wav</ShortName>
+					<Path>Media/48283260.wem</Path>
+					<CachePath>SFX/Soundly Voice Designer, Carter 8.wavs-001_Yes_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="243807965" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\Accessibility\[Effect Slot [0]: (Time Stretch)]\Time Stretch (Custom)" GUID="{69BE9D56-C47C-47ED-8002-6403E799CC09}" LibName="Wwise Time Stretch" LibId="8519683"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="3092474139" Name="play_Yes" ObjectPath="\Events\Default Work Unit\Accessibility\play_Yes" GUID="{6D96F4EC-359A-4188-9600-623A7993F2FE}" DurationType="OneShot" DurationMin="0.5099583" DurationMax="0.51814586">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="2143576054" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+							<MediaRefs>
+								<MediaRef Id="48283260"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="243807965"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3182480512" Id="4243229216" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+							<MediaRefs>
+								<MediaRef Id="30757058"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="243807965"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="2831153469" Name="Accessibility_VoiceSpeed" ObjectPath="\Game Parameters\Default Work Unit\Accessibility_VoiceSpeed" GUID="{B0DAF7F3-A80B-4DB2-9EE0-180CAA0C3E1D}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3182480512" Name="voice_switch" ObjectPath="\Switches\Default Work Unit\voice_switch" GUID="{347F538E-9F0B-4FB5-B882-34B4129679A6}">
+					<Switches>
+						<Switch Id="2143576054" Name="Carter" ObjectPath="\Switches\Default Work Unit\voice_switch\Carter" GUID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+						<Switch Id="4243229216" Name="Chloe" ObjectPath="\Switches\Default Work Unit\voice_switch\Chloe" GUID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4E0D4D86-F088-F6AC-4DE3-19C0BD922BA1}</FileHash>
+</SoundBanksInfo>

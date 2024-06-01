@@ -586,6 +586,255 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<SwitchContainer Name="yes_switchContainer" ID="{1775B9C2-9A2D-4A2C-8359-5D845B70EE09}" ShortID="367504386">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="voice_switch" ID="{347F538E-9F0B-4FB5-B882-34B4129679A6}" WorkUnitID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Soundly Voice Designer, Chloe 29_wavs-001_Yes" ID="{E809D34E-9F0F-4E92-9377-923D367B4C6D}" ShortID="767416915">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Chloe 29_wavs-001_Yes" ID="{D73656C9-12AF-4C9C-B4B6-25273997D158}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Chloe 29.wavs-001_Yes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="30757058"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Chloe 29_wavs-001_Yes" ID="{D73656C9-12AF-4C9C-B4B6-25273997D158}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Soundly Voice Designer, Carter 8_wavs-001_Yes" ID="{9552F1B9-B68C-406A-A045-043EA1FE78B6}" ShortID="925240060">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Carter 8_wavs-001_Yes" ID="{A236BB95-89C3-43EE-BBCD-E9E0208B562C}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Carter 8.wavs-001_Yes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="48283260"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Carter 8_wavs-001_Yes" ID="{A236BB95-89C3-43EE-BBCD-E9E0208B562C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Soundly Voice Designer, Chloe 29_wavs-001_Yes" ID="{E809D34E-9F0F-4E92-9377-923D367B4C6D}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Soundly Voice Designer, Carter 8_wavs-001_Yes" ID="{9552F1B9-B68C-406A-A045-043EA1FE78B6}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+										<ItemList>
+											<ItemRef Name="Soundly Voice Designer, Carter 8_wavs-001_Yes" ID="{9552F1B9-B68C-406A-A045-043EA1FE78B6}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chloe" ID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+										<ItemList>
+											<ItemRef Name="Soundly Voice Designer, Chloe 29_wavs-001_Yes" ID="{E809D34E-9F0F-4E92-9377-923D367B4C6D}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="not_sure_switchContainer" ID="{3A1CCD61-3054-4ABE-A238-EAA921AF04DF}" ShortID="850785903">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="voice_switch" ID="{347F538E-9F0B-4FB5-B882-34B4129679A6}" WorkUnitID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Soundly Voice Designer, Carter 8_wavs-002_NotSure" ID="{BEBF8A42-6760-4EDB-8EC9-B0C4C538D353}" ShortID="97120357">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Carter 8_wavs-002_NotSure" ID="{17857560-E74B-404F-943B-450CA74AA5FA}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Carter 8.wavs-002_NotSure.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="922369374"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Carter 8_wavs-002_NotSure" ID="{17857560-E74B-404F-943B-450CA74AA5FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Soundly Voice Designer, Chloe 29_wavs-002_NotSure" ID="{D2A0B442-1351-429E-B25F-C2FC3410817C}" ShortID="746933706">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Chloe 29_wavs-002_NotSure" ID="{79336059-689D-4D84-BD29-BF73DF39AF8E}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Chloe 29.wavs-002_NotSure.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="122332879"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Chloe 29_wavs-002_NotSure" ID="{79336059-689D-4D84-BD29-BF73DF39AF8E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Soundly Voice Designer, Carter 8_wavs-002_NotSure" ID="{BEBF8A42-6760-4EDB-8EC9-B0C4C538D353}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Soundly Voice Designer, Chloe 29_wavs-002_NotSure" ID="{D2A0B442-1351-429E-B25F-C2FC3410817C}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+										<ItemList>
+											<ItemRef Name="Soundly Voice Designer, Carter 8_wavs-002_NotSure" ID="{BEBF8A42-6760-4EDB-8EC9-B0C4C538D353}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chloe" ID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+										<ItemList>
+											<ItemRef Name="Soundly Voice Designer, Chloe 29_wavs-002_NotSure" ID="{D2A0B442-1351-429E-B25F-C2FC3410817C}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="no_switchContainer" ID="{1EF3E260-8678-41BE-BB1B-01CBD4F1B0C6}" ShortID="950752864">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="voice_switch" ID="{347F538E-9F0B-4FB5-B882-34B4129679A6}" WorkUnitID="{7AD3ED35-8229-4643-BB0E-C6ECB751F506}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Soundly Voice Designer, Chloe 29_wavs-003_No" ID="{25B4356F-81E6-4D50-B7D6-3CD25787C690}" ShortID="117057137">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Chloe 29_wavs-003_No" ID="{57F3A7BB-1CFC-477F-9E8D-EE0728FE125E}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Chloe 29.wavs-003_No.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="187738100"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Chloe 29_wavs-003_No" ID="{57F3A7BB-1CFC-477F-9E8D-EE0728FE125E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Soundly Voice Designer, Carter 8_wavs-003_No" ID="{A036CEFE-7FE0-4104-AB81-25411D6DE91F}" ShortID="687074753">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{844ECBCF-9D16-4D1F-9FB9-648B6FEC7190}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD000A03-78D2-4F0C-AAB2-7CFF53E6D6D8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Soundly Voice Designer, Carter 8_wavs-003_No" ID="{8F09910B-C9E8-418A-A9A7-588DFA83F7BF}">
+											<Language>SFX</Language>
+											<AudioFile>Soundly Voice Designer, Carter 8.wavs-003_No.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="760498859"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundly Voice Designer, Carter 8_wavs-003_No" ID="{8F09910B-C9E8-418A-A9A7-588DFA83F7BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Soundly Voice Designer, Chloe 29_wavs-003_No" ID="{25B4356F-81E6-4D50-B7D6-3CD25787C690}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Soundly Voice Designer, Carter 8_wavs-003_No" ID="{A036CEFE-7FE0-4104-AB81-25411D6DE91F}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Carter" ID="{3909450E-36D7-4BE9-ADED-241B5C143CEA}"/>
+										<ItemList>
+											<ItemRef Name="Soundly Voice Designer, Carter 8_wavs-003_No" ID="{A036CEFE-7FE0-4104-AB81-25411D6DE91F}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chloe" ID="{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"/>
+										<ItemList>
+											<ItemRef Name="Soundly Voice Designer, Chloe 29_wavs-003_No" ID="{25B4356F-81E6-4D50-B7D6-3CD25787C690}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="Effects">

@@ -159,6 +159,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="play_Yes" ID="{6D96F4EC-359A-4188-9600-623A7993F2FE}">
+							<ChildrenList>
+								<Action Name="" ID="{57A4838C-8C8E-4F24-9484-F5A17C1921A1}" ShortID="491060291">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="yes_switchContainer" ID="{1775B9C2-9A2D-4A2C-8359-5D845B70EE09}" WorkUnitID="{90B187AA-4204-487C-A830-B1C8C5BC1603}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_NotSure" ID="{923AE6C9-1ECD-4A43-BF49-8CD3CFAEC18E}">
+							<ChildrenList>
+								<Action Name="" ID="{D56519EB-5FF6-4310-90E1-4D1E1A734ADE}" ShortID="944478227">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="not_sure_switchContainer" ID="{3A1CCD61-3054-4ABE-A238-EAA921AF04DF}" WorkUnitID="{90B187AA-4204-487C-A830-B1C8C5BC1603}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_No" ID="{C1AE36D2-C9CB-4DC3-A10C-55B33A243A30}">
+							<ChildrenList>
+								<Action Name="" ID="{A7600E1D-1411-4EE8-B7FC-16C4E923F165}" ShortID="308048829">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="no_switchContainer" ID="{1EF3E260-8678-41BE-BB1B-01CBD4F1B0C6}" WorkUnitID="{90B187AA-4204-487C-A830-B1C8C5BC1603}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Locomotion" ID="{5907851D-548E-4221-BDF4-1D593CF6A147}" ShortID="204554436">

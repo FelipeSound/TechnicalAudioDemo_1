@@ -1,0 +1,136 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "998735378",
+    "Type": "Event",
+    "GUID": "{923AE6C9-1ECD-4A43-BF49-8CD3CFAEC18E}",
+    "Language": "SFX",
+    "Hash": "{D39B197D-A442-977B-0CAC-7BE2FAA97F87}",
+    "ObjectPath": "play_NotSure",
+    "ShortName": "play_NotSure",
+    "Path": "Event/play_NotSure.bnk",
+    "Media": [
+     {
+      "Id": "122332879",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Soundly Voice Designer, Chloe 29.wavs-002_NotSure.wav",
+      "Path": "Media/122332879.wem",
+      "CachePath": "SFX/Soundly Voice Designer, Chloe 29.wavs-002_NotSure_818F3B66.wem"
+     },
+     {
+      "Id": "922369374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Soundly Voice Designer, Carter 8.wavs-002_NotSure.wav",
+      "Path": "Media/922369374.wem",
+      "CachePath": "SFX/Soundly Voice Designer, Carter 8.wavs-002_NotSure_818F3B66.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "243807965",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\Accessibility\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{69BE9D56-C47C-47ED-8002-6403E799CC09}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "998735378",
+      "Name": "play_NotSure",
+      "ObjectPath": "\\Events\\Default Work Unit\\Accessibility\\play_NotSure",
+      "GUID": "{923AE6C9-1ECD-4A43-BF49-8CD3CFAEC18E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.753875",
+      "DurationMax": "0.87525",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3182480512",
+         "Id": "2143576054",
+         "GUID": "{3909450E-36D7-4BE9-ADED-241B5C143CEA}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "922369374"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "243807965"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3182480512",
+         "Id": "4243229216",
+         "GUID": "{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "122332879"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "243807965"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2831153469",
+      "Name": "Accessibility_VoiceSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Accessibility_VoiceSpeed",
+      "GUID": "{B0DAF7F3-A80B-4DB2-9EE0-180CAA0C3E1D}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3182480512",
+      "Name": "voice_switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\voice_switch",
+      "GUID": "{347F538E-9F0B-4FB5-B882-34B4129679A6}",
+      "Switches": [
+       {
+        "Id": "2143576054",
+        "Name": "Carter",
+        "ObjectPath": "\\Switches\\Default Work Unit\\voice_switch\\Carter",
+        "GUID": "{3909450E-36D7-4BE9-ADED-241B5C143CEA}"
+       },
+       {
+        "Id": "4243229216",
+        "Name": "Chloe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\voice_switch\\Chloe",
+        "GUID": "{B80763AB-F3F0-4226-BCA0-A4EED46E99C1}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DF1ED9D2-9F9E-C2A3-D38C-E6E90A90803F}"
+ }
+}
